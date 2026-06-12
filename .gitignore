@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Moirai generated data
+data/raw/
+data/processed/
+*.db
+*.duckdb
+*.parquet
