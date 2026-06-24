@@ -47,6 +47,10 @@
       box-sizing: border-box;
     }
 
+    [hidden] {
+      display: none !important;
+    }
+
     body {
       margin: 0;
       background: radial-gradient(circle at top, var(--hero) 0, var(--bg) 42rem);
@@ -67,10 +71,38 @@
     .header-inner {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
+      gap: 1.25rem;
       width: 100%;
       margin: 0;
+    }
+
+    .page-tabs {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-left: auto;
+    }
+
+    .page-tab {
+      border: none;
+      background: none;
+      color: var(--muted);
+      padding: 0.15rem 0;
+      font: inherit;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .page-tab:hover {
+      color: var(--text);
+    }
+
+    .page-tab.active {
+      color: var(--text);
+      border-bottom-color: var(--blue);
     }
 
     .brand {
@@ -153,6 +185,70 @@
       padding: 1rem clamp(1rem, 3vw, 2rem) 4rem;
       max-width: 980px;
       margin: 0 auto;
+    }
+
+    .methodology {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .method-section {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--panel);
+      box-shadow: 0 18px 55px var(--shadow);
+      padding: 1.15rem 1.2rem;
+    }
+
+    .method-section h2 {
+      margin: 0 0 0.65rem;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+    }
+
+    .method-section p,
+    .method-section li {
+      color: var(--muted);
+      line-height: 1.55;
+      margin: 0 0 0.65rem;
+    }
+
+    .method-section ul {
+      margin: 0 0 0.65rem;
+      padding-left: 1.2rem;
+    }
+
+    .method-section li {
+      margin-bottom: 0.35rem;
+    }
+
+    .method-section p:last-child,
+    .method-section ul:last-child,
+    .method-section li:last-child {
+      margin-bottom: 0;
+    }
+
+    .method-section code {
+      color: var(--text);
+      font-size: 0.88em;
+    }
+
+    .method-section a {
+      color: var(--blue);
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--line);
+      padding: 1.5rem clamp(1rem, 3vw, 2rem) 2.5rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+
+    .site-footer p {
+      margin: 0;
+      line-height: 1.5;
     }
 
     .status {
@@ -312,6 +408,75 @@
       overflow-x: auto;
     }
 
+    .strategy-bets {
+      display: none;
+      margin: 0 1.15rem 1.15rem;
+      padding: 0.75rem;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--soft-bg);
+    }
+
+    .card:hover .strategy-bets.has-bets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .card.has-active-strategy .strategy-bets.has-bets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .strategy-bet-pill,
+    .row-bet-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      border-radius: 999px;
+      font-size: 0.74rem;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .strategy-bet-pill {
+      padding: 0.42rem 0.55rem;
+      border: 1px solid var(--line);
+      color: var(--text);
+      background: var(--panel);
+    }
+
+    .row-bet-pill {
+      margin-left: 0.45rem;
+      padding: 0.24rem 0.38rem;
+      color: #fff;
+      font-weight: 850;
+      letter-spacing: 0.04em;
+      vertical-align: middle;
+    }
+
+    .strategy-bet-pill .row-bet-pill {
+      margin-left: 0;
+    }
+
+    .bet-side-yes {
+      background: var(--blue);
+    }
+
+    .bet-side-no {
+      background: var(--red);
+    }
+
+    .strategy-name {
+      color: var(--muted);
+    }
+
+    .strategy-stats {
+      color: var(--text);
+      font-weight: 850;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -405,6 +570,14 @@
         font-size: 1.08rem;
       }
 
+      .page-tabs {
+        gap: 0.85rem;
+      }
+
+      .page-tab {
+        font-size: 0.88rem;
+      }
+
       .card-header {
         grid-template-columns: 1fr;
         text-align: left;
@@ -441,12 +614,17 @@
         </div>
         <h1>2026 Fifa World Cup Polymarket Odds</h1>
       </div>
+      <nav class="page-tabs" aria-label="Page sections">
+        <button id="tab-matches" class="page-tab active" type="button">Matches</button>
+        <button id="tab-methodology" class="page-tab" type="button">Methodology</button>
+      </nav>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">☾</button>
     </div>
   </header>
 
   <main>
     <div id="status" class="status" hidden></div>
+    <div id="matches-view">
     <section id="pnl-section" class="chart-card" hidden>
       <div class="chart-title">
         <h2>Strategy PnL Paths</h2>
@@ -458,12 +636,83 @@
       <div id="strategy-description" class="chart-description">Hover a strategy legend item for its description. Click a legend item to isolate it.</div>
     </section>
     <div id="cards" class="cards"></div>
+    </div>
+
+    <div id="methodology-view" class="methodology" hidden>
+      <section class="method-section">
+        <h2>What this page shows</h2>
+        <p>Each match card compares Polymarket moneyline prices with Elo-based win/draw/loss estimates. The Edge (PP) column shows how far Elo is from the market in absolute percentage points. Strategy backtests use fixed $100 stakes on concluded matches.</p>
+      </section>
+
+      <section class="method-section">
+        <h2>Polymarket prices</h2>
+        <p>Match markets come from Polymarket's Gamma API for the FIFA World Cup series (<code>soccer-fifwc</code>). For each match we keep the moneyline markets for home win, draw, and away win.</p>
+        <ul>
+          <li>Prices are taken from Polymarket's CLOB <code>prices-history</code> endpoint, not from trade fills.</li>
+          <li>For completed matches, we average prices over the 6 hours before kickoff.</li>
+          <li>For upcoming matches, we average prices over the most recent 6 hours up to the current time.</li>
+          <li>When both YES and NO token histories exist, we average them and use the mean as the pre-match YES probability.</li>
+        </ul>
+        <p>A Polymarket price of <code>0.65</code> is treated as a 65% implied probability for that outcome.</p>
+      </section>
+
+      <section class="method-section">
+        <h2>Elo ratings and point-in-time reconstruction</h2>
+        <p>Team ratings come from <a href="https://eloratings.net/" target="_blank" rel="noopener noreferrer">eloratings.net</a>.</p>
+        <ul>
+          <li><code>2026_results.tsv</code> — completed international match results and rating updates.</li>
+          <li><code>fixtures.tsv</code> — upcoming matches with current pre-match ratings.</li>
+          <li><code>en.teams.tsv</code> and <code>teams.tsv</code> — team code lookups and name aliases.</li>
+        </ul>
+        <p>For completed matches, each results row includes post-match Elo and the rating change for the first-listed team. Pre-match ratings are reconstructed as:</p>
+        <ul>
+          <li><code>pre_team1_elo = post_team1_elo - rating_change</code></li>
+          <li><code>pre_team2_elo = post_team2_elo + rating_change</code></li>
+        </ul>
+        <p>This assumes the Elo update is approximately zero-sum between the two teams, which matches the published row format. Upcoming fixtures use the pre-match ratings published directly in the fixtures file.</p>
+      </section>
+
+      <section class="method-section">
+        <h2>Estimating win, draw, and loss probabilities</h2>
+        <p>Standard Elo gives win probabilities for two teams, but not draws. This page uses a Davidson-style three-outcome model:</p>
+        <ul>
+          <li>Convert each team's Elo into a strength: <code>10 ^ (Elo / 400)</code></li>
+          <li>Add a draw strength term based on a configurable base draw rate when teams are equal</li>
+          <li>Normalize home win, draw, and away win probabilities so they sum to 1</li>
+        </ul>
+        <p>Current settings: base draw probability at equal teams = <strong>28%</strong>, home advantage = <strong>0 Elo points</strong> (neutral-site World Cup matches).</p>
+        <p>When teams are unequal, draw probability shrinks automatically because more strength is allocated to the win outcomes.</p>
+      </section>
+
+      <section class="method-section">
+        <h2>Edge (PP)</h2>
+        <p>Edge is measured in absolute percentage points:</p>
+        <p><code>Edge = Elo probability − Polymarket price</code></p>
+        <p>Example: Polymarket <code>0.65</code>, Elo <code>0.80</code> → edge = <code>+15.0</code> percentage points.</p>
+        <p>Positive edge means Elo thinks the outcome is more likely than the market. Edge-filtered strategies use this same absolute measure.</p>
+      </section>
+
+      <section class="method-section">
+        <h2>Data flow and exports</h2>
+        <ul>
+          <li>Raw downloads (Elo TSVs, Polymarket API responses) are cached locally to avoid repeated requests.</li>
+          <li>Derived tables — match table, strategy backtests, PnL paths — are recomputed each notebook run.</li>
+          <li>Notebook 06 writes site exports to <code>docs/data/football_elo_polymarket/</code>. API and Elo downloads cache under <code>data/cache/</code> locally only.</li>
+        </ul>
+      </section>
+    </div>
   </main>
+
+  <footer class="site-footer">
+    <p>© <span id="footer-year"></span> Frederick Pek. All rights reserved.</p>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script>
-    const CSV_PATH = "../data/cache/football_elo_polymarket/world_cup_polymarket_elo_raw_table.csv";
-    const PNL_PATH = "../data/cache/football_elo_polymarket/world_cup_pnl_paths.csv";
+    const CSV_PATH = "./data/football_elo_polymarket/world_cup_polymarket_elo_raw_table.csv";
+    const PNL_PATH = "./data/football_elo_polymarket/world_cup_pnl_paths.csv";
+    const STRATEGY_SUMMARY_PATH = "./data/football_elo_polymarket/world_cup_strategy_summary.csv";
+    const STRATEGY_RESULTS_PATH = "./data/football_elo_polymarket/world_cup_strategy_results.csv";
 
     const FLAG_COUNTRY_CODES = {
       AR: "ar", AT: "at", AU: "au", BA: "ba", BE: "be", BR: "br",
@@ -482,37 +731,53 @@
     const pnlChartEl = document.getElementById("pnl-chart");
     const strategyDescriptionEl = document.getElementById("strategy-description");
     const themeToggleEl = document.getElementById("theme-toggle");
+    const tabMatchesEl = document.getElementById("tab-matches");
+    const tabMethodologyEl = document.getElementById("tab-methodology");
+    const matchesViewEl = document.getElementById("matches-view");
+    const methodologyViewEl = document.getElementById("methodology-view");
 
     let latestPnlRows = [];
+    let latestMatchRows = [];
     let activeStrategy = null;
     let pnlChart = null;
+    let strategySummaries = new Map();
+    let strategyBetsByMatch = new Map();
 
     const STRATEGY_DESCRIPTIONS = {
-      "Draw every match": "Bets YES on Draw in every concluded match.",
-      "YES Elo underdog": "Bets YES on the team with the lower pre-match Elo.",
-      "YES Elo favorite": "Bets YES on the team with the higher pre-match Elo.",
-      "YES max positive edge": "For each match, compares Elo probability with Polymarket price for home win, draw, and away win. Bets YES on the outcome where Elo is higher than the market by the most.",
-      "YES max edge, prob floor": "Bets YES on the largest underpriced outcome only when Elo probability is at least 25% and the edge is at least 3 percentage points.",
-      "YES favorite positive edge": "Bets YES on the Elo favorite only when that favorite is underpriced by at least 2 percentage points.",
-      "YES draw positive edge": "Bets YES on Draw only when Elo says Draw is underpriced by at least 2 percentage points.",
-      "NO draw every match": "Bets NO on Draw in every concluded match.",
-      "NO Elo underdog": "Bets NO on the team with the lower pre-match Elo.",
-      "NO lowest Elo probability": "Bets NO on whichever outcome has the lowest Elo probability.",
-      "NO low-prob overpriced": "Bets NO on an overpriced low-probability outcome with stricter NO probability filtering.",
-      "NO overpriced draw": "Bets NO on Draw when Polymarket draw price exceeds Elo draw probability by at least 2 percentage points."
+      "Draw every match": "Bets YES on Draw in every match with a valid Polymarket draw price. No edge filter.",
+      "YES Elo underdog": "Bets YES on the lower pre-match Elo team's win market every match. Does not bet Draw.",
+      "YES Elo favorite": "Bets YES on the higher pre-match Elo team's win market every match. Does not bet Draw.",
+      "YES max positive edge": "Compares home win, draw, and away win using absolute edge in percentage points: Elo probability minus Polymarket price. Bets YES on the outcome with the largest positive absolute edge.",
+      "YES max edge, prob floor": "Same absolute percentage-point edge ranking as YES max positive edge, but only bets when Elo probability is at least 25% and absolute edge is at least 3 percentage points. Skips the match if nothing qualifies.",
+      "YES favorite positive edge": "Finds the Elo favorite (higher-rated team). Bets YES on that team's win market only if absolute edge is at least 2 percentage points (Elo win probability minus Polymarket win price). Skips otherwise.",
+      "YES draw positive edge": "Bets YES on Draw only if absolute edge is at least 2 percentage points (Elo draw probability minus Polymarket draw price). Skips otherwise.",
+      "YES Polymarket favorite": "Bets YES on whichever of home win, draw, or away win has the highest Polymarket price.",
+      "YES Polymarket underdog": "Bets YES on whichever outcome has the lowest Polymarket price.",
+      "NO draw every match": "Bets NO on Draw in every match with a valid Polymarket draw price.",
+      "NO Elo underdog": "Bets NO on the lower pre-match Elo team's win market every match. The bet wins if that team does not win.",
+      "NO lowest Elo probability": "Bets NO on whichever of home win, draw, or away win has the lowest Elo probability.",
+      "NO low-prob overpriced": "Bets NO on the most overpriced outcome, using absolute overprice in percentage points (Polymarket minus Elo). Requires overprice of at least 3 percentage points and Elo NO probability of at least 75%. Skips if nothing qualifies.",
+      "NO overpriced draw": "Bets NO on Draw when Polymarket draw price exceeds Elo draw probability by at least 2 absolute percentage points. Skips otherwise.",
+      "NO Polymarket favorite": "Bets NO on whichever outcome has the highest Polymarket price. The bet wins if that outcome does not happen.",
+      "NO Polymarket underdog": "Bets NO on whichever outcome has the lowest Polymarket price. The bet wins if that outcome does not happen."
     };
 
     const HIDDEN_STRATEGIES = new Set([
-      "NO most overpriced outcome"
+      "NO most overpriced outcome",
+      "YES max edge, price < 30c"
     ]);
 
     document.body.classList.add("light");
+    document.getElementById("footer-year").textContent = new Date().getFullYear();
     themeToggleEl.addEventListener("click", () => {
       document.body.classList.toggle("light");
       updateThemeToggle();
       if (latestPnlRows.length) renderPnlChart(latestPnlRows);
     });
     updateThemeToggle();
+
+    tabMatchesEl.addEventListener("click", () => setActivePageTab("matches"));
+    tabMethodologyEl.addEventListener("click", () => setActivePageTab("methodology"));
 
     loadData();
 
@@ -522,9 +787,11 @@
       statusEl.hidden = true;
       statusEl.textContent = "";
       try {
-        const [matchResponse, pnlResponse] = await Promise.allSettled([
+        const [matchResponse, pnlResponse, summaryResponse, resultsResponse] = await Promise.allSettled([
           fetch(`${CSV_PATH}?t=${Date.now()}`),
-          fetch(`${PNL_PATH}?t=${Date.now()}`)
+          fetch(`${PNL_PATH}?t=${Date.now()}`),
+          fetch(`${STRATEGY_SUMMARY_PATH}?t=${Date.now()}`),
+          fetch(`${STRATEGY_RESULTS_PATH}?t=${Date.now()}`)
         ]);
 
         if (matchResponse.status !== "fulfilled" || !matchResponse.value.ok) {
@@ -541,16 +808,29 @@
           latestPnlRows = parseCsv(await pnlResponse.value.text());
           renderPnlChart(latestPnlRows);
         }
+
+        if (summaryResponse.status === "fulfilled" && summaryResponse.value.ok) {
+          strategySummaries = buildStrategySummaries(parseCsv(await summaryResponse.value.text()));
+          if (activeStrategy) strategyDescriptionEl.innerHTML = strategyDescription(activeStrategy);
+        }
+
+        if (resultsResponse.status === "fulfilled" && resultsResponse.value.ok) {
+          strategyBetsByMatch = buildStrategyBets(parseCsv(await resultsResponse.value.text()), latestMatchRows);
+          updateCardStrategyDisplays();
+        }
       } catch (error) {
         statusEl.hidden = false;
-        statusEl.innerHTML = `<span class="error">Could not fetch cached CSV.</span> Serve the repo with <code>python -m http.server</code>, then open <code>http://localhost:8000/docs/football_elo_edges.html</code>.<br>${String(error)}`;
+        statusEl.innerHTML = `<span class="error">Could not fetch CSV exports.</span> Serve the repo with <code>python -m http.server</code>, then open <code>http://localhost:8000/docs/</code>.<br>${String(error)}`;
       }
     }
 
     function renderMatches(text) {
       const rows = parseCsv(text).filter(row => row.event_slug);
       rows.sort((a, b) => new Date(b.event_start_time) - new Date(a.event_start_time));
+      latestMatchRows = rows;
       cardsEl.innerHTML = rows.map(matchCard).join("");
+      if (!strategyBetsByMatch.size) strategyBetsByMatch = buildStrategyBets([], latestMatchRows);
+      updateCardStrategyDisplays();
     }
 
     function renderPnlChart(rows) {
@@ -665,16 +945,17 @@
               const strategy = legend.chart.data.datasets[legendItem.datasetIndex].label;
               activeStrategy = activeStrategy === strategy ? null : strategy;
               applyStrategyFocus(activeStrategy, true);
+              updateCardStrategyDisplays();
             },
             onHover(event, legendItem, legend) {
               const strategy = legend.chart.data.datasets[legendItem.datasetIndex].label;
               if (event.native?.target) event.native.target.style.cursor = "pointer";
-              strategyDescriptionEl.textContent = strategyDescription(strategy);
+              strategyDescriptionEl.innerHTML = strategyDescription(strategy);
               if (!activeStrategy) applyStrategyFocus(strategy, true);
             },
             onLeave(event) {
               if (event.native?.target) event.native.target.style.cursor = "default";
-              strategyDescriptionEl.textContent = activeStrategy
+              strategyDescriptionEl.innerHTML = activeStrategy
                 ? strategyDescription(activeStrategy)
                 : "Hover a strategy legend item for its description. Click a legend item to isolate it.";
               if (!activeStrategy) applyStrategyFocus(null, true);
@@ -717,14 +998,219 @@
         dataset.borderColor = withAlpha(dataset.backgroundColor, isFocused ? 1 : 0.16);
         dataset.hidden = false;
       });
-      strategyDescriptionEl.textContent = strategy
+      strategyDescriptionEl.innerHTML = strategy
         ? strategyDescription(strategy)
         : "Hover a strategy legend item for its description. Click a legend item to isolate it.";
       if (update) pnlChart.update("none");
     }
 
     function strategyDescription(strategy) {
-      return STRATEGY_DESCRIPTIONS[strategy] || "No description available.";
+      const summary = strategySummaries.get(strategy);
+      const stats = summary
+        ? ` <span class="strategy-stats">${formatPercentText(toNumber(summary.hit_rate))} win rate over ${formatNumber(summary.bets, 0)} bets.</span>`
+        : "";
+      return `${escapeHtml(STRATEGY_DESCRIPTIONS[strategy] || "No description available.")}${stats}`;
+    }
+
+    function buildStrategySummaries(rows) {
+      return new Map(
+        rows
+          .filter(row => row.strategy && !HIDDEN_STRATEGIES.has(row.strategy))
+          .map(row => [row.strategy, row])
+      );
+    }
+
+    function buildStrategyBets(rows, matchRows) {
+      const byMatch = new Map();
+      rows.forEach(row => {
+        if (HIDDEN_STRATEGIES.has(row.strategy) || row.bet_placed !== "True") return;
+        const key = matchKey(row);
+        if (!byMatch.has(key)) byMatch.set(key, []);
+        byMatch.get(key).push({
+          strategy: row.strategy,
+          outcome: row.selection_outcome,
+          selection: row.selection,
+          side: row.selection?.startsWith("NO ") ? "NO" : "YES"
+        });
+      });
+
+      matchRows.forEach(row => {
+        const key = matchKey(row);
+        const existing = byMatch.get(key) || [];
+        const existingStrategies = new Set(existing.map(bet => bet.strategy));
+        computedStrategyBets(row).forEach(bet => {
+          if (!existingStrategies.has(bet.strategy)) existing.push(bet);
+        });
+        if (existing.length) byMatch.set(key, existing);
+      });
+
+      byMatch.forEach(bets => {
+        bets.sort((a, b) => latestPnlFor(latestPnlRows, b.strategy) - latestPnlFor(latestPnlRows, a.strategy));
+      });
+
+      return byMatch;
+    }
+
+    const OUTCOMES = {
+      team1_win: {
+        price: "polymarket_team1_win_price",
+        elo: "elo_team1_win_prob",
+        label(row) { return row.poly_team1 || "Team 1"; }
+      },
+      draw: {
+        price: "polymarket_draw_price",
+        elo: "elo_draw_prob",
+        label() { return "Draw"; }
+      },
+      team2_win: {
+        price: "polymarket_team2_win_price",
+        elo: "elo_team2_win_prob",
+        label(row) { return row.poly_team2 || "Team 2"; }
+      }
+    };
+
+    function computedStrategyBets(row) {
+      const strategies = [
+        ["Draw every match", () => "draw", "YES"],
+        ["YES Elo underdog", () => eloUnderdogOutcome(row), "YES"],
+        ["YES Elo favorite", () => eloFavoriteOutcome(row), "YES"],
+        ["YES max positive edge", () => largestPositiveEdgeOutcome(row), "YES"],
+        ["YES max edge, prob floor", () => largestPositiveEdgeOutcome(row, 0.25, 0.03), "YES"],
+        ["YES favorite positive edge", () => positiveEdgeOutcome(row, eloFavoriteOutcome(row), 0.02), "YES"],
+        ["YES draw positive edge", () => positiveEdgeOutcome(row, "draw", 0.02), "YES"],
+        ["YES Polymarket favorite", () => polymarketFavoriteOutcome(row), "YES"],
+        ["YES Polymarket underdog", () => polymarketUnderdogOutcome(row), "YES"],
+        ["NO draw every match", () => "draw", "NO"],
+        ["NO Elo underdog", () => eloUnderdogOutcome(row), "NO"],
+        ["NO lowest Elo probability", () => lowestEloProbabilityOutcome(row), "NO"],
+        ["NO low-prob overpriced", () => mostOverpricedOutcomeForNo(row, 0.03, 0.75), "NO"],
+        ["NO overpriced draw", () => overpricedDrawOutcome(row, 0.02), "NO"],
+        ["NO Polymarket favorite", () => polymarketFavoriteOutcome(row), "NO"],
+        ["NO Polymarket underdog", () => polymarketUnderdogOutcome(row), "NO"]
+      ];
+
+      return strategies
+        .filter(([strategy]) => !HIDDEN_STRATEGIES.has(strategy))
+        .map(([strategy, outcomeFn, side]) => {
+          const outcome = outcomeFn();
+          if (!outcome || !validOutcomePrice(row, outcome, side)) return null;
+          return {
+            strategy,
+            outcome,
+            selection: `${side} ${OUTCOMES[outcome].label(row)}`,
+            side
+          };
+        })
+        .filter(Boolean);
+    }
+
+    function eloUnderdogOutcome(row) {
+      const team1Elo = toNumber(row.team1_elo_pre);
+      const team2Elo = toNumber(row.team2_elo_pre);
+      if (!Number.isFinite(team1Elo) || !Number.isFinite(team2Elo)) return null;
+      return team1Elo < team2Elo ? "team1_win" : "team2_win";
+    }
+
+    function eloFavoriteOutcome(row) {
+      const team1Elo = toNumber(row.team1_elo_pre);
+      const team2Elo = toNumber(row.team2_elo_pre);
+      if (!Number.isFinite(team1Elo) || !Number.isFinite(team2Elo)) return null;
+      return team1Elo >= team2Elo ? "team1_win" : "team2_win";
+    }
+
+    function polymarketFavoriteOutcome(row) {
+      const candidates = Object.keys(OUTCOMES)
+        .map(outcome => ({ outcome, price: toNumber(row[OUTCOMES[outcome].price]) }))
+        .filter(item => Number.isFinite(item.price) && validOutcomePrice(row, item.outcome));
+      if (!candidates.length) return null;
+      return candidates.sort((a, b) => b.price - a.price)[0].outcome;
+    }
+
+    function polymarketUnderdogOutcome(row) {
+      const candidates = Object.keys(OUTCOMES)
+        .map(outcome => ({ outcome, price: toNumber(row[OUTCOMES[outcome].price]) }))
+        .filter(item => Number.isFinite(item.price) && validOutcomePrice(row, item.outcome));
+      if (!candidates.length) return null;
+      return candidates.sort((a, b) => a.price - b.price)[0].outcome;
+    }
+
+    function largestPositiveEdgeOutcome(row, minProb = 0, minEdge = 0) {
+      const candidates = Object.keys(OUTCOMES)
+        .map(outcome => {
+          const edge = edgeForOutcome(row, outcome);
+          const elo = toNumber(row[OUTCOMES[outcome].elo]);
+          return { outcome, edge, elo };
+        })
+        .filter(item => Number.isFinite(item.edge) && Number.isFinite(item.elo) && item.edge >= minEdge && item.elo >= minProb && validOutcomePrice(row, item.outcome));
+      if (!candidates.length) return null;
+      return candidates.sort((a, b) => b.edge - a.edge)[0].outcome;
+    }
+
+    function positiveEdgeOutcome(row, outcome, minEdge) {
+      if (!outcome) return null;
+      const edge = edgeForOutcome(row, outcome);
+      return Number.isFinite(edge) && edge >= minEdge ? outcome : null;
+    }
+
+    function lowestEloProbabilityOutcome(row) {
+      const candidates = Object.keys(OUTCOMES)
+        .map(outcome => ({ outcome, elo: toNumber(row[OUTCOMES[outcome].elo]) }))
+        .filter(item => Number.isFinite(item.elo) && validOutcomePrice(row, item.outcome));
+      if (!candidates.length) return null;
+      return candidates.sort((a, b) => a.elo - b.elo)[0].outcome;
+    }
+
+    function mostOverpricedOutcomeForNo(row, minOverprice, minNoProb) {
+      const candidates = Object.keys(OUTCOMES)
+        .map(outcome => {
+          const price = toNumber(row[OUTCOMES[outcome].price]);
+          const elo = toNumber(row[OUTCOMES[outcome].elo]);
+          return { outcome, overprice: price - elo, noProb: 1 - elo };
+        })
+        .filter(item => Number.isFinite(item.overprice) && item.overprice >= minOverprice && item.noProb >= minNoProb && validOutcomePrice(row, item.outcome, "NO"));
+      if (!candidates.length) return null;
+      return candidates.sort((a, b) => b.overprice - a.overprice)[0].outcome;
+    }
+
+    function overpricedDrawOutcome(row, minOverprice) {
+      const overprice = toNumber(row.polymarket_draw_price) - toNumber(row.elo_draw_prob);
+      return Number.isFinite(overprice) && overprice >= minOverprice && validOutcomePrice(row, "draw", "NO") ? "draw" : null;
+    }
+
+    function edgeForOutcome(row, outcome) {
+      const config = OUTCOMES[outcome];
+      return toNumber(row[config.elo]) - toNumber(row[config.price]);
+    }
+
+    function validOutcomePrice(row, outcome, side = "YES") {
+      const price = toNumber(row[OUTCOMES[outcome].price]);
+      const betPrice = side === "NO" ? 1 - price : price;
+      return Number.isFinite(betPrice) && betPrice > 0 && betPrice < 1;
+    }
+
+    function updateCardStrategyDisplays() {
+      cardsEl.querySelectorAll(".card").forEach(card => {
+        card.querySelectorAll(".row-bet-pill").forEach(pill => pill.remove());
+        card.classList.toggle("has-active-strategy", Boolean(activeStrategy));
+
+        const bets = strategyBetsByMatch.get(card.dataset.matchKey) || [];
+        const visibleBets = activeStrategy
+          ? bets.filter(bet => bet.strategy === activeStrategy)
+          : bets;
+
+        const panel = card.querySelector("[data-bet-panel]");
+        if (panel) {
+          panel.classList.toggle("has-bets", visibleBets.length > 0);
+          panel.innerHTML = visibleBets.map(strategyBetPill).join("");
+        }
+
+        if (!activeStrategy) return;
+        visibleBets.forEach(bet => {
+          const row = card.querySelector(`[data-outcome="${escapeSelector(bet.outcome)}"] td:first-child`);
+          if (!row) return;
+          row.insertAdjacentHTML("beforeend", rowBetPill(bet));
+        });
+      });
     }
 
     function updateThemeToggle() {
@@ -732,6 +1218,14 @@
       themeToggleEl.textContent = isLight ? "☾" : "☀";
       themeToggleEl.setAttribute("aria-label", isLight ? "Switch to dark mode" : "Switch to light mode");
       themeToggleEl.title = isLight ? "Switch to dark mode" : "Switch to light mode";
+    }
+
+    function setActivePageTab(tab) {
+      const isMatches = tab === "matches";
+      tabMatchesEl.classList.toggle("active", isMatches);
+      tabMethodologyEl.classList.toggle("active", !isMatches);
+      matchesViewEl.hidden = !isMatches;
+      methodologyViewEl.hidden = isMatches;
     }
 
     function latestPnlFor(rows, strategy) {
@@ -799,7 +1293,7 @@
       ];
 
       return `
-        <article class="card">
+        <article class="card" data-match-key="${escapeHtml(matchKey(row))}">
           <div class="card-header">
             ${teamBlock(team1, row.team1_code, row.team1_elo_pre)}
             <div class="score-block">
@@ -815,7 +1309,7 @@
                   <th></th>
                   <th>Polymarket</th>
                   <th>Elo Estimate</th>
-                  <th>Edge</th>
+                  <th>Edge (PP)</th>
                 </tr>
               </thead>
               <tbody>
@@ -823,6 +1317,7 @@
               </tbody>
             </table>
           </div>
+          <div class="strategy-bets" data-bet-panel></div>
         </article>
       `;
     }
@@ -847,8 +1342,8 @@
     function matrixRow([outcome, label, market, elo], winner) {
       const marketValue = toNumber(market);
       const eloValue = toNumber(elo);
-      const edge = Number.isFinite(marketValue) && marketValue !== 0 && Number.isFinite(eloValue)
-        ? (eloValue - marketValue) / marketValue
+      const edge = Number.isFinite(marketValue) && Number.isFinite(eloValue)
+        ? eloValue - marketValue
         : NaN;
       const cls = !Number.isFinite(edge) ? "edge-neutral" : edge > 0 ? "edge-positive" : edge < 0 ? "edge-negative" : "edge-neutral";
       const rowClass = [winner === outcome ? "winner-row" : "", outcome === "draw" ? "draw-row" : ""]
@@ -856,13 +1351,31 @@
         .join(" ");
 
       return `
-        <tr class="${rowClass}">
+        <tr class="${rowClass}" data-outcome="${escapeHtml(outcome)}">
           <td>${escapeHtml(label)}</td>
           <td>${formatProbability(marketValue)}</td>
           <td>${formatProbability(eloValue)}</td>
-          <td class="${cls}">${formatPercent(edge)}</td>
+          <td class="${cls}">${formatEdgePp(edge)}</td>
         </tr>
       `;
+    }
+
+    function strategyBetPill(bet) {
+      return `
+        <span class="strategy-bet-pill">
+          <span class="row-bet-pill bet-side-${bet.side.toLowerCase()}">${escapeHtml(bet.side)}</span>
+          <span>${escapeHtml(bet.selection.replace(/^(YES|NO)\s+/, ""))}</span>
+          <span class="strategy-name">${escapeHtml(bet.strategy)}</span>
+        </span>
+      `;
+    }
+
+    function rowBetPill(bet) {
+      return `<span class="row-bet-pill bet-side-${bet.side.toLowerCase()}">${escapeHtml(bet.side)}</span>`;
+    }
+
+    function matchKey(row) {
+      return `${row.event_start_time}__${row.event_title}`;
     }
 
     function hasScore(row) {
@@ -892,7 +1405,16 @@
       return Number.isFinite(value) ? value.toFixed(2) : "-";
     }
 
+    function formatEdgePp(value) {
+      if (!Number.isFinite(value)) return "-";
+      return (value * 100).toFixed(1);
+    }
+
     function formatPercent(value) {
+      return Number.isFinite(value) ? `${(value * 100).toFixed(1)}%` : "-";
+    }
+
+    function formatPercentText(value) {
       return Number.isFinite(value) ? `${(value * 100).toFixed(1)}%` : "-";
     }
 
@@ -915,6 +1437,10 @@
 
     function getCssVar(name) {
       return getComputedStyle(document.body).getPropertyValue(name).trim();
+    }
+
+    function escapeSelector(value) {
+      return typeof CSS !== "undefined" && CSS.escape ? CSS.escape(value) : String(value).replaceAll('"', '\\"');
     }
 
     function escapeHtml(value) {

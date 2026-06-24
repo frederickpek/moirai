@@ -1,0 +1,817 @@
+strategy,match_number,event_start_time,event_title,actual_outcome,selection_outcome,selection,bet_placed,pnl,cumulative_pnl
+Draw every match,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,draw,YES Draw,True,-100.0,-100.0
+Draw every match,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,YES Draw,True,-100.0,-200.0
+Draw every match,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,draw,YES Draw,True,263.6363636363636,63.636363636363626
+Draw every match,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,draw,YES Draw,True,-100.0,-36.363636363636374
+Draw every match,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,draw,YES Draw,True,673.8607050730872,637.4970687094508
+Draw every match,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,draw,YES Draw,True,291.73014145810674,929.2272101675576
+Draw every match,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,draw,YES Draw,True,-100.0,829.2272101675576
+Draw every match,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,draw,YES Draw,True,-100.0,729.2272101675576
+Draw every match,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,draw,YES Draw,True,-100.0,629.2272101675576
+Draw every match,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,draw,YES Draw,True,261.69998995277797,890.9272001203356
+Draw every match,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,draw,YES Draw,True,-100.0,790.9272001203356
+Draw every match,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,draw,YES Draw,True,-100.0,690.9272001203356
+Draw every match,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,draw,YES Draw,True,1590.140845070422,2281.0680451907574
+Draw every match,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,draw,YES Draw,True,329.49176807444525,2610.559813265203
+Draw every match,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,draw,YES Draw,True,359.9463395937141,2970.5061528589167
+Draw every match,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,draw,YES Draw,True,262.4647603705194,3232.9709132294365
+Draw every match,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,draw,YES Draw,True,-100.0,3132.9709132294365
+Draw every match,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,draw,YES Draw,True,-100.0,3032.9709132294365
+Draw every match,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,draw,YES Draw,True,-100.0,2932.9709132294365
+Draw every match,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,draw,YES Draw,True,-100.0,2832.9709132294365
+Draw every match,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,draw,YES Draw,True,497.8080371969443,3330.7789504263806
+Draw every match,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,draw,YES Draw,True,-100.0,3230.7789504263806
+Draw every match,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,draw,YES Draw,True,-100.0,3130.7789504263806
+Draw every match,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,draw,YES Draw,True,-100.0,3030.7789504263806
+Draw every match,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,draw,YES Draw,True,274.5318352059925,3305.310785632373
+Draw every match,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,draw,YES Draw,True,-100.0,3205.310785632373
+Draw every match,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,draw,YES Draw,True,-100.0,3105.310785632373
+Draw every match,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,draw,YES Draw,True,-100.0,3005.310785632373
+Draw every match,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,draw,YES Draw,True,-100.0,2905.310785632373
+Draw every match,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,draw,YES Draw,True,-100.0,2805.310785632373
+Draw every match,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,draw,YES Draw,True,-100.0,2705.310785632373
+Draw every match,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,draw,YES Draw,True,-100.0,2605.310785632373
+Draw every match,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,draw,YES Draw,True,-100.0,2505.310785632373
+Draw every match,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,draw,YES Draw,True,-100.0,2405.310785632373
+Draw every match,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,draw,YES Draw,True,872.1847150958669,3277.49550072824
+Draw every match,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,draw,YES Draw,True,-100.0,3177.49550072824
+Draw every match,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,draw,YES Draw,True,-100.0,3077.49550072824
+Draw every match,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,draw,YES Draw,True,411.0732538330492,3488.568754561289
+Draw every match,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,draw,YES Draw,True,358.59872611464976,3847.167480675939
+Draw every match,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,draw,YES Draw,True,-100.0,3747.167480675939
+Draw every match,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,draw,YES Draw,True,-100.0,3647.167480675939
+Draw every match,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,draw,YES Draw,True,-100.0,3547.167480675939
+Draw every match,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,draw,YES Draw,True,-100.0,3447.167480675939
+Draw every match,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,draw,YES Draw,True,-100.0,3347.167480675939
+Draw every match,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,draw,YES Draw,True,-100.0,3247.167480675939
+Draw every match,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,draw,YES Draw,True,707.8994614003591,3955.066942076298
+Draw every match,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,draw,YES Draw,True,-100.0,3855.066942076298
+Draw every match,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,draw,YES Draw,True,-100.0,3755.066942076298
+YES Elo underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,YES South Africa,True,-100.0,-100.0
+YES Elo underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,YES Czechia,True,-100.0,-200.0
+YES Elo underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,YES Bosnia-Herzegovina,True,-100.0,-300.0
+YES Elo underdog,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team1_win,YES United States,True,117.12907117008449,-182.8709288299155
+YES Elo underdog,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team1_win,YES Qatar,True,-100.0,-282.8709288299155
+YES Elo underdog,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team2_win,YES Morocco,True,-100.0,-382.8709288299155
+YES Elo underdog,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team1_win,YES Haiti,True,540.7974368102525,157.92650798033702
+YES Elo underdog,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team1_win,YES Australia,True,471.4285714285713,629.3550794089083
+YES Elo underdog,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team2_win,YES Curaçao,True,-100.0,529.3550794089083
+YES Elo underdog,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team2_win,YES Japan,True,-100.0,429.3550794089083
+YES Elo underdog,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team1_win,YES Côte d'Ivoire,True,242.62872370800417,671.9838031169124
+YES Elo underdog,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team2_win,YES Tunisia,True,-100.0,571.9838031169124
+YES Elo underdog,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team2_win,YES Cabo Verde,True,-100.0,471.98380311691244
+YES Elo underdog,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team2_win,YES Egypt,True,-100.0,371.98380311691244
+YES Elo underdog,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team1_win,YES Saudi Arabia,True,-100.0,271.98380311691244
+YES Elo underdog,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team2_win,YES New Zealand,True,-100.0,171.98380311691247
+YES Elo underdog,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team2_win,YES Senegal,True,-100.0,71.98380311691247
+YES Elo underdog,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team1_win,YES Iraq,True,1438.461538461543,1510.4453415784553
+YES Elo underdog,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team2_win,YES Algeria,True,-100.0,1410.4453415784553
+YES Elo underdog,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team2_win,YES Jordan,True,-100.0,1310.4453415784553
+YES Elo underdog,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team2_win,YES DR Congo,True,-100.0,1210.4453415784553
+YES Elo underdog,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,1110.4453415784553
+YES Elo underdog,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team1_win,YES Ghana,True,146.33912686465024,1256.7844684431057
+YES Elo underdog,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team1_win,YES Uzbekistan,True,970.154577883472,2226.9390463265777
+YES Elo underdog,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team2_win,YES South Africa,True,-100.0,2126.9390463265777
+YES Elo underdog,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team2_win,YES Bosnia-Herzegovina,True,-100.0,2026.9390463265777
+YES Elo underdog,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team2_win,YES Qatar,True,-100.0,1926.9390463265777
+YES Elo underdog,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team2_win,YES Korea Republic,True,-100.0,1826.9390463265777
+YES Elo underdog,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team1_win,YES United States,True,65.68483063328425,1892.6238769598617
+YES Elo underdog,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team1_win,YES Scotland,True,545.1612903225807,2437.7851672824427
+YES Elo underdog,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team2_win,YES Haiti,True,-100.0,2337.7851672824427
+YES Elo underdog,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,2237.7851672824427
+YES Elo underdog,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team2_win,YES Sweden,True,-100.0,2137.7851672824427
+YES Elo underdog,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team2_win,YES Côte d'Ivoire,True,-100.0,2037.7851672824427
+YES Elo underdog,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team2_win,YES Curaçao,True,-100.0,1937.7851672824427
+YES Elo underdog,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team1_win,YES Tunisia,True,757.1428571428569,2694.9280244252996
+YES Elo underdog,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team2_win,YES Saudi Arabia,True,-100.0,2594.9280244252996
+YES Elo underdog,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team2_win,YES IR Iran,True,-100.0,2494.9280244252996
+YES Elo underdog,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team2_win,YES Cabo Verde,True,-100.0,2394.9280244252996
+YES Elo underdog,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team1_win,YES New Zealand,True,540.9115186042375,2935.839543029537
+YES Elo underdog,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team2_win,YES Austria,True,-100.0,2835.839543029537
+YES Elo underdog,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team2_win,YES Iraq,True,-100.0,2735.839543029537
+YES Elo underdog,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team2_win,YES Senegal,True,-100.0,2635.839543029537
+YES Elo underdog,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team1_win,YES Jordan,True,584.6709775580073,3220.5105205875443
+YES Elo underdog,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,3120.5105205875443
+YES Elo underdog,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team2_win,YES Ghana,True,-100.0,3020.5105205875443
+YES Elo underdog,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team1_win,YES Panama,True,734.1056533827617,3754.6161739703057
+YES Elo underdog,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team2_win,YES DR Congo,True,-100.0,3654.6161739703057
+YES Elo favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
+YES Elo favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,YES Korea Republic,True,168.1364516609563,212.2459748986169
+YES Elo favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,112.24597489861691
+YES Elo favorite,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,12.245974898616907
+YES Elo favorite,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team2_win,YES Switzerland,True,-100.0,-87.75402510138309
+YES Elo favorite,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team1_win,YES Brazil,True,-100.0,-187.7540251013831
+YES Elo favorite,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team2_win,YES Scotland,True,-100.0,-287.7540251013831
+YES Elo favorite,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team2_win,YES Türkiye,True,-100.0,-387.7540251013831
+YES Elo favorite,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team1_win,YES Germany,True,6.073441125557055,-381.68058397582604
+YES Elo favorite,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team1_win,YES Netherlands,True,-100.0,-481.68058397582604
+YES Elo favorite,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team2_win,YES Ecuador,True,-100.0,-581.680583975826
+YES Elo favorite,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team1_win,YES Sweden,True,95.47157517510998,-486.20900880071605
+YES Elo favorite,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team1_win,YES Spain,True,-100.0,-586.2090088007161
+YES Elo favorite,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team1_win,YES Belgium,True,-100.0,-686.2090088007161
+YES Elo favorite,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team2_win,YES Uruguay,True,-100.0,-786.2090088007161
+YES Elo favorite,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team1_win,YES IR Iran,True,-100.0,-886.2090088007161
+YES Elo favorite,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team1_win,YES France,True,50.137626157310855,-836.0713826434052
+YES Elo favorite,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team2_win,YES Norway,True,-100.0,-936.0713826434052
+YES Elo favorite,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team1_win,YES Argentina,True,49.21042815103414,-886.8609544923711
+YES Elo favorite,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team1_win,YES Austria,True,41.955835962145116,-844.905118530226
+YES Elo favorite,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team1_win,YES Portugal,True,-100.0,-944.905118530226
+YES Elo favorite,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team1_win,YES England,True,73.50233746204637,-871.4027810681796
+YES Elo favorite,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team2_win,YES Panama,True,-100.0,-971.4027810681796
+YES Elo favorite,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team2_win,YES Colombia,True,-100.0,-1071.4027810681796
+YES Elo favorite,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team1_win,YES Czechia,True,-100.0,-1171.4027810681796
+YES Elo favorite,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team1_win,YES Switzerland,True,60.00000000000001,-1111.4027810681796
+YES Elo favorite,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team1_win,YES Canada,True,33.54106387714219,-1077.8617171910373
+YES Elo favorite,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team1_win,YES Mexico,True,111.84570571100716,-966.0160114800302
+YES Elo favorite,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team2_win,YES Australia,True,-100.0,-1066.01601148003
+YES Elo favorite,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team2_win,YES Morocco,True,-100.0,-1166.01601148003
+YES Elo favorite,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team1_win,YES Brazil,True,13.00853842290306,-1153.007473057127
+YES Elo favorite,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team1_win,YES Türkiye,True,112.72823967381677,-1040.2792333833104
+YES Elo favorite,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team1_win,YES Netherlands,True,75.86712261846607,-964.4121107648443
+YES Elo favorite,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team1_win,YES Germany,True,50.489089541008255,-913.923021223836
+YES Elo favorite,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team1_win,YES Ecuador,True,-100.0,-1013.923021223836
+YES Elo favorite,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team2_win,YES Japan,True,-100.0,-1113.923021223836
+YES Elo favorite,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team1_win,YES Spain,True,12.317484088356423,-1101.6055371354796
+YES Elo favorite,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team1_win,YES Belgium,True,-100.0,-1201.6055371354796
+YES Elo favorite,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team1_win,YES Uruguay,True,-100.0,-1301.6055371354796
+YES Elo favorite,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team2_win,YES Egypt,True,-100.0,-1401.6055371354796
+YES Elo favorite,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team1_win,YES Argentina,True,48.01414357371927,-1353.5913935617605
+YES Elo favorite,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team1_win,YES France,True,10.267091399166883,-1343.3243021625935
+YES Elo favorite,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team1_win,YES Norway,True,141.51348450288478,-1201.8108176597086
+YES Elo favorite,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team2_win,YES Algeria,True,-100.0,-1301.8108176597086
+YES Elo favorite,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team1_win,YES Portugal,True,16.959064327485372,-1284.8517533322233
+YES Elo favorite,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team1_win,YES England,True,-100.0,-1384.8517533322233
+YES Elo favorite,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,-1484.8517533322233
+YES Elo favorite,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,YES Colombia,True,58.33919774806478,-1426.5125555841585
+YES max positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
+YES max positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,YES Czechia,True,-100.0,-55.890476762339404
+YES max positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,-155.8904767623394
+YES max positive edge,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,-255.8904767623394
+YES max positive edge,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,draw,YES Draw,True,673.8607050730872,417.97022831074776
+YES max positive edge,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team2_win,YES Morocco,True,-100.0,317.97022831074776
+YES max positive edge,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,draw,YES Draw,True,-100.0,217.97022831074776
+YES max positive edge,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team1_win,YES Australia,True,471.4285714285713,689.398799739319
+YES max positive edge,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,draw,YES Draw,True,-100.0,589.398799739319
+YES max positive edge,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team2_win,YES Japan,True,-100.0,489.39879973931903
+YES max positive edge,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team2_win,YES Ecuador,True,-100.0,389.39879973931903
+YES max positive edge,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team2_win,YES Tunisia,True,-100.0,289.39879973931903
+YES max positive edge,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,draw,YES Draw,True,1590.140845070422,1879.539644809741
+YES max positive edge,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team2_win,YES Egypt,True,-100.0,1779.539644809741
+YES max positive edge,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team2_win,YES Uruguay,True,-100.0,1679.539644809741
+YES max positive edge,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team1_win,YES IR Iran,True,-100.0,1579.539644809741
+YES max positive edge,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team2_win,YES Senegal,True,-100.0,1479.539644809741
+YES max positive edge,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,draw,YES Draw,True,-100.0,1379.539644809741
+YES max positive edge,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team1_win,YES Argentina,True,49.21042815103414,1428.7500729607752
+YES max positive edge,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team2_win,YES Jordan,True,-100.0,1328.7500729607752
+YES max positive edge,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,draw,YES Draw,True,497.8080371969443,1826.5581101577195
+YES max positive edge,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,1726.5581101577195
+YES max positive edge,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team2_win,YES Panama,True,-100.0,1626.5581101577195
+YES max positive edge,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team1_win,YES Uzbekistan,True,970.154577883472,2596.7126880411915
+YES max positive edge,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team1_win,YES Czechia,True,-100.0,2496.7126880411915
+YES max positive edge,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team2_win,YES Bosnia-Herzegovina,True,-100.0,2396.7126880411915
+YES max positive edge,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,draw,YES Draw,True,-100.0,2296.7126880411915
+YES max positive edge,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team2_win,YES Korea Republic,True,-100.0,2196.7126880411915
+YES max positive edge,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team2_win,YES Australia,True,-100.0,2096.7126880411915
+YES max positive edge,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team1_win,YES Scotland,True,545.1612903225807,2641.873978363772
+YES max positive edge,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,draw,YES Draw,True,-100.0,2541.873978363772
+YES max positive edge,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,2441.873978363772
+YES max positive edge,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,draw,YES Draw,True,-100.0,2341.873978363772
+YES max positive edge,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,draw,YES Draw,True,-100.0,2241.873978363772
+YES max positive edge,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,draw,YES Draw,True,872.1847150958669,3114.058693459639
+YES max positive edge,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team2_win,YES Japan,True,-100.0,3014.058693459639
+YES max positive edge,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,draw,YES Draw,True,-100.0,2914.058693459639
+YES max positive edge,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team2_win,YES IR Iran,True,-100.0,2814.058693459639
+YES max positive edge,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team2_win,YES Cabo Verde,True,-100.0,2714.058693459639
+YES max positive edge,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team1_win,YES New Zealand,True,540.9115186042375,3254.9702120638767
+YES max positive edge,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team2_win,YES Austria,True,-100.0,3154.9702120638767
+YES max positive edge,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,draw,YES Draw,True,-100.0,3054.9702120638767
+YES max positive edge,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team1_win,YES Norway,True,141.51348450288478,3196.4836965667614
+YES max positive edge,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team1_win,YES Jordan,True,584.6709775580073,3781.1546741247685
+YES max positive edge,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,draw,YES Draw,True,-100.0,3681.1546741247685
+YES max positive edge,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,draw,YES Draw,True,707.8994614003591,4389.054135525128
+YES max positive edge,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team1_win,YES Panama,True,734.1056533827617,5123.159788907889
+YES max positive edge,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,YES Colombia,True,58.33919774806478,5181.4989866559545
+"YES max edge, prob floor",1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
+"YES max edge, prob floor",2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
+"YES max edge, prob floor",3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
+"YES max edge, prob floor",4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,-100.0
+"YES max edge, prob floor",5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,,,False,0.0,-100.0
+"YES max edge, prob floor",6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,,,False,0.0,-100.0
+"YES max edge, prob floor",7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,,,False,0.0,-100.0
+"YES max edge, prob floor",8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,,,False,0.0,-100.0
+"YES max edge, prob floor",9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,,,False,0.0,-100.0
+"YES max edge, prob floor",10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team2_win,YES Japan,True,-100.0,-200.0
+"YES max edge, prob floor",11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team2_win,YES Ecuador,True,-100.0,-300.0
+"YES max edge, prob floor",12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team2_win,YES Tunisia,True,-100.0,-400.0
+"YES max edge, prob floor",13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,,,False,0.0,-400.0
+"YES max edge, prob floor",14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,,,False,0.0,-400.0
+"YES max edge, prob floor",15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,,,False,0.0,-400.0
+"YES max edge, prob floor",16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team1_win,YES IR Iran,True,-100.0,-500.0
+"YES max edge, prob floor",17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,,,False,0.0,-500.0
+"YES max edge, prob floor",18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,,,False,0.0,-500.0
+"YES max edge, prob floor",19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,,,False,0.0,-500.0
+"YES max edge, prob floor",20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,draw,YES Draw,True,-100.0,-600.0
+"YES max edge, prob floor",21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,,,False,0.0,-600.0
+"YES max edge, prob floor",22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,-700.0
+"YES max edge, prob floor",23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team2_win,YES Panama,True,-100.0,-800.0
+"YES max edge, prob floor",24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,,,False,0.0,-800.0
+"YES max edge, prob floor",25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team1_win,YES Czechia,True,-100.0,-900.0
+"YES max edge, prob floor",26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,,,False,0.0,-900.0
+"YES max edge, prob floor",27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,,,False,0.0,-900.0
+"YES max edge, prob floor",28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,,,False,0.0,-900.0
+"YES max edge, prob floor",29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team2_win,YES Australia,True,-100.0,-1000.0
+"YES max edge, prob floor",30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team1_win,YES Scotland,True,545.1612903225807,-454.8387096774193
+"YES max edge, prob floor",31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,,,False,0.0,-454.8387096774193
+"YES max edge, prob floor",32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,-554.8387096774193
+"YES max edge, prob floor",33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,,,False,0.0,-554.8387096774193
+"YES max edge, prob floor",34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,draw,YES Draw,True,-100.0,-654.8387096774193
+"YES max edge, prob floor",35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,,,False,0.0,-654.8387096774193
+"YES max edge, prob floor",36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,,,False,0.0,-654.8387096774193
+"YES max edge, prob floor",37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,,,False,0.0,-654.8387096774193
+"YES max edge, prob floor",38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,draw,YES Draw,True,411.0732538330492,-243.76545584437008
+"YES max edge, prob floor",39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,,,False,0.0,-243.76545584437008
+"YES max edge, prob floor",40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,draw,YES Draw,True,-100.0,-343.7654558443701
+"YES max edge, prob floor",41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,,,False,0.0,-343.7654558443701
+"YES max edge, prob floor",42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,,,False,0.0,-343.7654558443701
+"YES max edge, prob floor",43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team1_win,YES Norway,True,141.51348450288478,-202.2519713414853
+"YES max edge, prob floor",44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team1_win,YES Jordan,True,584.6709775580073,382.419006216522
+"YES max edge, prob floor",45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,,,False,0.0,382.419006216522
+"YES max edge, prob floor",46,2026-06-23T20:00:00Z,England vs. Ghana,draw,,,False,0.0,382.419006216522
+"YES max edge, prob floor",47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,,,False,0.0,382.419006216522
+"YES max edge, prob floor",48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,YES Colombia,True,58.33919774806478,440.75820396458676
+YES favorite positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
+YES favorite positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
+YES favorite positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,-100.0
+YES favorite positive edge,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,-200.0
+YES favorite positive edge,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,,,False,0.0,-200.0
+YES favorite positive edge,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,,,False,0.0,-200.0
+YES favorite positive edge,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,,,False,0.0,-200.0
+YES favorite positive edge,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,,,False,0.0,-200.0
+YES favorite positive edge,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,,,False,0.0,-200.0
+YES favorite positive edge,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,,,False,0.0,-200.0
+YES favorite positive edge,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team2_win,YES Ecuador,True,-100.0,-300.0
+YES favorite positive edge,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,,,False,0.0,-300.0
+YES favorite positive edge,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,,,False,0.0,-300.0
+YES favorite positive edge,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,,,False,0.0,-300.0
+YES favorite positive edge,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,,,False,0.0,-300.0
+YES favorite positive edge,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team1_win,YES IR Iran,True,-100.0,-400.0
+YES favorite positive edge,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,,,False,0.0,-400.0
+YES favorite positive edge,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,,,False,0.0,-400.0
+YES favorite positive edge,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team1_win,YES Argentina,True,49.21042815103414,-350.78957184896586
+YES favorite positive edge,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,,,False,0.0,-350.78957184896586
+YES favorite positive edge,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,,,False,0.0,-350.78957184896586
+YES favorite positive edge,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,,,False,0.0,-350.78957184896586
+YES favorite positive edge,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team2_win,YES Panama,True,-100.0,-450.78957184896586
+YES favorite positive edge,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,,,False,0.0,-450.78957184896586
+YES favorite positive edge,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team1_win,YES Czechia,True,-100.0,-550.7895718489658
+YES favorite positive edge,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,,,False,0.0,-550.7895718489658
+YES favorite positive edge,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,,,False,0.0,-550.7895718489658
+YES favorite positive edge,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,,,False,0.0,-550.7895718489658
+YES favorite positive edge,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team2_win,YES Australia,True,-100.0,-650.7895718489658
+YES favorite positive edge,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,,,False,0.0,-650.7895718489658
+YES favorite positive edge,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,,,False,0.0,-650.7895718489658
+YES favorite positive edge,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,,,False,0.0,-650.7895718489658
+YES favorite positive edge,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,,,False,0.0,-650.7895718489658
+YES favorite positive edge,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team1_win,YES Norway,True,141.51348450288478,-509.2760873460811
+YES favorite positive edge,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,,,False,0.0,-509.2760873460811
+YES favorite positive edge,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,,,False,0.0,-509.2760873460811
+YES favorite positive edge,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,,,False,0.0,-509.2760873460811
+YES favorite positive edge,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,,,False,0.0,-509.2760873460811
+YES favorite positive edge,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,YES Colombia,True,58.33919774806478,-450.9368895980163
+YES draw positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
+YES draw positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
+YES draw positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
+YES draw positive edge,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,,,False,0.0,0.0
+YES draw positive edge,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,draw,YES Draw,True,673.8607050730872,673.8607050730872
+YES draw positive edge,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,,,False,0.0,673.8607050730872
+YES draw positive edge,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,draw,YES Draw,True,-100.0,573.8607050730872
+YES draw positive edge,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,,,False,0.0,573.8607050730872
+YES draw positive edge,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,draw,YES Draw,True,-100.0,473.86070507308716
+YES draw positive edge,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,,,False,0.0,473.86070507308716
+YES draw positive edge,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,,,False,0.0,473.86070507308716
+YES draw positive edge,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,,,False,0.0,473.86070507308716
+YES draw positive edge,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,draw,YES Draw,True,1590.140845070422,2064.001550143509
+YES draw positive edge,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,,,False,0.0,2064.001550143509
+YES draw positive edge,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,,,False,0.0,2064.001550143509
+YES draw positive edge,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,,,False,0.0,2064.001550143509
+YES draw positive edge,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,draw,YES Draw,True,-100.0,1964.0015501435091
+YES draw positive edge,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,draw,YES Draw,True,-100.0,1864.0015501435091
+YES draw positive edge,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,,,False,0.0,1864.0015501435091
+YES draw positive edge,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,draw,YES Draw,True,-100.0,1764.0015501435091
+YES draw positive edge,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,draw,YES Draw,True,497.8080371969443,2261.8095873404536
+YES draw positive edge,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,,,False,0.0,2261.8095873404536
+YES draw positive edge,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,,,False,0.0,2261.8095873404536
+YES draw positive edge,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,draw,YES Draw,True,-100.0,2161.8095873404536
+YES draw positive edge,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,,,False,0.0,2161.8095873404536
+YES draw positive edge,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,,,False,0.0,2161.8095873404536
+YES draw positive edge,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,draw,YES Draw,True,-100.0,2061.8095873404536
+YES draw positive edge,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,,,False,0.0,2061.8095873404536
+YES draw positive edge,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,draw,YES Draw,True,-100.0,1961.8095873404534
+YES draw positive edge,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,,,False,0.0,1961.8095873404534
+YES draw positive edge,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,draw,YES Draw,True,-100.0,1861.8095873404534
+YES draw positive edge,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,,,False,0.0,1861.8095873404534
+YES draw positive edge,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,,,False,0.0,1861.8095873404534
+YES draw positive edge,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,draw,YES Draw,True,-100.0,1761.8095873404534
+YES draw positive edge,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,draw,YES Draw,True,872.1847150958669,2633.99430243632
+YES draw positive edge,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,,,False,0.0,2633.99430243632
+YES draw positive edge,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,draw,YES Draw,True,-100.0,2533.99430243632
+YES draw positive edge,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,draw,YES Draw,True,411.0732538330492,2945.0675562693696
+YES draw positive edge,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,,,False,0.0,2945.0675562693696
+YES draw positive edge,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,draw,YES Draw,True,-100.0,2845.0675562693696
+YES draw positive edge,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,,,False,0.0,2845.0675562693696
+YES draw positive edge,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,draw,YES Draw,True,-100.0,2745.0675562693696
+YES draw positive edge,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,,,False,0.0,2745.0675562693696
+YES draw positive edge,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,draw,YES Draw,True,-100.0,2645.0675562693696
+YES draw positive edge,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,draw,YES Draw,True,-100.0,2545.0675562693696
+YES draw positive edge,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,draw,YES Draw,True,707.8994614003591,3252.9670176697286
+YES draw positive edge,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,draw,YES Draw,True,-100.0,3152.9670176697286
+YES draw positive edge,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,,,False,0.0,3152.9670176697286
+YES Polymarket favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
+YES Polymarket favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,YES Korea Republic,True,168.1364516609563,212.2459748986169
+YES Polymarket favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,112.24597489861691
+YES Polymarket favorite,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team1_win,YES United States,True,117.12907117008449,229.3750460687014
+YES Polymarket favorite,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team2_win,YES Switzerland,True,-100.0,129.3750460687014
+YES Polymarket favorite,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team1_win,YES Brazil,True,-100.0,29.375046068701394
+YES Polymarket favorite,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team2_win,YES Scotland,True,-100.0,-70.6249539312986
+YES Polymarket favorite,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team2_win,YES Türkiye,True,-100.0,-170.6249539312986
+YES Polymarket favorite,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team1_win,YES Germany,True,6.073441125557055,-164.55151280574154
+YES Polymarket favorite,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team1_win,YES Netherlands,True,-100.0,-264.55151280574154
+YES Polymarket favorite,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team2_win,YES Ecuador,True,-100.0,-364.55151280574154
+YES Polymarket favorite,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team1_win,YES Sweden,True,95.47157517510998,-269.07993763063155
+YES Polymarket favorite,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team1_win,YES Spain,True,-100.0,-369.07993763063155
+YES Polymarket favorite,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team1_win,YES Belgium,True,-100.0,-469.07993763063155
+YES Polymarket favorite,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team2_win,YES Uruguay,True,-100.0,-569.0799376306315
+YES Polymarket favorite,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team1_win,YES IR Iran,True,-100.0,-669.0799376306315
+YES Polymarket favorite,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team1_win,YES France,True,50.137626157310855,-618.9423114733207
+YES Polymarket favorite,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team2_win,YES Norway,True,-100.0,-718.9423114733207
+YES Polymarket favorite,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team1_win,YES Argentina,True,49.21042815103414,-669.7318833222866
+YES Polymarket favorite,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team1_win,YES Austria,True,41.955835962145116,-627.7760473601414
+YES Polymarket favorite,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team1_win,YES Portugal,True,-100.0,-727.7760473601414
+YES Polymarket favorite,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team1_win,YES England,True,73.50233746204637,-654.2737098980951
+YES Polymarket favorite,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team1_win,YES Ghana,True,146.33912686465024,-507.9345830334449
+YES Polymarket favorite,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team2_win,YES Colombia,True,-100.0,-607.9345830334448
+YES Polymarket favorite,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team1_win,YES Czechia,True,-100.0,-707.9345830334448
+YES Polymarket favorite,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team1_win,YES Switzerland,True,60.00000000000001,-647.9345830334448
+YES Polymarket favorite,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team1_win,YES Canada,True,33.54106387714219,-614.3935191563027
+YES Polymarket favorite,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team1_win,YES Mexico,True,111.84570571100716,-502.54781344529556
+YES Polymarket favorite,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team1_win,YES United States,True,65.68483063328425,-436.8629828120113
+YES Polymarket favorite,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team2_win,YES Morocco,True,-100.0,-536.8629828120113
+YES Polymarket favorite,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team1_win,YES Brazil,True,13.00853842290306,-523.8544443891083
+YES Polymarket favorite,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team1_win,YES Türkiye,True,112.72823967381677,-411.12620471529146
+YES Polymarket favorite,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team1_win,YES Netherlands,True,75.86712261846607,-335.2590820968254
+YES Polymarket favorite,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team1_win,YES Germany,True,50.489089541008255,-284.7699925558171
+YES Polymarket favorite,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team1_win,YES Ecuador,True,-100.0,-384.7699925558171
+YES Polymarket favorite,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team2_win,YES Japan,True,-100.0,-484.7699925558171
+YES Polymarket favorite,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team1_win,YES Spain,True,12.317484088356423,-472.4525084674607
+YES Polymarket favorite,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team1_win,YES Belgium,True,-100.0,-572.4525084674607
+YES Polymarket favorite,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team1_win,YES Uruguay,True,-100.0,-672.4525084674607
+YES Polymarket favorite,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team2_win,YES Egypt,True,-100.0,-772.4525084674607
+YES Polymarket favorite,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team1_win,YES Argentina,True,48.01414357371927,-724.4383648937414
+YES Polymarket favorite,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team1_win,YES France,True,10.267091399166883,-714.1712734945745
+YES Polymarket favorite,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team1_win,YES Norway,True,141.51348450288478,-572.6577889916898
+YES Polymarket favorite,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team2_win,YES Algeria,True,-100.0,-672.6577889916898
+YES Polymarket favorite,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team1_win,YES Portugal,True,16.959064327485372,-655.6987246642044
+YES Polymarket favorite,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team1_win,YES England,True,-100.0,-755.6987246642044
+YES Polymarket favorite,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,-855.6987246642044
+YES Polymarket favorite,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,YES Colombia,True,58.33919774806478,-797.3595269161397
+YES Polymarket underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,YES South Africa,True,-100.0,-100.0
+YES Polymarket underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,YES Draw,True,-100.0,-200.0
+YES Polymarket underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,YES Bosnia-Herzegovina,True,-100.0,-300.0
+YES Polymarket underdog,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,-400.0
+YES Polymarket underdog,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team1_win,YES Qatar,True,-100.0,-500.0
+YES Polymarket underdog,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team2_win,YES Morocco,True,-100.0,-600.0
+YES Polymarket underdog,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team1_win,YES Haiti,True,540.7974368102525,-59.20256318974748
+YES Polymarket underdog,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team1_win,YES Australia,True,471.4285714285713,412.2260082388238
+YES Polymarket underdog,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team2_win,YES Curaçao,True,-100.0,312.2260082388238
+YES Polymarket underdog,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team2_win,YES Japan,True,-100.0,212.2260082388238
+YES Polymarket underdog,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team1_win,YES Côte d'Ivoire,True,242.62872370800417,454.854731946828
+YES Polymarket underdog,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team2_win,YES Tunisia,True,-100.0,354.854731946828
+YES Polymarket underdog,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team2_win,YES Cabo Verde,True,-100.0,254.85473194682797
+YES Polymarket underdog,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team2_win,YES Egypt,True,-100.0,154.85473194682797
+YES Polymarket underdog,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team1_win,YES Saudi Arabia,True,-100.0,54.85473194682797
+YES Polymarket underdog,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team2_win,YES New Zealand,True,-100.0,-45.14526805317203
+YES Polymarket underdog,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team2_win,YES Senegal,True,-100.0,-145.14526805317203
+YES Polymarket underdog,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team1_win,YES Iraq,True,1438.461538461543,1293.3162704083709
+YES Polymarket underdog,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team2_win,YES Algeria,True,-100.0,1193.3162704083709
+YES Polymarket underdog,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team2_win,YES Jordan,True,-100.0,1093.3162704083709
+YES Polymarket underdog,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team2_win,YES DR Congo,True,-100.0,993.3162704083709
+YES Polymarket underdog,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,893.3162704083709
+YES Polymarket underdog,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team2_win,YES Panama,True,-100.0,793.3162704083709
+YES Polymarket underdog,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team1_win,YES Uzbekistan,True,970.154577883472,1763.470848291843
+YES Polymarket underdog,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team2_win,YES South Africa,True,-100.0,1663.470848291843
+YES Polymarket underdog,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team2_win,YES Bosnia-Herzegovina,True,-100.0,1563.470848291843
+YES Polymarket underdog,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team2_win,YES Qatar,True,-100.0,1463.470848291843
+YES Polymarket underdog,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team2_win,YES Korea Republic,True,-100.0,1363.470848291843
+YES Polymarket underdog,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team2_win,YES Australia,True,-100.0,1263.470848291843
+YES Polymarket underdog,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team1_win,YES Scotland,True,545.1612903225807,1808.6321386144236
+YES Polymarket underdog,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team2_win,YES Haiti,True,-100.0,1708.6321386144236
+YES Polymarket underdog,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team2_win,YES Paraguay,True,-100.0,1608.6321386144236
+YES Polymarket underdog,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team2_win,YES Sweden,True,-100.0,1508.6321386144236
+YES Polymarket underdog,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team2_win,YES Côte d'Ivoire,True,-100.0,1408.6321386144236
+YES Polymarket underdog,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team2_win,YES Curaçao,True,-100.0,1308.6321386144236
+YES Polymarket underdog,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team1_win,YES Tunisia,True,757.1428571428569,2065.7749957572805
+YES Polymarket underdog,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team2_win,YES Saudi Arabia,True,-100.0,1965.7749957572805
+YES Polymarket underdog,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team2_win,YES IR Iran,True,-100.0,1865.7749957572805
+YES Polymarket underdog,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team2_win,YES Cabo Verde,True,-100.0,1765.7749957572805
+YES Polymarket underdog,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team1_win,YES New Zealand,True,540.9115186042375,2306.6865143615178
+YES Polymarket underdog,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team2_win,YES Austria,True,-100.0,2206.6865143615178
+YES Polymarket underdog,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team2_win,YES Iraq,True,-100.0,2106.6865143615178
+YES Polymarket underdog,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,draw,YES Draw,True,-100.0,2006.686514361518
+YES Polymarket underdog,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team1_win,YES Jordan,True,584.6709775580073,2591.3574919195253
+YES Polymarket underdog,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,2491.3574919195253
+YES Polymarket underdog,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team2_win,YES Ghana,True,-100.0,2391.3574919195253
+YES Polymarket underdog,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team1_win,YES Panama,True,734.1056533827617,3125.463145302287
+YES Polymarket underdog,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team2_win,YES DR Congo,True,-100.0,3025.463145302287
+NO most overpriced outcome,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
+NO most overpriced outcome,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
+NO most overpriced outcome,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
+NO most overpriced outcome,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team1_win,NO United States,True,-100.0,-100.0
+NO most overpriced outcome,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,,,False,0.0,-100.0
+NO most overpriced outcome,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,,,False,0.0,-100.0
+NO most overpriced outcome,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,,,False,0.0,-100.0
+NO most overpriced outcome,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,,,False,0.0,-100.0
+NO most overpriced outcome,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,,,False,0.0,-100.0
+NO most overpriced outcome,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,,,False,0.0,-100.0
+NO most overpriced outcome,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team1_win,NO Côte d'Ivoire,True,-100.0,-200.0
+NO most overpriced outcome,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,,,False,0.0,-200.0
+NO most overpriced outcome,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,,,False,0.0,-200.0
+NO most overpriced outcome,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,,,False,0.0,-200.0
+NO most overpriced outcome,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,,,False,0.0,-200.0
+NO most overpriced outcome,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,,,False,0.0,-200.0
+NO most overpriced outcome,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,,,False,0.0,-200.0
+NO most overpriced outcome,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,,,False,0.0,-200.0
+NO most overpriced outcome,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,,,False,0.0,-200.0
+NO most overpriced outcome,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,,,False,0.0,-200.0
+NO most overpriced outcome,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,,,False,0.0,-200.0
+NO most overpriced outcome,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,,,False,0.0,-200.0
+NO most overpriced outcome,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team1_win,NO Ghana,True,-100.0,-300.0
+NO most overpriced outcome,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,,,False,0.0,-300.0
+NO most overpriced outcome,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,,,False,0.0,-300.0
+NO most overpriced outcome,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,,,False,0.0,-300.0
+NO most overpriced outcome,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,,,False,0.0,-300.0
+NO most overpriced outcome,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,,,False,0.0,-300.0
+NO most overpriced outcome,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team1_win,NO United States,True,-100.0,-400.0
+NO most overpriced outcome,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,,,False,0.0,-400.0
+NO most overpriced outcome,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,,,False,0.0,-400.0
+NO most overpriced outcome,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,,,False,0.0,-400.0
+NO most overpriced outcome,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,,,False,0.0,-400.0
+NO most overpriced outcome,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,,,False,0.0,-400.0
+NO most overpriced outcome,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,,,False,0.0,-400.0
+NO draw every match,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,draw,NO Draw,True,25.843325060299914,25.843325060299914
+NO draw every match,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,71.82872652015388
+NO draw every match,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,draw,NO Draw,True,-100.0,-28.17127347984612
+NO draw every match,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,draw,NO Draw,True,41.978230004732595,13.806956524886473
+NO draw every match,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,draw,NO Draw,True,-100.0,-86.19304347511353
+NO draw every match,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,draw,NO Draw,True,-100.0,-186.19304347511354
+NO draw every match,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,draw,NO Draw,True,26.085738302045392,-160.10730517306814
+NO draw every match,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,draw,NO Draw,True,34.29829142729239,-125.80901374577574
+NO draw every match,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,draw,NO Draw,True,4.13939636756,-121.66961737821575
+NO draw every match,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,draw,NO Draw,True,-100.0,-221.66961737821575
+NO draw every match,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,draw,NO Draw,True,50.30687653960171,-171.36274083861403
+NO draw every match,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,draw,NO Draw,True,39.81125480601189,-131.55148603260216
+NO draw every match,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,draw,NO Draw,True,-100.0,-231.55148603260216
+NO draw every match,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,draw,NO Draw,True,-100.0,-331.55148603260216
+NO draw every match,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,draw,NO Draw,True,-100.0,-431.55148603260216
+NO draw every match,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,draw,NO Draw,True,-100.0,-531.5514860326022
+NO draw every match,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,draw,NO Draw,True,27.388535031847127,-504.162951000755
+NO draw every match,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,draw,NO Draw,True,15.662650602409634,-488.5003003983454
+NO draw every match,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,draw,NO Draw,True,26.733788636203638,-461.76651176214176
+NO draw every match,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,draw,NO Draw,True,23.490669593852907,-438.2758421682889
+NO draw every match,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,draw,NO Draw,True,-100.0,-538.2758421682888
+NO draw every match,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,draw,NO Draw,True,33.998362242239246,-504.2774799260496
+NO draw every match,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,draw,NO Draw,True,43.12408062656541,-461.1533992994842
+NO draw every match,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,draw,NO Draw,True,24.21931610365413,-436.93408319583006
+NO draw every match,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,draw,NO Draw,True,-100.0,-536.93408319583
+NO draw every match,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,draw,NO Draw,True,30.70471626184512,-506.2293669339849
+NO draw every match,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,draw,NO Draw,True,20.623219969844197,-485.60614696414075
+NO draw every match,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,draw,NO Draw,True,42.04265225196791,-443.5634947121728
+NO draw every match,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,draw,NO Draw,True,27.795527156549515,-415.76796755562333
+NO draw every match,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,draw,NO Draw,True,36.05442176870748,-379.7135457869158
+NO draw every match,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,draw,NO Draw,True,8.413652290313678,-371.2998934966022
+NO draw every match,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,draw,NO Draw,True,39.9199347040305,-331.37995879257164
+NO draw every match,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,draw,NO Draw,True,30.718954248366014,-300.66100454420564
+NO draw every match,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,draw,NO Draw,True,24.969625438261534,-275.6913791059441
+NO draw every match,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,draw,NO Draw,True,-100.0,-375.69137910594407
+NO draw every match,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,draw,NO Draw,True,26.769490809211916,-348.92188829673216
+NO draw every match,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,draw,NO Draw,True,8.108108108108091,-340.8137801886241
+NO draw every match,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,draw,NO Draw,True,-100.0,-440.8137801886241
+NO draw every match,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,draw,NO Draw,True,-100.0,-540.8137801886242
+NO draw every match,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,draw,NO Draw,True,30.775937227550145,-510.0378429610739
+NO draw every match,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,draw,NO Draw,True,27.298444130127297,-482.73939883094664
+NO draw every match,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,draw,NO Draw,True,7.836089144500358,-474.9033096864463
+NO draw every match,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,draw,NO Draw,True,39.54570121714862,-435.3576084692977
+NO draw every match,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,draw,NO Draw,True,28.852142166863494,-406.5054663024342
+NO draw every match,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,draw,NO Draw,True,11.73184357541901,-394.77362272701515
+NO draw every match,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,draw,NO Draw,True,-100.0,-494.77362272701515
+NO draw every match,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,draw,NO Draw,True,26.373433495980624,-468.4001892310345
+NO draw every match,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,draw,NO Draw,True,30.718954248366014,-437.6812349826685
+NO Elo underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
+NO Elo underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,NO Czechia,True,46.228522685730496,57.9603662611495
+NO Elo underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,82.09829729563226
+NO Elo underdog,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team1_win,NO United States,True,-100.0,-17.901702704367736
+NO Elo underdog,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team1_win,NO Qatar,True,6.385650939813803,-11.516051764553932
+NO Elo underdog,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team2_win,NO Morocco,True,19.760479041916177,8.244427277362245
+NO Elo underdog,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team1_win,NO Haiti,True,-100.0,-91.75557272263775
+NO Elo underdog,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team1_win,NO Australia,True,-100.0,-191.75557272263774
+NO Elo underdog,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team2_win,NO Curaçao,True,2.194339569080528,-189.56123315355723
+NO Elo underdog,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team2_win,NO Japan,True,34.39354910964274,-155.16768404391448
+NO Elo underdog,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team1_win,NO Côte d'Ivoire,True,-100.0,-255.16768404391448
+NO Elo underdog,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team2_win,NO Tunisia,True,26.13875262789067,-229.0289314160238
+NO Elo underdog,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team2_win,NO Cabo Verde,True,2.5842687023944766,-226.44466271362933
+NO Elo underdog,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team2_win,NO Egypt,True,17.79333813232118,-208.65132458130816
+NO Elo underdog,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team1_win,NO Saudi Arabia,True,13.012086014754365,-195.6392385665538
+NO Elo underdog,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team2_win,NO New Zealand,True,23.211718803477343,-172.42751976307645
+NO Elo underdog,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team2_win,NO Senegal,True,14.635078333970174,-157.79244142910628
+NO Elo underdog,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team1_win,NO Iraq,True,-100.0,-257.79244142910625
+NO Elo underdog,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team2_win,NO Algeria,True,13.410830734335132,-244.38161069477115
+NO Elo underdog,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team2_win,NO Jordan,True,11.815132314573251,-232.5664783801979
+NO Elo underdog,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team2_win,NO DR Congo,True,8.108108108108091,-224.4583702720898
+NO Elo underdog,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team2_win,NO Croatia,True,20.988069232061846,-203.47030104002795
+NO Elo underdog,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team1_win,NO Ghana,True,-100.0,-303.47030104002795
+NO Elo underdog,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team1_win,NO Uzbekistan,True,-100.0,-403.47030104002795
+NO Elo underdog,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team2_win,NO South Africa,True,25.698324022346377,-377.7719770176816
+NO Elo underdog,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team2_win,NO Bosnia-Herzegovina,True,17.141741507223717,-360.63023551045785
+NO Elo underdog,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team2_win,NO Qatar,True,9.147136403601852,-351.483099106856
+NO Elo underdog,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team2_win,NO Korea Republic,True,31.028207461328485,-320.45489164552754
+NO Elo underdog,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team1_win,NO United States,True,-100.0,-420.4548916455275
+NO Elo underdog,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team1_win,NO Scotland,True,-100.0,-520.4548916455275
+NO Elo underdog,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team2_win,NO Haiti,True,4.3693049874032,-516.0855866581243
+NO Elo underdog,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team2_win,NO Paraguay,True,32.01804246580367,-484.06754419232067
+NO Elo underdog,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team2_win,NO Sweden,True,24.95227517267713,-459.1152690196435
+NO Elo underdog,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team2_win,NO Côte d'Ivoire,True,16.59541391371937,-442.51985510592414
+NO Elo underdog,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team2_win,NO Curaçao,True,5.380555531161901,-437.1392995747622
+NO Elo underdog,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team1_win,NO Tunisia,True,-100.0,-537.1392995747623
+NO Elo underdog,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team2_win,NO Saudi Arabia,True,3.8566893083865628,-533.2826102663757
+NO Elo underdog,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team2_win,NO IR Iran,True,13.203987295996988,-520.0786229703787
+NO Elo underdog,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team2_win,NO Cabo Verde,True,10.967264656926211,-509.11135831345246
+NO Elo underdog,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team1_win,NO New Zealand,True,-100.0,-609.1113583134525
+NO Elo underdog,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team2_win,NO Austria,True,12.82437006393382,-596.2869882495187
+NO Elo underdog,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team2_win,NO Iraq,True,2.616141519060955,-593.6708467304577
+NO Elo underdog,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team2_win,NO Senegal,True,44.439094848338925,-549.2317518821188
+NO Elo underdog,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team1_win,NO Jordan,True,-100.0,-649.2317518821188
+NO Elo underdog,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team2_win,NO Uzbekistan,True,4.712041884816753,-644.519709997302
+NO Elo underdog,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team2_win,NO Ghana,True,5.658605306409936,-638.8611046908921
+NO Elo underdog,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team1_win,NO Panama,True,-100.0,-738.861104690892
+NO Elo underdog,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team2_win,NO DR Congo,True,15.462330414702198,-723.3987742761899
+NO lowest Elo probability,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
+NO lowest Elo probability,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,57.71724503527298
+NO lowest Elo probability,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,81.85517606975574
+NO lowest Elo probability,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team1_win,NO United States,True,-100.0,-18.144823930244257
+NO lowest Elo probability,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team1_win,NO Qatar,True,6.385650939813803,-11.759172990430454
+NO lowest Elo probability,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team2_win,NO Morocco,True,19.760479041916177,8.001306051485724
+NO lowest Elo probability,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team1_win,NO Haiti,True,-100.0,-91.99869394851427
+NO lowest Elo probability,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team1_win,NO Australia,True,-100.0,-191.99869394851427
+NO lowest Elo probability,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team2_win,NO Curaçao,True,2.194339569080528,-189.80435437943373
+NO lowest Elo probability,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,draw,NO Draw,True,-100.0,-289.80435437943373
+NO lowest Elo probability,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team1_win,NO Côte d'Ivoire,True,-100.0,-389.80435437943373
+NO lowest Elo probability,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,draw,NO Draw,True,39.81125480601189,-349.9930995734219
+NO lowest Elo probability,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team2_win,NO Cabo Verde,True,2.5842687023944766,-347.40883087102736
+NO lowest Elo probability,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team2_win,NO Egypt,True,17.79333813232118,-329.6154927387062
+NO lowest Elo probability,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team1_win,NO Saudi Arabia,True,13.012086014754365,-316.6034067239518
+NO lowest Elo probability,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team2_win,NO New Zealand,True,23.211718803477343,-293.3916879204745
+NO lowest Elo probability,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team2_win,NO Senegal,True,14.635078333970174,-278.75660958650434
+NO lowest Elo probability,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team1_win,NO Iraq,True,-100.0,-378.75660958650434
+NO lowest Elo probability,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team2_win,NO Algeria,True,13.410830734335132,-365.3457788521692
+NO lowest Elo probability,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team2_win,NO Jordan,True,11.815132314573251,-353.53064653759594
+NO lowest Elo probability,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team2_win,NO DR Congo,True,8.108108108108091,-345.4225384294879
+NO lowest Elo probability,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team2_win,NO Croatia,True,20.988069232061846,-324.434469197426
+NO lowest Elo probability,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team1_win,NO Ghana,True,-100.0,-424.434469197426
+NO lowest Elo probability,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team1_win,NO Uzbekistan,True,-100.0,-524.434469197426
+NO lowest Elo probability,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team2_win,NO South Africa,True,25.698324022346377,-498.7361451750796
+NO lowest Elo probability,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team2_win,NO Bosnia-Herzegovina,True,17.141741507223717,-481.59440366785594
+NO lowest Elo probability,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team2_win,NO Qatar,True,9.147136403601852,-472.44726726425404
+NO lowest Elo probability,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team2_win,NO Korea Republic,True,31.028207461328485,-441.4190598029256
+NO lowest Elo probability,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,draw,NO Draw,True,27.795527156549515,-413.6235326463761
+NO lowest Elo probability,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,draw,NO Draw,True,36.05442176870748,-377.5691108776686
+NO lowest Elo probability,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team2_win,NO Haiti,True,4.3693049874032,-373.1998058902654
+NO lowest Elo probability,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,draw,NO Draw,True,39.9199347040305,-333.2798711862349
+NO lowest Elo probability,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team2_win,NO Sweden,True,24.95227517267713,-308.32759601355775
+NO lowest Elo probability,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team2_win,NO Côte d'Ivoire,True,16.59541391371937,-291.7321820998384
+NO lowest Elo probability,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team2_win,NO Curaçao,True,5.380555531161901,-286.35162656867647
+NO lowest Elo probability,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team1_win,NO Tunisia,True,-100.0,-386.35162656867647
+NO lowest Elo probability,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team2_win,NO Saudi Arabia,True,3.8566893083865628,-382.49493726028993
+NO lowest Elo probability,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team2_win,NO IR Iran,True,13.203987295996988,-369.29094996429296
+NO lowest Elo probability,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team2_win,NO Cabo Verde,True,10.967264656926211,-358.32368530736676
+NO lowest Elo probability,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team1_win,NO New Zealand,True,-100.0,-458.32368530736676
+NO lowest Elo probability,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team2_win,NO Austria,True,12.82437006393382,-445.49931524343293
+NO lowest Elo probability,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team2_win,NO Iraq,True,2.616141519060955,-442.88317372437194
+NO lowest Elo probability,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team2_win,NO Senegal,True,44.439094848338925,-398.444078876033
+NO lowest Elo probability,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team1_win,NO Jordan,True,-100.0,-498.444078876033
+NO lowest Elo probability,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team2_win,NO Uzbekistan,True,4.712041884816753,-493.73203699121626
+NO lowest Elo probability,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team2_win,NO Ghana,True,5.658605306409936,-488.07343168480634
+NO lowest Elo probability,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team1_win,NO Panama,True,-100.0,-588.0734316848063
+NO lowest Elo probability,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team2_win,NO DR Congo,True,15.462330414702198,-572.6111012701041
+NO low-prob overpriced,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
+NO low-prob overpriced,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
+NO low-prob overpriced,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
+NO low-prob overpriced,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,,,False,0.0,0.0
+NO low-prob overpriced,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,,,False,0.0,0.0
+NO low-prob overpriced,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,,,False,0.0,0.0
+NO low-prob overpriced,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,,,False,0.0,0.0
+NO low-prob overpriced,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,,,False,0.0,0.0
+NO low-prob overpriced,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,,,False,0.0,0.0
+NO low-prob overpriced,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,,,False,0.0,0.0
+NO low-prob overpriced,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team1_win,NO Côte d'Ivoire,True,-100.0,-100.0
+NO low-prob overpriced,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,,,False,0.0,-100.0
+NO low-prob overpriced,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,,,False,0.0,-100.0
+NO low-prob overpriced,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,,,False,0.0,-100.0
+NO low-prob overpriced,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,,,False,0.0,-100.0
+NO low-prob overpriced,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,,,False,0.0,-100.0
+NO low-prob overpriced,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,,,False,0.0,-100.0
+NO low-prob overpriced,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,,,False,0.0,-100.0
+NO low-prob overpriced,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,,,False,0.0,-100.0
+NO low-prob overpriced,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,,,False,0.0,-100.0
+NO low-prob overpriced,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,,,False,0.0,-100.0
+NO low-prob overpriced,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,,,False,0.0,-100.0
+NO low-prob overpriced,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team1_win,NO Ghana,True,-100.0,-200.0
+NO low-prob overpriced,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,,,False,0.0,-200.0
+NO low-prob overpriced,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,,,False,0.0,-200.0
+NO low-prob overpriced,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,,,False,0.0,-200.0
+NO low-prob overpriced,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,,,False,0.0,-200.0
+NO low-prob overpriced,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,,,False,0.0,-200.0
+NO low-prob overpriced,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,,,False,0.0,-200.0
+NO low-prob overpriced,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,,,False,0.0,-200.0
+NO overpriced draw,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
+NO overpriced draw,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,45.98540145985397
+NO overpriced draw,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,draw,NO Draw,True,-100.0,-54.01459854014603
+NO overpriced draw,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,draw,NO Draw,True,41.978230004732595,-12.036368535413438
+NO overpriced draw,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,,,False,0.0,-12.036368535413438
+NO overpriced draw,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,,,False,0.0,-12.036368535413438
+NO overpriced draw,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,,,False,0.0,-12.036368535413438
+NO overpriced draw,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,,,False,0.0,-12.036368535413438
+NO overpriced draw,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,,,False,0.0,-12.036368535413438
+NO overpriced draw,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,,,False,0.0,-12.036368535413438
+NO overpriced draw,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,draw,NO Draw,True,50.30687653960171,38.27050800418827
+NO overpriced draw,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,,,False,0.0,38.27050800418827
+NO overpriced draw,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,,,False,0.0,38.27050800418827
+NO overpriced draw,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,,,False,0.0,38.27050800418827
+NO overpriced draw,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,,,False,0.0,38.27050800418827
+NO overpriced draw,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,draw,NO Draw,True,-100.0,-61.72949199581173
+NO overpriced draw,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,,,False,0.0,-61.72949199581173
+NO overpriced draw,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,,,False,0.0,-61.72949199581173
+NO overpriced draw,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,,,False,0.0,-61.72949199581173
+NO overpriced draw,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,,,False,0.0,-61.72949199581173
+NO overpriced draw,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,,,False,0.0,-61.72949199581173
+NO overpriced draw,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,,,False,0.0,-61.72949199581173
+NO overpriced draw,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,draw,NO Draw,True,43.12408062656541,-18.60541136924632
+NO overpriced draw,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,,,False,0.0,-18.60541136924632
+NO overpriced draw,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,,,False,0.0,-18.60541136924632
+NO overpriced draw,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,,,False,0.0,-18.60541136924632
+NO overpriced draw,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,,,False,0.0,-18.60541136924632
+NO overpriced draw,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,draw,NO Draw,True,42.04265225196791,23.43724088272159
+NO overpriced draw,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,,,False,0.0,23.43724088272159
+NO overpriced draw,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,,,False,0.0,23.43724088272159
+NO overpriced draw,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,,,False,0.0,23.43724088272159
+NO overpriced draw,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,,,False,0.0,23.43724088272159
+NO overpriced draw,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,,,False,0.0,23.43724088272159
+NO overpriced draw,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,draw,NO Draw,True,30.718954248366014,54.1561951310876
+NO Polymarket favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,NO Mexico,True,-100.0,-100.0
+NO Polymarket favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,NO Korea Republic,True,-100.0,-200.0
+NO Polymarket favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,NO Canada,True,115.0280731095449,-84.9719268904551
+NO Polymarket favorite,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team1_win,NO United States,True,-100.0,-184.9719268904551
+NO Polymarket favorite,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team2_win,NO Switzerland,True,446.1165048543686,261.1445779639135
+NO Polymarket favorite,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team1_win,NO Brazil,True,140.96385542168673,402.1084333856002
+NO Polymarket favorite,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team2_win,NO Scotland,True,173.57701953035937,575.6854529159596
+NO Polymarket favorite,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team2_win,NO Türkiye,True,134.32923257176336,710.014685487723
+NO Polymarket favorite,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team1_win,NO Germany,True,-100.0,610.014685487723
+NO Polymarket favorite,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team1_win,NO Netherlands,True,87.96011068762071,697.9747961753436
+NO Polymarket favorite,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team2_win,NO Ecuador,True,60.2136181575434,758.1884143328871
+NO Polymarket favorite,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team1_win,NO Sweden,True,-100.0,658.1884143328871
+NO Polymarket favorite,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team1_win,NO Spain,True,1107.2434607645878,1765.4318750974749
+NO Polymarket favorite,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team1_win,NO Belgium,True,165.29108327192347,1930.7229583693984
+NO Polymarket favorite,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team2_win,NO Uruguay,True,205.73248407643305,2136.4554424458315
+NO Polymarket favorite,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team1_win,NO IR Iran,True,118.15537510604779,2254.6108175518793
+NO Polymarket favorite,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team1_win,NO France,True,-100.0,2154.6108175518793
+NO Polymarket favorite,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team2_win,NO Norway,True,409.26580845947063,2563.87662601135
+NO Polymarket favorite,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team1_win,NO Argentina,True,-100.0,2463.87662601135
+NO Polymarket favorite,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team1_win,NO Austria,True,-100.0,2363.87662601135
+NO Polymarket favorite,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team1_win,NO Portugal,True,324.078218871481,2687.954844882831
+NO Polymarket favorite,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team1_win,NO England,True,-100.0,2587.954844882831
+NO Polymarket favorite,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team1_win,NO Ghana,True,-100.0,2487.954844882831
+NO Polymarket favorite,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team2_win,NO Colombia,True,244.46464453162372,2732.4194894144543
+NO Polymarket favorite,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team1_win,NO Czechia,True,111.15607953545666,2843.575568949911
+NO Polymarket favorite,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team1_win,NO Switzerland,True,-100.0,2743.575568949911
+NO Polymarket favorite,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team1_win,NO Canada,True,-100.0,2643.575568949911
+NO Polymarket favorite,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team1_win,NO Mexico,True,-100.0,2543.575568949911
+NO Polymarket favorite,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team1_win,NO United States,True,-100.0,2443.575568949911
+NO Polymarket favorite,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team2_win,NO Morocco,True,141.44869215291757,2585.024261102829
+NO Polymarket favorite,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team1_win,NO Brazil,True,-100.0,2485.024261102829
+NO Polymarket favorite,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team1_win,NO Türkiye,True,-100.0,2385.024261102829
+NO Polymarket favorite,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team1_win,NO Netherlands,True,-100.0,2285.024261102829
+NO Polymarket favorite,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team1_win,NO Germany,True,-100.0,2185.024261102829
+NO Polymarket favorite,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team1_win,NO Ecuador,True,553.0019952838743,2738.026256386703
+NO Polymarket favorite,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team2_win,NO Japan,True,209.3580819798917,2947.384338366595
+NO Polymarket favorite,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team1_win,NO Spain,True,-100.0,2847.384338366595
+NO Polymarket favorite,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team1_win,NO Belgium,True,223.915781896707,3071.300120263302
+NO Polymarket favorite,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team1_win,NO Uruguay,True,221.19914346895087,3292.4992637322525
+NO Polymarket favorite,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team2_win,NO Egypt,True,158.5463947141627,3451.0456584464155
+NO Polymarket favorite,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team1_win,NO Argentina,True,-100.0,3351.0456584464155
+NO Polymarket favorite,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team1_win,NO France,True,-100.0,3251.0456584464155
+NO Polymarket favorite,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,team1_win,NO Norway,True,-100.0,3151.0456584464155
+NO Polymarket favorite,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team2_win,NO Algeria,True,177.4138861061878,3328.459544552603
+NO Polymarket favorite,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team1_win,NO Portugal,True,-100.0,3228.459544552603
+NO Polymarket favorite,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team1_win,NO England,True,482.90155440414503,3711.3610989567483
+NO Polymarket favorite,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team2_win,NO Croatia,True,205.52490876686758,3916.886007723616
+NO Polymarket favorite,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,NO Colombia,True,-100.0,3816.886007723616
+NO Polymarket underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
+NO Polymarket underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,57.71724503527298
+NO Polymarket underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,81.85517606975574
+NO Polymarket underdog,4,2026-06-13T01:00:00Z,United States vs. Paraguay,team1_win,team2_win,NO Paraguay,True,31.334135930830698,113.18931200058643
+NO Polymarket underdog,5,2026-06-13T19:00:00Z,Qatar vs. Switzerland,draw,team1_win,NO Qatar,True,6.385650939813803,119.57496294040024
+NO Polymarket underdog,6,2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,team2_win,NO Morocco,True,19.760479041916177,139.3354419823164
+NO Polymarket underdog,7,2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,team1_win,NO Haiti,True,-100.0,39.33544198231641
+NO Polymarket underdog,8,2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,team1_win,NO Australia,True,-100.0,-60.66455801768359
+NO Polymarket underdog,9,2026-06-14T17:00:00Z,Germany vs. Curaçao,team1_win,team2_win,NO Curaçao,True,2.194339569080528,-58.47021844860306
+NO Polymarket underdog,10,2026-06-14T20:00:00Z,Netherlands vs. Japan,draw,team2_win,NO Japan,True,34.39354910964274,-24.076669338960322
+NO Polymarket underdog,11,2026-06-14T23:00:00Z,Côte d'Ivoire vs. Ecuador,team1_win,team1_win,NO Côte d'Ivoire,True,-100.0,-124.07666933896033
+NO Polymarket underdog,12,2026-06-15T02:00:00Z,Sweden vs. Tunisia,team1_win,team2_win,NO Tunisia,True,26.13875262789067,-97.93791671106966
+NO Polymarket underdog,13,2026-06-15T16:00:00Z,Spain vs. Cabo Verde,draw,team2_win,NO Cabo Verde,True,2.5842687023944766,-95.35364800867518
+NO Polymarket underdog,14,2026-06-15T19:00:00Z,Belgium vs. Egypt,draw,team2_win,NO Egypt,True,17.79333813232118,-77.56030987635401
+NO Polymarket underdog,15,2026-06-15T22:00:00Z,Saudi Arabia vs. Uruguay,draw,team1_win,NO Saudi Arabia,True,13.012086014754365,-64.54822386159964
+NO Polymarket underdog,16,2026-06-16T01:00:00Z,IR Iran vs. New Zealand,draw,team2_win,NO New Zealand,True,23.211718803477343,-41.3365050581223
+NO Polymarket underdog,17,2026-06-16T19:00:00Z,France vs. Senegal,team1_win,team2_win,NO Senegal,True,14.635078333970174,-26.701426724152125
+NO Polymarket underdog,18,2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,team1_win,NO Iraq,True,-100.0,-126.70142672415213
+NO Polymarket underdog,19,2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,team2_win,NO Algeria,True,13.410830734335132,-113.29059598981699
+NO Polymarket underdog,20,2026-06-17T04:00:00Z,Austria vs. Jordan,team1_win,team2_win,NO Jordan,True,11.815132314573251,-101.47546367524374
+NO Polymarket underdog,21,2026-06-17T17:00:00Z,Portugal vs. DR Congo,draw,team2_win,NO DR Congo,True,8.108108108108091,-93.36735556713566
+NO Polymarket underdog,22,2026-06-17T20:00:00Z,England vs. Croatia,team1_win,team2_win,NO Croatia,True,20.988069232061846,-72.3792863350738
+NO Polymarket underdog,23,2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,team2_win,NO Panama,True,41.33165829145729,-31.04762804361652
+NO Polymarket underdog,24,2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,team1_win,NO Uzbekistan,True,-100.0,-131.04762804361653
+NO Polymarket underdog,25,2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,team2_win,NO South Africa,True,25.698324022346377,-105.34930402127014
+NO Polymarket underdog,26,2026-06-18T19:00:00Z,Switzerland vs. Bosnia-Herzegovina,team1_win,team2_win,NO Bosnia-Herzegovina,True,17.141741507223717,-88.20756251404643
+NO Polymarket underdog,27,2026-06-18T22:00:00Z,Canada vs. Qatar,team1_win,team2_win,NO Qatar,True,9.147136403601852,-79.06042611044458
+NO Polymarket underdog,28,2026-06-19T01:00:00Z,Mexico vs. Korea Republic,team1_win,team2_win,NO Korea Republic,True,31.028207461328485,-48.032218649116096
+NO Polymarket underdog,29,2026-06-19T19:00:00Z,United States vs. Australia,team1_win,team2_win,NO Australia,True,22.06079305609712,-25.971425593018978
+NO Polymarket underdog,30,2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,team1_win,NO Scotland,True,-100.0,-125.97142559301898
+NO Polymarket underdog,31,2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,team2_win,NO Haiti,True,4.3693049874032,-121.60212060561578
+NO Polymarket underdog,32,2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,team2_win,NO Paraguay,True,32.01804246580367,-89.5840781398121
+NO Polymarket underdog,33,2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,team2_win,NO Sweden,True,24.95227517267713,-64.63180296713499
+NO Polymarket underdog,34,2026-06-20T20:00:00Z,Germany vs. Côte d'Ivoire,team1_win,team2_win,NO Côte d'Ivoire,True,16.59541391371937,-48.03638905341562
+NO Polymarket underdog,35,2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,team2_win,NO Curaçao,True,5.380555531161901,-42.655833522253715
+NO Polymarket underdog,36,2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,team1_win,NO Tunisia,True,-100.0,-142.65583352225372
+NO Polymarket underdog,37,2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,team2_win,NO Saudi Arabia,True,3.8566893083865628,-138.79914421386715
+NO Polymarket underdog,38,2026-06-21T19:00:00Z,Belgium vs. IR Iran,draw,team2_win,NO IR Iran,True,13.203987295996988,-125.59515691787016
+NO Polymarket underdog,39,2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,team2_win,NO Cabo Verde,True,10.967264656926211,-114.62789226094395
+NO Polymarket underdog,40,2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,team1_win,NO New Zealand,True,-100.0,-214.62789226094395
+NO Polymarket underdog,41,2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,team2_win,NO Austria,True,12.82437006393382,-201.80352219701012
+NO Polymarket underdog,42,2026-06-22T21:00:00Z,France vs. Iraq,team1_win,team2_win,NO Iraq,True,2.616141519060955,-199.18738067794916
+NO Polymarket underdog,43,2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,draw,NO Draw,True,39.54570121714862,-159.64167946080056
+NO Polymarket underdog,44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,team1_win,NO Jordan,True,-100.0,-259.64167946080056
+NO Polymarket underdog,45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,team2_win,NO Uzbekistan,True,4.712041884816753,-254.9296375759838
+NO Polymarket underdog,46,2026-06-23T20:00:00Z,England vs. Ghana,draw,team2_win,NO Ghana,True,5.658605306409936,-249.27103226957388
+NO Polymarket underdog,47,2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,team1_win,NO Panama,True,-100.0,-349.2710322695739
+NO Polymarket underdog,48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team2_win,NO DR Congo,True,15.462330414702198,-333.8087018548717

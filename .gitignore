@@ -220,6 +220,8 @@ __marimo__/
 # Moirai generated data
 data/raw/
 data/processed/
+data/cache/
+data/exports/
 *.db
 *.duckdb
 *.parquet
