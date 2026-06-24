@@ -224,6 +224,4 @@ data/processed/
 *.duckdb
 *.parquet
 
-
-# local docs
-docs/
+_docs/

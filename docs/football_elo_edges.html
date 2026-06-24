@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2026 Fifa World Cup Polymarket Odds</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #0b0f14;
+      --panel: #111822;
+      --panel-2: #17212e;
+      --text: #e7edf5;
+      --muted: #8fa1b5;
+      --line: #253244;
+      --hero: #142032;
+      --header-bg: rgba(11, 15, 20, 0.86);
+      --table-line: rgba(255, 255, 255, 0.07);
+      --soft-bg: rgba(255, 255, 255, 0.025);
+      --shadow: rgba(0, 0, 0, 0.25);
+      --green: #35d07f;
+      --red: #ff5f6d;
+      --amber: #f5b84b;
+      --blue: #54a8ff;
+    }
+
+    body.light {
+      --bg: #f4f7fb;
+      --panel: #ffffff;
+      --panel-2: #eef3f9;
+      --text: #132033;
+      --muted: #64748b;
+      --line: #d9e2ee;
+      --hero: #dcecff;
+      --header-bg: rgba(255, 255, 255, 0.88);
+      --table-line: rgba(15, 23, 42, 0.08);
+      --soft-bg: rgba(15, 23, 42, 0.03);
+      --shadow: rgba(15, 23, 42, 0.08);
+      --green: #0b9f5b;
+      --red: #d93649;
+      --amber: #b7791f;
+      --blue: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, var(--hero) 0, var(--bg) 42rem);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 1rem clamp(1rem, 3vw, 2rem);
+      border-bottom: 1px solid var(--line);
+      background: var(--header-bg);
+      backdrop-filter: blur(14px);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      width: 100%;
+      margin: 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-width: 0;
+    }
+
+    .brand-logos {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      flex: 0 0 auto;
+    }
+
+    .brand-logo {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+    }
+
+    .brand-logo img {
+      display: block;
+      object-fit: contain;
+    }
+
+    .brand-logo--fifa img {
+      width: 2.1rem;
+      height: 2.7rem;
+    }
+
+    .brand-logo--poly img {
+      width: 2.15rem;
+      height: 2.15rem;
+    }
+
+    .brand-logo img.fifa-logo--light {
+      display: none;
+    }
+
+    body.light .brand-logo img.fifa-logo--dark {
+      display: none;
+    }
+
+    body.light .brand-logo img.fifa-logo--light {
+      display: block;
+    }
+
+    .brand-x {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 3vw, 2.2rem);
+      letter-spacing: -0.03em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .theme-toggle {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text);
+      border-radius: 999px;
+      width: 2.55rem;
+      height: 2.55rem;
+      padding: 0;
+      font: inherit;
+      font-size: 1.15rem;
+      font-weight: 500;
+      cursor: pointer;
+      box-shadow: 0 8px 20px var(--shadow);
+    }
+
+    main {
+      padding: 1rem clamp(1rem, 3vw, 2rem) 4rem;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .status {
+      color: var(--muted);
+      margin: 1rem 0;
+      line-height: 1.45;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .chart-card {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--panel);
+      box-shadow: 0 18px 55px var(--shadow);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .chart-title {
+      display: flex;
+      align-items: baseline;
+      margin-bottom: 0.5rem;
+    }
+
+    .chart-title h2 {
+      margin: 0;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+    }
+
+    .chart-stake {
+      color: var(--muted);
+      font-size: 0.86rem;
+      margin-left: 0.7rem;
+    }
+
+    .chart-description {
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.35;
+      padding: 0.65rem 0.8rem;
+      border-radius: 14px;
+      background: var(--soft-bg);
+      margin-top: 0.75rem;
+      height: 4.1rem;
+      overflow: auto;
+    }
+
+    .chart-wrap {
+      width: 100%;
+      height: 440px;
+      position: relative;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--panel);
+      box-shadow: 0 18px 55px var(--shadow);
+      overflow: hidden;
+    }
+
+    .card-header {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 1rem;
+      align-items: center;
+      padding: 1.15rem;
+      background: var(--soft-bg);
+    }
+
+    .team {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-width: 0;
+    }
+
+    .team.away {
+      justify-content: flex-end;
+      text-align: right;
+    }
+
+    .flag {
+      width: 2.4rem;
+      height: 2.4rem;
+      border-radius: 50%;
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      font-size: 1.55rem;
+      flex: 0 0 auto;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 800;
+    }
+
+    .flag img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .name {
+      font-weight: 750;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .elo {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 0.15rem;
+    }
+
+    .score-block {
+      text-align: center;
+      min-width: 7rem;
+    }
+
+    .score {
+      font-size: 2rem;
+      font-weight: 850;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      min-height: 2.35rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .upcoming {
+      color: var(--amber);
+      font-weight: 850;
+      text-transform: uppercase;
+      font-size: 1.05rem;
+      letter-spacing: 0.08em;
+    }
+
+    .date {
+      color: var(--muted);
+      margin-top: 0.35rem;
+      font-size: 0.82rem;
+    }
+
+    .matrix {
+      padding: 0 1.15rem 1.15rem;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 560px;
+    }
+
+    th,
+    td {
+      padding: 0.72rem 0.55rem;
+      border-bottom: 1px solid var(--table-line);
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    th:first-child,
+    td:first-child {
+      text-align: left;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    th {
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .winner-row {
+      background: linear-gradient(90deg, rgba(53, 208, 127, 0.18), rgba(53, 208, 127, 0.04));
+      box-shadow: inset 4px 0 0 var(--green);
+    }
+
+    .winner-row:not(.draw-row) td:first-child::after {
+      content: "  won";
+      color: var(--green);
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .edge-positive {
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .edge-negative {
+      color: var(--red);
+      font-weight: 800;
+    }
+
+    .edge-neutral {
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .error {
+      color: var(--red);
+    }
+
+    @media (max-width: 640px) {
+      header {
+        padding: 0.85rem 1rem;
+      }
+
+      .brand {
+        gap: 0.55rem;
+      }
+
+      .brand-logo--fifa img {
+        width: 1.65rem;
+        height: 2.15rem;
+      }
+
+      .brand-logo--poly img {
+        width: 1.75rem;
+        height: 1.75rem;
+      }
+
+      .brand-x {
+        display: none;
+      }
+
+      h1 {
+        font-size: 1.08rem;
+      }
+
+      .card-header {
+        grid-template-columns: 1fr;
+        text-align: left;
+      }
+
+      .team.away {
+        justify-content: flex-start;
+        text-align: left;
+      }
+
+      .score-block {
+        text-align: left;
+      }
+
+      .chart-wrap {
+        height: 520px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-logos" aria-hidden="true">
+          <span class="brand-logo brand-logo--fifa" title="FIFA World Cup 2026">
+            <img class="fifa-logo--dark" src="assets/fifa-world-cup-2026--white.png" alt="" />
+            <img class="fifa-logo--light" src="assets/fifa-world-cup-2026--black.png" alt="" />
+          </span>
+          <span class="brand-x">x</span>
+          <span class="brand-logo brand-logo--poly" title="Polymarket">
+            <img src="assets/polymarket-icon-blue.png" alt="" />
+          </span>
+        </div>
+        <h1>2026 Fifa World Cup Polymarket Odds</h1>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="status" class="status" hidden></div>
+    <section id="pnl-section" class="chart-card" hidden>
+      <div class="chart-title">
+        <h2>Strategy PnL Paths</h2>
+        <span class="chart-stake">Fixed $100 per bet</span>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="pnl-chart"></canvas>
+      </div>
+      <div id="strategy-description" class="chart-description">Hover a strategy legend item for its description. Click a legend item to isolate it.</div>
+    </section>
+    <div id="cards" class="cards"></div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script>
+    const CSV_PATH = "../data/cache/football_elo_polymarket/world_cup_polymarket_elo_raw_table.csv";
+    const PNL_PATH = "../data/cache/football_elo_polymarket/world_cup_pnl_paths.csv";
+
+    const FLAG_COUNTRY_CODES = {
+      AR: "ar", AT: "at", AU: "au", BA: "ba", BE: "be", BR: "br",
+      CA: "ca", CH: "ch", CI: "ci", CO: "co", CV: "cv", CW: "cw", CZ: "cz", DE: "de",
+      DZ: "dz", EC: "ec", EG: "eg", EN: "gb-eng", ES: "es", FR: "fr",
+      GH: "gh", HR: "hr", HT: "ht", IR: "ir", IQ: "iq", JO: "jo",
+      JP: "jp", KR: "kr", MA: "ma", MX: "mx", NL: "nl", NO: "no",
+      NZ: "nz", PA: "pa", PT: "pt", PY: "py", QA: "qa", SE: "se",
+      SA: "sa", SN: "sn", SQ: "gb-sct", TN: "tn", TR: "tr", UY: "uy",
+      US: "us", UZ: "uz", ZA: "za", CD: "cd"
+    };
+
+    const statusEl = document.getElementById("status");
+    const cardsEl = document.getElementById("cards");
+    const pnlSectionEl = document.getElementById("pnl-section");
+    const pnlChartEl = document.getElementById("pnl-chart");
+    const strategyDescriptionEl = document.getElementById("strategy-description");
+    const themeToggleEl = document.getElementById("theme-toggle");
+
+    let latestPnlRows = [];
+    let activeStrategy = null;
+    let pnlChart = null;
+
+    const STRATEGY_DESCRIPTIONS = {
+      "Draw every match": "Bets YES on Draw in every concluded match.",
+      "YES Elo underdog": "Bets YES on the team with the lower pre-match Elo.",
+      "YES Elo favorite": "Bets YES on the team with the higher pre-match Elo.",
+      "YES max positive edge": "For each match, compares Elo probability with Polymarket price for home win, draw, and away win. Bets YES on the outcome where Elo is higher than the market by the most.",
+      "YES max edge, prob floor": "Bets YES on the largest underpriced outcome only when Elo probability is at least 25% and the edge is at least 3 percentage points.",
+      "YES favorite positive edge": "Bets YES on the Elo favorite only when that favorite is underpriced by at least 2 percentage points.",
+      "YES draw positive edge": "Bets YES on Draw only when Elo says Draw is underpriced by at least 2 percentage points.",
+      "NO draw every match": "Bets NO on Draw in every concluded match.",
+      "NO Elo underdog": "Bets NO on the team with the lower pre-match Elo.",
+      "NO lowest Elo probability": "Bets NO on whichever outcome has the lowest Elo probability.",
+      "NO low-prob overpriced": "Bets NO on an overpriced low-probability outcome with stricter NO probability filtering.",
+      "NO overpriced draw": "Bets NO on Draw when Polymarket draw price exceeds Elo draw probability by at least 2 percentage points."
+    };
+
+    const HIDDEN_STRATEGIES = new Set([
+      "NO most overpriced outcome"
+    ]);
+
+    document.body.classList.add("light");
+    themeToggleEl.addEventListener("click", () => {
+      document.body.classList.toggle("light");
+      updateThemeToggle();
+      if (latestPnlRows.length) renderPnlChart(latestPnlRows);
+    });
+    updateThemeToggle();
+
+    loadData();
+
+    async function loadData() {
+      cardsEl.innerHTML = "";
+      pnlSectionEl.hidden = true;
+      statusEl.hidden = true;
+      statusEl.textContent = "";
+      try {
+        const [matchResponse, pnlResponse] = await Promise.allSettled([
+          fetch(`${CSV_PATH}?t=${Date.now()}`),
+          fetch(`${PNL_PATH}?t=${Date.now()}`)
+        ]);
+
+        if (matchResponse.status !== "fulfilled" || !matchResponse.value.ok) {
+          const reason = matchResponse.status === "fulfilled"
+            ? `${matchResponse.value.status} ${matchResponse.value.statusText}`
+            : String(matchResponse.reason);
+          throw new Error(reason);
+        }
+
+        const matchText = await matchResponse.value.text();
+        renderMatches(matchText);
+
+        if (pnlResponse.status === "fulfilled" && pnlResponse.value.ok) {
+          latestPnlRows = parseCsv(await pnlResponse.value.text());
+          renderPnlChart(latestPnlRows);
+        }
+      } catch (error) {
+        statusEl.hidden = false;
+        statusEl.innerHTML = `<span class="error">Could not fetch cached CSV.</span> Serve the repo with <code>python -m http.server</code>, then open <code>http://localhost:8000/docs/football_elo_edges.html</code>.<br>${String(error)}`;
+      }
+    }
+
+    function renderMatches(text) {
+      const rows = parseCsv(text).filter(row => row.event_slug);
+      rows.sort((a, b) => new Date(b.event_start_time) - new Date(a.event_start_time));
+      cardsEl.innerHTML = rows.map(matchCard).join("");
+    }
+
+    function renderPnlChart(rows) {
+      if (!rows.length || typeof Chart === "undefined") return;
+      if (pnlChart) pnlChart.destroy();
+
+      const labels = rows.map(row => Number(row.match_number));
+      const strategyNames = Object.keys(rows[0])
+        .filter(key => key !== "match_number")
+        .filter(key => !HIDDEN_STRATEGIES.has(key))
+        .sort((a, b) => latestPnlFor(rows, b) - latestPnlFor(rows, a));
+      if (activeStrategy && !strategyNames.includes(activeStrategy)) activeStrategy = null;
+
+      const datasets = strategyNames.map((name, index) => {
+        const color = CHART_COLORS[index % CHART_COLORS.length];
+        return {
+          label: name,
+          data: rows.map(row => toNumber(row[name])),
+          borderColor: color,
+          backgroundColor: color,
+          pointRadius: 0,
+          pointHoverRadius: 4,
+          borderWidth: 1.7,
+          tension: 0.18,
+          spanGaps: true,
+          pnlLatest: latestPnlFor(rows, name)
+        };
+      });
+
+      pnlChart = new Chart(pnlChartEl, {
+        type: "line",
+        data: { labels, datasets },
+        options: chartOptions(),
+        plugins: [legendDescriptionPlugin]
+      });
+
+      applyStrategyFocus(activeStrategy, false);
+      pnlSectionEl.hidden = false;
+    }
+
+    const CHART_COLORS = [
+      "#2563eb", "#16a34a", "#dc2626", "#9333ea", "#ea580c", "#0891b2",
+      "#be123c", "#4f46e5", "#65a30d", "#ca8a04", "#0d9488", "#7c3aed",
+      "#db2777", "#0284c7", "#84cc16", "#f97316"
+    ];
+
+    const legendDescriptionPlugin = {
+      id: "legendDescription",
+      beforeEvent(chart, args) {
+        if (args.event.type === "mouseout" && !activeStrategy) applyStrategyFocus(null, true);
+      }
+    };
+
+    function chartOptions() {
+      const textColor = getCssVar("--text");
+      const mutedColor = getCssVar("--muted");
+      const gridColor = getCssVar("--table-line");
+      const lineColor = getCssVar("--line");
+
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: {
+          mode: "nearest",
+          intersect: false
+        },
+        onHover: (_event, activeElements, chart) => {
+          if (activeStrategy) return;
+          const strategy = activeElements.length
+            ? chart.data.datasets[activeElements[0].datasetIndex].label
+            : null;
+          applyStrategyFocus(strategy, true);
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              title: items => `Match ${items[0].label}`,
+              label: item => `${item.dataset.label}: $${formatNumber(item.parsed.y, 2)}`
+            }
+          },
+          legend: {
+            position: "right",
+            align: "start",
+            labels: {
+              color: textColor,
+              boxWidth: 16,
+              boxHeight: 16,
+              padding: 14,
+              font: {
+                size: 12,
+                weight: "400"
+              },
+              generateLabels(chart) {
+                const labels = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+                return labels.map(label => {
+                  const dataset = chart.data.datasets[label.datasetIndex];
+                  const pnl = Number.isFinite(dataset.pnlLatest) ? ` $${dataset.pnlLatest.toFixed(0)}` : "";
+                  const isFocused = !activeStrategy || dataset.label === activeStrategy;
+                  const swatchColor = withAlpha(dataset.backgroundColor, isFocused ? 1 : 0.18);
+                  return {
+                    ...label,
+                    text: `${dataset.label}${pnl}`,
+                    fillStyle: swatchColor,
+                    strokeStyle: swatchColor,
+                    fontColor: isFocused ? textColor : mutedColor,
+                    hidden: false
+                  };
+                });
+              }
+            },
+            onClick(_event, legendItem, legend) {
+              const strategy = legend.chart.data.datasets[legendItem.datasetIndex].label;
+              activeStrategy = activeStrategy === strategy ? null : strategy;
+              applyStrategyFocus(activeStrategy, true);
+            },
+            onHover(event, legendItem, legend) {
+              const strategy = legend.chart.data.datasets[legendItem.datasetIndex].label;
+              if (event.native?.target) event.native.target.style.cursor = "pointer";
+              strategyDescriptionEl.textContent = strategyDescription(strategy);
+              if (!activeStrategy) applyStrategyFocus(strategy, true);
+            },
+            onLeave(event) {
+              if (event.native?.target) event.native.target.style.cursor = "default";
+              strategyDescriptionEl.textContent = activeStrategy
+                ? strategyDescription(activeStrategy)
+                : "Hover a strategy legend item for its description. Click a legend item to isolate it.";
+              if (!activeStrategy) applyStrategyFocus(null, true);
+            }
+          }
+        },
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: "Match order",
+              color: mutedColor
+            },
+            ticks: { color: mutedColor },
+            grid: { color: gridColor }
+          },
+          y: {
+            title: {
+              display: true,
+              text: "Cumulative PnL ($)",
+              color: mutedColor
+            },
+            ticks: {
+              color: mutedColor,
+              callback: value => `$${value}`
+            },
+            grid: {
+              color: context => context.tick.value === 0 ? lineColor : gridColor
+            }
+          }
+        }
+      };
+    }
+
+    function applyStrategyFocus(strategy, update = true) {
+      if (!pnlChart) return;
+      pnlChart.data.datasets.forEach(dataset => {
+        const isFocused = !strategy || dataset.label === strategy;
+        dataset.borderWidth = isFocused ? (strategy ? 2.8 : 1.7) : 1.1;
+        dataset.borderColor = withAlpha(dataset.backgroundColor, isFocused ? 1 : 0.16);
+        dataset.hidden = false;
+      });
+      strategyDescriptionEl.textContent = strategy
+        ? strategyDescription(strategy)
+        : "Hover a strategy legend item for its description. Click a legend item to isolate it.";
+      if (update) pnlChart.update("none");
+    }
+
+    function strategyDescription(strategy) {
+      return STRATEGY_DESCRIPTIONS[strategy] || "No description available.";
+    }
+
+    function updateThemeToggle() {
+      const isLight = document.body.classList.contains("light");
+      themeToggleEl.textContent = isLight ? "☾" : "☀";
+      themeToggleEl.setAttribute("aria-label", isLight ? "Switch to dark mode" : "Switch to light mode");
+      themeToggleEl.title = isLight ? "Switch to dark mode" : "Switch to light mode";
+    }
+
+    function latestPnlFor(rows, strategy) {
+      for (let i = rows.length - 1; i >= 0; i--) {
+        const value = toNumber(rows[i][strategy]);
+        if (Number.isFinite(value)) return value;
+      }
+      return Number.NEGATIVE_INFINITY;
+    }
+
+    function withAlpha(hex, alpha) {
+      const normalized = hex.replace("#", "");
+      const bigint = Number.parseInt(normalized, 16);
+      const r = (bigint >> 16) & 255;
+      const g = (bigint >> 8) & 255;
+      const b = bigint & 255;
+      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let field = "";
+      let inQuotes = false;
+
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === '"' && inQuotes && next === '"') {
+          field += '"';
+          i++;
+        } else if (char === '"') {
+          inQuotes = !inQuotes;
+        } else if (char === "," && !inQuotes) {
+          row.push(field);
+          field = "";
+        } else if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && next === "\n") i++;
+          row.push(field);
+          if (row.some(value => value !== "")) rows.push(row);
+          row = [];
+          field = "";
+        } else {
+          field += char;
+        }
+      }
+
+      row.push(field);
+      if (row.some(value => value !== "")) rows.push(row);
+
+      const headers = rows.shift() || [];
+      return rows.map(values => Object.fromEntries(headers.map((header, i) => [header, values[i] ?? ""])));
+    }
+
+    function matchCard(row) {
+      const team1 = row.poly_team1 || "Team 1";
+      const team2 = row.poly_team2 || "Team 2";
+      const score = hasScore(row) ? `${toInt(row.team1_goals)} - ${toInt(row.team2_goals)}` : `<span class="upcoming">Upcoming</span>`;
+      const winner = winningOutcome(row);
+      const matrix = [
+        ["team1_win", team1, row.polymarket_team1_win_price, row.elo_team1_win_prob],
+        ["draw", "Draw", row.polymarket_draw_price, row.elo_draw_prob],
+        ["team2_win", team2, row.polymarket_team2_win_price, row.elo_team2_win_prob]
+      ];
+
+      return `
+        <article class="card">
+          <div class="card-header">
+            ${teamBlock(team1, row.team1_code, row.team1_elo_pre)}
+            <div class="score-block">
+              <div class="score">${score}</div>
+              <div class="date">${formatDate(row.event_start_time)}</div>
+            </div>
+            ${teamBlock(team2, row.team2_code, row.team2_elo_pre, true)}
+          </div>
+          <div class="matrix">
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Polymarket</th>
+                  <th>Elo Estimate</th>
+                  <th>Edge</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${matrix.map(rowValues => matrixRow(rowValues, winner)).join("")}
+              </tbody>
+            </table>
+          </div>
+        </article>
+      `;
+    }
+
+    function teamBlock(name, code, elo, away = false) {
+      return `
+        <div class="team ${away ? "away" : ""}">
+          ${away ? `<div><div class="name">${escapeHtml(name)}</div><div class="elo">Elo ${formatNumber(elo, 0)}</div></div>` : ""}
+          ${flagMarkup(code)}
+          ${away ? "" : `<div><div class="name">${escapeHtml(name)}</div><div class="elo">Elo ${formatNumber(elo, 0)}</div></div>`}
+        </div>
+      `;
+    }
+
+    function flagMarkup(code) {
+      const flagCode = FLAG_COUNTRY_CODES[code];
+      const label = escapeHtml(code || "?");
+      if (!flagCode) return `<div class="flag" title="${label}">${label}</div>`;
+      return `<div class="flag" title="${label}"><img src="https://flagcdn.com/w80/${flagCode}.png" alt="${label} flag" loading="lazy" onerror="this.replaceWith(document.createTextNode('${label}'))"></div>`;
+    }
+
+    function matrixRow([outcome, label, market, elo], winner) {
+      const marketValue = toNumber(market);
+      const eloValue = toNumber(elo);
+      const edge = Number.isFinite(marketValue) && marketValue !== 0 && Number.isFinite(eloValue)
+        ? (eloValue - marketValue) / marketValue
+        : NaN;
+      const cls = !Number.isFinite(edge) ? "edge-neutral" : edge > 0 ? "edge-positive" : edge < 0 ? "edge-negative" : "edge-neutral";
+      const rowClass = [winner === outcome ? "winner-row" : "", outcome === "draw" ? "draw-row" : ""]
+        .filter(Boolean)
+        .join(" ");
+
+      return `
+        <tr class="${rowClass}">
+          <td>${escapeHtml(label)}</td>
+          <td>${formatProbability(marketValue)}</td>
+          <td>${formatProbability(eloValue)}</td>
+          <td class="${cls}">${formatPercent(edge)}</td>
+        </tr>
+      `;
+    }
+
+    function hasScore(row) {
+      return row.team1_goals !== "" && row.team2_goals !== "" && !Number.isNaN(Number(row.team1_goals)) && !Number.isNaN(Number(row.team2_goals));
+    }
+
+    function winningOutcome(row) {
+      if (!hasScore(row)) return null;
+      const team1Goals = Number(row.team1_goals);
+      const team2Goals = Number(row.team2_goals);
+      if (team1Goals > team2Goals) return "team1_win";
+      if (team2Goals > team1Goals) return "team2_win";
+      return "draw";
+    }
+
+    function toNumber(value) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num : NaN;
+    }
+
+    function toInt(value) {
+      const num = Number(value);
+      return Number.isFinite(num) ? String(Math.trunc(num)) : "";
+    }
+
+    function formatProbability(value) {
+      return Number.isFinite(value) ? value.toFixed(2) : "-";
+    }
+
+    function formatPercent(value) {
+      return Number.isFinite(value) ? `${(value * 100).toFixed(1)}%` : "-";
+    }
+
+    function formatNumber(value, digits = 0) {
+      const num = Number(value);
+      return Number.isFinite(num) ? num.toFixed(digits) : "-";
+    }
+
+    function formatDate(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "Date unavailable";
+      return new Intl.DateTimeFormat(undefined, {
+        weekday: "short",
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      }).format(date);
+    }
+
+    function getCssVar(name) {
+      return getComputedStyle(document.body).getPropertyValue(name).trim();
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+  </script>
+</body>
+</html>
