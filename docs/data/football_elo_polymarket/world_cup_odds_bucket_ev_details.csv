@@ -17,9 +17,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-13T22:00:00Z,Brazil vs. Morocco,team1_win,Brazil,0.585,False,-1.0,50-59c
 2026-06-13T22:00:00Z,Brazil vs. Morocco,draw,Draw,0.2552777777777777,True,2.9173014145810674,20-29c
 2026-06-13T22:00:00Z,Brazil vs. Morocco,team2_win,Morocco,0.1650000000000001,False,-1.0,10-19c
-2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,Haiti,0.15605555555555561,True,5.407974368102526,10-19c
+2026-06-14T01:00:00Z,Haiti vs. Scotland,team1_win,Haiti,0.15605555555555561,False,-1.0,10-19c
 2026-06-14T01:00:00Z,Haiti vs. Scotland,draw,Draw,0.20688888888888884,False,-1.0,20-29c
-2026-06-14T01:00:00Z,Haiti vs. Scotland,team2_win,Scotland,0.6344722222222221,False,-1.0,60-69c
+2026-06-14T01:00:00Z,Haiti vs. Scotland,team2_win,Scotland,0.6344722222222221,True,0.5761131298979907,60-69c
 2026-06-14T04:00:00Z,Australia vs. Türkiye,team1_win,Australia,0.17500000000000004,True,4.714285714285713,10-19c
 2026-06-14T04:00:00Z,Australia vs. Türkiye,draw,Draw,0.25538888888888883,False,-1.0,20-29c
 2026-06-14T04:00:00Z,Australia vs. Türkiye,team2_win,Türkiye,0.57325,False,-1.0,50-59c
@@ -50,9 +50,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-16T19:00:00Z,France vs. Senegal,team1_win,France,0.6660555555555556,True,0.5013762615731086,60-69c
 2026-06-16T19:00:00Z,France vs. Senegal,draw,Draw,0.215,False,-1.0,20-29c
 2026-06-16T19:00:00Z,France vs. Senegal,team2_win,Senegal,0.12766666666666665,False,-1.0,10-19c
-2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,Iraq,0.06499999999999981,True,14.38461538461543,0-9c
+2026-06-16T22:00:00Z,Iraq vs. Norway,team1_win,Iraq,0.06499999999999981,False,-1.0,0-9c
 2026-06-16T22:00:00Z,Iraq vs. Norway,draw,Draw,0.13541666666666663,False,-1.0,10-19c
-2026-06-16T22:00:00Z,Iraq vs. Norway,team2_win,Norway,0.8036388888888888,False,-1.0,80-89c
+2026-06-16T22:00:00Z,Iraq vs. Norway,team2_win,Norway,0.8036388888888888,True,0.24433998133490054,80-89c
 2026-06-17T01:00:00Z,Argentina vs. Algeria,team1_win,Argentina,0.6701944444444443,True,0.49210428151034136,60-69c
 2026-06-17T01:00:00Z,Argentina vs. Algeria,draw,Draw,0.21094444444444446,False,-1.0,20-29c
 2026-06-17T01:00:00Z,Argentina vs. Algeria,team2_win,Algeria,0.11825,False,-1.0,10-19c
@@ -68,9 +68,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-17T23:00:00Z,Ghana vs. Panama,team1_win,Ghana,0.40594444444444455,True,1.4633912686465025,40-49c
 2026-06-17T23:00:00Z,Ghana vs. Panama,draw,Draw,0.3013055555555555,False,-1.0,30-39c
 2026-06-17T23:00:00Z,Ghana vs. Panama,team2_win,Panama,0.2924444444444444,False,-1.0,20-29c
-2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,Uzbekistan,0.09344444444444444,True,9.70154577883472,0-9c
+2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team1_win,Uzbekistan,0.09344444444444444,False,-1.0,0-9c
 2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,draw,Draw,0.1949722222222223,False,-1.0,10-19c
-2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team2_win,Colombia,0.7096944444444444,False,-1.0,70-79c
+2026-06-18T02:00:00Z,Uzbekistan vs. Colombia,team2_win,Colombia,0.7096944444444444,True,0.4090571059532664,70-79c
 2026-06-18T16:00:00Z,Czechia vs. South Africa,team1_win,Czechia,0.5264166666666668,False,-1.0,50-59c
 2026-06-18T16:00:00Z,Czechia vs. South Africa,draw,Draw,0.267,True,2.745318352059925,20-29c
 2026-06-18T16:00:00Z,Czechia vs. South Africa,team2_win,South Africa,0.20444444444444437,False,-1.0,20-29c
@@ -86,15 +86,15 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-19T19:00:00Z,United States vs. Australia,team1_win,United States,0.6035555555555555,True,0.6568483063328425,60-69c
 2026-06-19T19:00:00Z,United States vs. Australia,draw,Draw,0.21749999999999997,False,-1.0,20-29c
 2026-06-19T19:00:00Z,United States vs. Australia,team2_win,Australia,0.18073611111111118,False,-1.0,10-19c
-2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,Scotland,0.15499999999999997,True,5.451612903225808,10-19c
+2026-06-19T22:00:00Z,Scotland vs. Morocco,team1_win,Scotland,0.15499999999999997,False,-1.0,10-19c
 2026-06-19T22:00:00Z,Scotland vs. Morocco,draw,Draw,0.265,False,-1.0,20-29c
-2026-06-19T22:00:00Z,Scotland vs. Morocco,team2_win,Morocco,0.5858333333333334,False,-1.0,50-59c
+2026-06-19T22:00:00Z,Scotland vs. Morocco,team2_win,Morocco,0.5858333333333334,True,0.7069701280227594,50-59c
 2026-06-20T00:30:00Z,Brazil vs. Haiti,team1_win,Brazil,0.8848888888888888,True,0.1300853842290306,80-89c
 2026-06-20T00:30:00Z,Brazil vs. Haiti,draw,Draw,0.07760694444444441,False,-1.0,0-9c
 2026-06-20T00:30:00Z,Brazil vs. Haiti,team2_win,Haiti,0.0418638888888889,False,-1.0,0-9c
-2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,Türkiye,0.4700833333333332,True,1.1272823967381678,40-49c
+2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team1_win,Türkiye,0.4700833333333332,False,-1.0,40-49c
 2026-06-20T03:00:00Z,Türkiye vs. Paraguay,draw,Draw,0.28530555555555565,False,-1.0,20-29c
-2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team2_win,Paraguay,0.2425277777777778,False,-1.0,20-29c
+2026-06-20T03:00:00Z,Türkiye vs. Paraguay,team2_win,Paraguay,0.2425277777777778,True,3.123239033329515,20-29c
 2026-06-20T17:00:00Z,Netherlands vs. Sweden,team1_win,Netherlands,0.5686111111111111,True,0.7586712261846607,50-59c
 2026-06-20T17:00:00Z,Netherlands vs. Sweden,draw,Draw,0.235,False,-1.0,20-29c
 2026-06-20T17:00:00Z,Netherlands vs. Sweden,team2_win,Sweden,0.19969444444444456,False,-1.0,10-19c
@@ -104,9 +104,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-21T00:00:00Z,Ecuador vs. Curaçao,team1_win,Ecuador,0.8468611111111111,False,-1.0,80-89c
 2026-06-21T00:00:00Z,Ecuador vs. Curaçao,draw,Draw,0.10286111111111126,True,8.721847150958668,10-19c
 2026-06-21T00:00:00Z,Ecuador vs. Curaçao,team2_win,Curaçao,0.05105833333333332,False,-1.0,0-9c
-2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,Tunisia,0.11666666666666668,True,7.571428571428569,10-19c
+2026-06-21T04:00:00Z,Tunisia vs. Japan,team1_win,Tunisia,0.11666666666666668,False,-1.0,10-19c
 2026-06-21T04:00:00Z,Tunisia vs. Japan,draw,Draw,0.21116666666666664,False,-1.0,20-29c
-2026-06-21T04:00:00Z,Tunisia vs. Japan,team2_win,Japan,0.67675,False,-1.0,60-69c
+2026-06-21T04:00:00Z,Tunisia vs. Japan,team2_win,Japan,0.67675,True,0.47765053564831916,60-69c
 2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team1_win,Spain,0.8903333333333333,True,0.12317484088356423,80-89c
 2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,draw,Draw,0.07499999999999997,False,-1.0,0-9c
 2026-06-21T16:00:00Z,Spain vs. Saudi Arabia,team2_win,Saudi Arabia,0.03713472222222218,False,-1.0,0-9c
@@ -116,9 +116,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,team1_win,Uruguay,0.6886666666666668,False,-1.0,60-69c
 2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,draw,Draw,0.2180555555555555,True,3.5859872611464976,20-29c
 2026-06-21T22:00:00Z,Uruguay vs. Cabo Verde,team2_win,Cabo Verde,0.09883333333333338,False,-1.0,0-9c
-2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,New Zealand,0.1560277777777777,True,5.409115186042374,10-19c
+2026-06-22T01:00:00Z,New Zealand vs. Egypt,team1_win,New Zealand,0.1560277777777777,False,-1.0,10-19c
 2026-06-22T01:00:00Z,New Zealand vs. Egypt,draw,Draw,0.23533333333333334,False,-1.0,20-29c
-2026-06-22T01:00:00Z,New Zealand vs. Egypt,team2_win,Egypt,0.6132222222222223,False,-1.0,60-69c
+2026-06-22T01:00:00Z,New Zealand vs. Egypt,team2_win,Egypt,0.6132222222222223,True,0.6307302047472365,60-69c
 2026-06-22T17:00:00Z,Argentina vs. Austria,team1_win,Argentina,0.675611111111111,True,0.4801414357371927,60-69c
 2026-06-22T17:00:00Z,Argentina vs. Austria,draw,Draw,0.21444444444444447,False,-1.0,20-29c
 2026-06-22T17:00:00Z,Argentina vs. Austria,team2_win,Austria,0.11366666666666679,False,-1.0,10-19c
@@ -128,18 +128,18 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-23T00:00:00Z,Norway vs. Senegal,team1_win,Norway,0.4140555555555555,True,1.415134845028848,40-49c
 2026-06-23T00:00:00Z,Norway vs. Senegal,draw,Draw,0.28338888888888897,False,-1.0,20-29c
 2026-06-23T00:00:00Z,Norway vs. Senegal,team2_win,Senegal,0.3076666666666666,False,-1.0,30-39c
-2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,Jordan,0.14605555555555547,True,5.846709775580073,10-19c
+2026-06-23T03:00:00Z,Jordan vs. Algeria,team1_win,Jordan,0.14605555555555547,False,-1.0,10-19c
 2026-06-23T03:00:00Z,Jordan vs. Algeria,draw,Draw,0.22391666666666657,False,-1.0,20-29c
-2026-06-23T03:00:00Z,Jordan vs. Algeria,team2_win,Algeria,0.6395277777777777,False,-1.0,60-69c
+2026-06-23T03:00:00Z,Jordan vs. Algeria,team2_win,Algeria,0.6395277777777777,True,0.5636537375667812,60-69c
 2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,Portugal,0.8550000000000001,True,0.16959064327485374,80-89c
 2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,draw,Draw,0.1050000000000001,False,-1.0,10-19c
 2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team2_win,Uzbekistan,0.04500000000000007,False,-1.0,0-9c
 2026-06-23T20:00:00Z,England vs. Ghana,team1_win,England,0.8284444444444444,False,-1.0,80-89c
 2026-06-23T20:00:00Z,England vs. Ghana,draw,Draw,0.12377777777777776,True,7.078994614003591,10-19c
 2026-06-23T20:00:00Z,England vs. Ghana,team2_win,Ghana,0.05355555555555551,False,-1.0,0-9c
-2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,Panama,0.11988888888888892,True,7.341056533827617,10-19c
+2026-06-23T23:00:00Z,Panama vs. Croatia,team1_win,Panama,0.11988888888888892,False,-1.0,10-19c
 2026-06-23T23:00:00Z,Panama vs. Croatia,draw,Draw,0.20869444444444443,False,-1.0,20-29c
-2026-06-23T23:00:00Z,Panama vs. Croatia,team2_win,Croatia,0.6726944444444445,False,-1.0,60-69c
+2026-06-23T23:00:00Z,Panama vs. Croatia,team2_win,Croatia,0.6726944444444445,True,0.48655902878143453,60-69c
 2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,Colombia,0.6315555555555554,True,0.5833919774806477,60-69c
 2026-06-24T02:00:00Z,Colombia vs. DR Congo,draw,Draw,0.235,False,-1.0,20-29c
 2026-06-24T02:00:00Z,Colombia vs. DR Congo,team2_win,DR Congo,0.13391666666666663,False,-1.0,10-19c
