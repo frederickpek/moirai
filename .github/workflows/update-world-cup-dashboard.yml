@@ -1,0 +1,57 @@
+name: Update World Cup dashboard data
+
+on:
+  schedule:
+    # 3am, 7am, 1pm Singapore time (UTC+8)
+    - cron: "0 19 * * *"  # 03:00 SGT
+    - cron: "0 23 * * *"  # 07:00 SGT
+    - cron: "0 5 * * *"   # 13:00 SGT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-world-cup-dashboard
+  cancel-in-progress: true
+
+jobs:
+  export-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          pip install requests nbconvert
+
+      - name: Run notebook 06 exports
+        run: |
+          jupyter nbconvert \
+            --to notebook \
+            --execute notebooks/06_international_football_elo_polymarket.ipynb \
+            --output /tmp/06_executed.ipynb \
+            --ExecutePreprocessor.timeout=5400
+
+      - name: Commit and push exports and cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/football_elo_polymarket/ data/cache/football_elo_polymarket/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh World Cup dashboard data"
+          git push

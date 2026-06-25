@@ -157,13 +157,29 @@
       font-weight: 700;
     }
 
+    .brand-copy {
+      display: flex;
+      flex-direction: column;
+      gap: 0.12rem;
+      min-width: 0;
+    }
+
     h1 {
       margin: 0;
-      font-size: clamp(1.4rem, 3vw, 2.2rem);
+      font-size: clamp(0.95rem, 1.8vw, 1.15rem);
       letter-spacing: -0.03em;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+    }
+
+    .last-updated {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 500;
+      line-height: 1.2;
+      white-space: nowrap;
     }
 
     .theme-toggle {
@@ -567,7 +583,11 @@
       }
 
       h1 {
-        font-size: 1.08rem;
+        font-size: 0.92rem;
+      }
+
+      .last-updated {
+        font-size: 0.66rem;
       }
 
       .page-tabs {
@@ -612,7 +632,10 @@
             <img src="assets/polymarket-icon-blue.png" alt="" />
           </span>
         </div>
-        <h1>2026 Fifa World Cup Polymarket Odds</h1>
+        <div class="brand-copy">
+          <h1>2026 Fifa World Cup Polymarket Odds</h1>
+          <p id="last-updated" class="last-updated" hidden></p>
+        </div>
       </div>
       <nav class="page-tabs" aria-label="Page sections">
         <button id="tab-matches" class="page-tab active" type="button">Matches</button>
@@ -713,6 +736,7 @@
     const PNL_PATH = "./data/football_elo_polymarket/world_cup_pnl_paths.csv";
     const STRATEGY_SUMMARY_PATH = "./data/football_elo_polymarket/world_cup_strategy_summary.csv";
     const STRATEGY_RESULTS_PATH = "./data/football_elo_polymarket/world_cup_strategy_results.csv";
+    const LAST_UPDATED_PATH = "./data/football_elo_polymarket/last_updated.txt";
 
     const FLAG_COUNTRY_CODES = {
       AR: "ar", AT: "at", AU: "au", BA: "ba", BE: "be", BR: "br",
@@ -733,6 +757,7 @@
     const themeToggleEl = document.getElementById("theme-toggle");
     const tabMatchesEl = document.getElementById("tab-matches");
     const tabMethodologyEl = document.getElementById("tab-methodology");
+    const lastUpdatedEl = document.getElementById("last-updated");
     const matchesViewEl = document.getElementById("matches-view");
     const methodologyViewEl = document.getElementById("methodology-view");
 
@@ -787,11 +812,12 @@
       statusEl.hidden = true;
       statusEl.textContent = "";
       try {
-        const [matchResponse, pnlResponse, summaryResponse, resultsResponse] = await Promise.allSettled([
+        const [matchResponse, pnlResponse, summaryResponse, resultsResponse, updatedResponse] = await Promise.allSettled([
           fetch(`${CSV_PATH}?t=${Date.now()}`),
           fetch(`${PNL_PATH}?t=${Date.now()}`),
           fetch(`${STRATEGY_SUMMARY_PATH}?t=${Date.now()}`),
-          fetch(`${STRATEGY_RESULTS_PATH}?t=${Date.now()}`)
+          fetch(`${STRATEGY_RESULTS_PATH}?t=${Date.now()}`),
+          fetch(`${LAST_UPDATED_PATH}?t=${Date.now()}`)
         ]);
 
         if (matchResponse.status !== "fulfilled" || !matchResponse.value.ok) {
@@ -818,10 +844,30 @@
           strategyBetsByMatch = buildStrategyBets(parseCsv(await resultsResponse.value.text()), latestMatchRows);
           updateCardStrategyDisplays();
         }
+
+        if (updatedResponse.status === "fulfilled" && updatedResponse.value.ok) {
+          renderLastUpdated((await updatedResponse.value.text()).trim());
+        }
       } catch (error) {
         statusEl.hidden = false;
         statusEl.innerHTML = `<span class="error">Could not fetch CSV exports.</span> Serve the repo with <code>python -m http.server</code>, then open <code>http://localhost:8000/docs/</code>.<br>${String(error)}`;
       }
+    }
+
+    function renderLastUpdated(isoText) {
+      if (!lastUpdatedEl || !isoText) return;
+      const date = new Date(isoText);
+      if (Number.isNaN(date.getTime())) return;
+      lastUpdatedEl.textContent = `Updated ${date.toLocaleString("en-SG", {
+        timeZone: "Asia/Singapore",
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+        hour: "numeric",
+        minute: "2-digit",
+        hour12: true
+      })} SGT`;
+      lastUpdatedEl.hidden = false;
     }
 
     function renderMatches(text) {
