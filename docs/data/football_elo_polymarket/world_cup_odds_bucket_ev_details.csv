@@ -161,3 +161,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team1_win,South Africa,0.15755555555555562,True,5.34696755994358,10-19c
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,draw,Draw,0.23944444444444446,False,-1.0,20-29c
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team2_win,Korea Republic,0.6031666666666666,False,-1.0,60-69c
+2026-06-25T20:00:00Z,Ecuador vs. Germany,team1_win,Ecuador,0.19039058171745152,False,-1.0,10-19c
+2026-06-25T20:00:00Z,Ecuador vs. Germany,draw,Draw,0.20071952908587257,True,3.982076256128402,20-29c
+2026-06-25T20:00:00Z,Ecuador vs. Germany,team2_win,Germany,0.6127195290858725,False,-1.0,60-69c
+2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team1_win,Curaçao,0.05847783933518004,False,-1.0,0-9c
+2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,draw,Draw,0.11754570637119117,False,-1.0,10-19c
+2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team2_win,Côte d'Ivoire,0.828264542936288,True,0.2073437267456737,80-89c
