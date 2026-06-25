@@ -34,7 +34,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -e .
-          pip install requests nbconvert
+          pip install nbconvert
 
       - name: Run notebook 06 exports
         run: |
