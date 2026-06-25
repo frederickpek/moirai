@@ -916,11 +916,11 @@
             align: "start",
             labels: {
               color: textColor,
-              boxWidth: 16,
-              boxHeight: 16,
-              padding: 14,
+              boxWidth: 12,
+              boxHeight: 12,
+              padding: 8,
               font: {
-                size: 12,
+                size: 10,
                 weight: "400"
               },
               generateLabels(chart) {
@@ -967,19 +967,22 @@
             title: {
               display: true,
               text: "Match order",
-              color: mutedColor
+              color: mutedColor,
+              font: { size: 11 }
             },
-            ticks: { color: mutedColor },
+            ticks: { color: mutedColor, font: { size: 10 } },
             grid: { color: gridColor }
           },
           y: {
             title: {
               display: true,
               text: "Cumulative PnL ($)",
-              color: mutedColor
+              color: mutedColor,
+              font: { size: 11 }
             },
             ticks: {
               color: mutedColor,
+              font: { size: 10 },
               callback: value => `$${value}`
             },
             grid: {
