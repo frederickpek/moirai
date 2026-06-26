@@ -161,9 +161,21 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team1_win,South Africa,0.15755555555555562,True,5.34696755994358,10-19c
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,draw,Draw,0.23944444444444446,False,-1.0,20-29c
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team2_win,Korea Republic,0.6031666666666666,False,-1.0,60-69c
-2026-06-25T20:00:00Z,Ecuador vs. Germany,team1_win,Ecuador,0.19039058171745152,False,-1.0,10-19c
-2026-06-25T20:00:00Z,Ecuador vs. Germany,draw,Draw,0.20071952908587257,True,3.982076256128402,20-29c
+2026-06-25T20:00:00Z,Ecuador vs. Germany,team1_win,Ecuador,0.19039058171745152,True,4.252360652398481,10-19c
+2026-06-25T20:00:00Z,Ecuador vs. Germany,draw,Draw,0.20071952908587257,False,-1.0,20-29c
 2026-06-25T20:00:00Z,Ecuador vs. Germany,team2_win,Germany,0.6127195290858725,False,-1.0,60-69c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team1_win,Curaçao,0.05847783933518004,False,-1.0,0-9c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,draw,Draw,0.11754570637119117,False,-1.0,10-19c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team2_win,Côte d'Ivoire,0.828264542936288,True,0.2073437267456737,80-89c
+2026-06-25T23:00:00Z,Japan vs. Sweden,team1_win,Japan,0.47524930555555556,False,-1.0,40-49c
+2026-06-25T23:00:00Z,Japan vs. Sweden,draw,Draw,0.2830194444444445,True,2.53332613581713,20-29c
+2026-06-25T23:00:00Z,Japan vs. Sweden,team2_win,Sweden,0.24712083333333335,False,-1.0,20-29c
+2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team1_win,Tunisia,0.03070277777777776,False,-1.0,0-9c
+2026-06-25T23:00:00Z,Tunisia vs. Netherlands,draw,Draw,0.08511111111111122,False,-1.0,0-9c
+2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team2_win,Netherlands,0.8920833333333332,True,0.12097150864082207,80-89c
+2026-06-26T02:00:00Z,Paraguay vs. Australia,team1_win,Paraguay,0.36655555555555563,False,-1.0,30-39c
+2026-06-26T02:00:00Z,Paraguay vs. Australia,draw,Draw,0.42069444444444437,True,1.3770221195113903,40-49c
+2026-06-26T02:00:00Z,Paraguay vs. Australia,team2_win,Australia,0.21711111111111106,False,-1.0,20-29c
+2026-06-26T02:00:00Z,Türkiye vs. United States,team1_win,Türkiye,0.2521111111111111,True,2.9665050683120318,20-29c
+2026-06-26T02:00:00Z,Türkiye vs. United States,draw,Draw,0.22402777777777777,False,-1.0,20-29c
+2026-06-26T02:00:00Z,Türkiye vs. United States,team2_win,United States,0.5284722222222222,False,-1.0,50-59c
