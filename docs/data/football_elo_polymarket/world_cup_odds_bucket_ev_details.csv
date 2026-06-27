@@ -179,3 +179,15 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-26T02:00:00Z,Türkiye vs. United States,team1_win,Türkiye,0.2521111111111111,True,2.9665050683120318,20-29c
 2026-06-26T02:00:00Z,Türkiye vs. United States,draw,Draw,0.22402777777777777,False,-1.0,20-29c
 2026-06-26T02:00:00Z,Türkiye vs. United States,team2_win,United States,0.5284722222222222,False,-1.0,50-59c
+2026-06-26T19:00:00Z,Norway vs. France,team1_win,Norway,0.17080555555555554,False,-1.0,10-19c
+2026-06-26T19:00:00Z,Norway vs. France,draw,Draw,0.19083333333333335,False,-1.0,10-19c
+2026-06-26T19:00:00Z,Norway vs. France,team2_win,France,0.6408611111111111,True,0.5604005027957175,60-69c
+2026-06-26T19:00:00Z,Senegal vs. Iraq,team1_win,Senegal,0.795,True,0.25786163522012573,70-79c
+2026-06-26T19:00:00Z,Senegal vs. Iraq,draw,Draw,0.1341111111111111,False,-1.0,10-19c
+2026-06-26T19:00:00Z,Senegal vs. Iraq,team2_win,Iraq,0.07505555555555554,False,-1.0,0-9c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team1_win,Cabo Verde,0.3575207756232687,False,-1.0,30-39c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,Draw,0.2852216066481995,True,2.5060457436993144,20-29c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team2_win,Saudi Arabia,0.3618975069252078,False,-1.0,30-39c
+2026-06-27T00:00:00Z,Uruguay vs. Spain,team1_win,Uruguay,0.15214681440443206,False,-1.0,10-19c
+2026-06-27T00:00:00Z,Uruguay vs. Spain,draw,Draw,0.2672991689750692,True,2.741126483237474,20-29c
+2026-06-27T00:00:00Z,Uruguay vs. Spain,team2_win,Spain,0.5847229916897507,False,-1.0,50-59c
