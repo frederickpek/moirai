@@ -197,3 +197,15 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,team1_win,New Zealand,0.06530555555555535,False,-1.0,0-9c
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,draw,Draw,0.1146805555555556,False,-1.0,10-19c
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,Belgium,0.8219166666666666,True,0.21666835648382854,80-89c
+2026-06-27T21:00:00Z,Panama vs. England,team1_win,Panama,0.04500000000000007,False,-1.0,0-9c
+2026-06-27T21:00:00Z,Panama vs. England,draw,Draw,0.1050000000000001,False,-1.0,10-19c
+2026-06-27T21:00:00Z,Panama vs. England,team2_win,England,0.852888888888889,True,0.17248566961959333,80-89c
+2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,Croatia,0.5325833333333334,True,0.877640431857299,50-59c
+2026-06-27T21:00:00Z,Croatia vs. Ghana,draw,Draw,0.30319444444444443,False,-1.0,30-39c
+2026-06-27T21:00:00Z,Croatia vs. Ghana,team2_win,Ghana,0.16874999999999998,False,-1.0,10-19c
+2026-06-27T23:30:00Z,Colombia vs. Portugal,team1_win,Colombia,0.2748614958448754,False,-1.0,20-29c
+2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,Draw,0.2426731301939059,True,3.120769362479309,20-29c
+2026-06-27T23:30:00Z,Colombia vs. Portugal,team2_win,Portugal,0.48605263157894735,False,-1.0,40-49c
+2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,DR Congo,0.5707063711911358,False,-1.0,50-59c
+2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,draw,Draw,0.24505540166204998,False,-1.0,20-29c
+2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,Uzbekistan,0.1816204986149585,True,4.505986425684434,10-19c
