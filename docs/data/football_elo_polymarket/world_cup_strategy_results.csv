@@ -68,7 +68,9 @@ Draw every match,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,draw,
 Draw every match,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,draw,YES Draw,True,-100.0,3071.6624253824266
 Draw every match,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,draw,YES Draw,True,-100.0,2971.6624253824266
 Draw every match,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,draw,YES Draw,True,312.0769362479309,3283.739361630358
-Draw every match,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,draw,YES Draw,True,-100.0,3183.739361630358
+Draw every match,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,draw,YES Draw,True,-100.0,3183.739361630358
+Draw every match,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,draw,YES Draw,True,-100.0,3083.739361630358
+Draw every match,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,draw,YES Draw,True,114.73307485833581,3198.4724364886933
 YES Elo underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,YES South Africa,True,-100.0,-100.0
 YES Elo underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,YES Czechia,True,-100.0,-200.0
 YES Elo underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,YES Bosnia-Herzegovina,True,-100.0,-300.0
@@ -138,7 +140,9 @@ YES Elo underdog,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,team1
 YES Elo underdog,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team1_win,YES Panama,True,-100.0,-3187.8824447970446
 YES Elo underdog,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team2_win,YES Ghana,True,-100.0,-3287.8824447970446
 YES Elo underdog,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team2_win,YES Portugal,True,-100.0,-3387.8824447970446
-YES Elo underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team1_win,YES DR Congo,True,-100.0,-3487.8824447970446
+YES Elo underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team1_win,YES DR Congo,True,75.22145370707437,-3312.6609910899706
+YES Elo underdog,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team1_win,YES Jordan,True,-100.0,-3412.6609910899706
+YES Elo underdog,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team1_win,YES Algeria,True,-100.0,-3512.6609910899706
 YES Elo favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
 YES Elo favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,YES Korea Republic,True,168.1364516609563,212.2459748986169
 YES Elo favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,112.24597489861691
@@ -208,7 +212,9 @@ YES Elo favorite,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,team2
 YES Elo favorite,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team2_win,YES England,True,17.248566961959334,-572.4277611607948
 YES Elo favorite,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,YES Croatia,True,87.7640431857299,-484.66371797506497
 YES Elo favorite,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team1_win,YES Colombia,True,-100.0,-584.663717975065
-YES Elo favorite,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team2_win,YES Uzbekistan,True,450.59864256844344,-134.06507540662153
+YES Elo favorite,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,-684.663717975065
+YES Elo favorite,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team2_win,YES Argentina,True,15.72957855145145,-668.9341394236135
+YES Elo favorite,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,YES Austria,True,-100.0,-768.9341394236135
 YES max positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
 YES max positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,YES Czechia,True,-100.0,-55.890476762339404
 YES max positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,-155.8904767623394
@@ -278,7 +284,9 @@ YES max positive edge,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,
 YES max positive edge,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,draw,YES Draw,True,-100.0,1493.092492213031
 YES max positive edge,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,YES Croatia,True,87.7640431857299,1580.856535398761
 YES max positive edge,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team1_win,YES Colombia,True,-100.0,1480.856535398761
-YES max positive edge,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team2_win,YES Uzbekistan,True,450.59864256844344,1931.4551779672042
+YES max positive edge,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,1380.856535398761
+YES max positive edge,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,draw,YES Draw,True,-100.0,1280.856535398761
+YES max positive edge,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,YES Austria,True,-100.0,1180.856535398761
 "YES max edge, prob floor",1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 "YES max edge, prob floor",2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 "YES max edge, prob floor",3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -348,7 +356,9 @@ YES max positive edge,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,
 "YES max edge, prob floor",67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,,,False,0.0,-50.24159417269723
 "YES max edge, prob floor",68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,YES Croatia,True,87.7640431857299,37.52244901303267
 "YES max edge, prob floor",69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team1_win,YES Colombia,True,-100.0,-62.47755098696733
-"YES max edge, prob floor",70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team2_win,YES Uzbekistan,True,450.59864256844344,388.1210915814761
+"YES max edge, prob floor",70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,-162.47755098696734
+"YES max edge, prob floor",71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,,,False,0.0,-162.47755098696734
+"YES max edge, prob floor",72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,YES Austria,True,-100.0,-262.47755098696734
 YES favorite positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 YES favorite positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 YES favorite positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,-100.0
@@ -418,7 +428,9 @@ YES favorite positive edge,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2
 YES favorite positive edge,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,,,False,0.0,-446.31489525871507
 YES favorite positive edge,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,YES Croatia,True,87.7640431857299,-358.5508520729852
 YES favorite positive edge,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team1_win,YES Colombia,True,-100.0,-458.5508520729852
-YES favorite positive edge,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team2_win,YES Uzbekistan,True,450.59864256844344,-7.95220950454177
+YES favorite positive edge,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,-558.5508520729852
+YES favorite positive edge,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,,,False,0.0,-558.5508520729852
+YES favorite positive edge,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,YES Austria,True,-100.0,-658.5508520729852
 YES draw positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 YES draw positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 YES draw positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -488,7 +500,9 @@ YES draw positive edge,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win
 YES draw positive edge,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,draw,YES Draw,True,-100.0,2052.9670176697286
 YES draw positive edge,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,,,False,0.0,2052.9670176697286
 YES draw positive edge,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,draw,YES Draw,True,312.0769362479309,2365.0439539176596
-YES draw positive edge,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,draw,YES Draw,True,-100.0,2265.0439539176596
+YES draw positive edge,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,draw,YES Draw,True,-100.0,2265.0439539176596
+YES draw positive edge,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,draw,YES Draw,True,-100.0,2165.0439539176596
+YES draw positive edge,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,,,False,0.0,2165.0439539176596
 YES Polymarket favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
 YES Polymarket favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,YES Korea Republic,True,168.1364516609563,212.2459748986169
 YES Polymarket favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,112.24597489861691
@@ -558,7 +572,9 @@ YES Polymarket favorite,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_wi
 YES Polymarket favorite,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team2_win,YES England,True,17.248566961959334,294.4274794583631
 YES Polymarket favorite,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,YES Croatia,True,87.7640431857299,382.191522644093
 YES Polymarket favorite,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team2_win,YES Portugal,True,-100.0,282.191522644093
-YES Polymarket favorite,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team1_win,YES DR Congo,True,-100.0,182.19152264409303
+YES Polymarket favorite,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team1_win,YES DR Congo,True,75.22145370707437,357.4129763511674
+YES Polymarket favorite,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team2_win,YES Argentina,True,15.72957855145145,373.1425549026188
+YES Polymarket favorite,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,draw,YES Draw,True,114.73307485833581,487.87562976095467
 YES Polymarket underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,YES South Africa,True,-100.0,-100.0
 YES Polymarket underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,YES Draw,True,-100.0,-200.0
 YES Polymarket underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,YES Bosnia-Herzegovina,True,-100.0,-300.0
@@ -628,7 +644,9 @@ YES Polymarket underdog,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_wi
 YES Polymarket underdog,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team1_win,YES Panama,True,-100.0,-3863.0814059263357
 YES Polymarket underdog,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team2_win,YES Ghana,True,-100.0,-3963.0814059263357
 YES Polymarket underdog,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,draw,YES Draw,True,312.0769362479309,-3651.0044696784043
-YES Polymarket underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team2_win,YES Uzbekistan,True,450.59864256844344,-3200.405827109961
+YES Polymarket underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,-3751.0044696784043
+YES Polymarket underdog,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team1_win,YES Jordan,True,-100.0,-3851.0044696784043
+YES Polymarket underdog,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,YES Austria,True,-100.0,-3951.0044696784043
 NO most overpriced outcome,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 NO most overpriced outcome,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 NO most overpriced outcome,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -698,7 +716,9 @@ NO most overpriced outcome,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2
 NO most overpriced outcome,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,,,False,0.0,-535.124620660578
 NO most overpriced outcome,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,draw,NO Draw,True,43.51205899940203,-491.61256166117596
 NO most overpriced outcome,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team2_win,NO Portugal,True,94.57245263696873,-397.04010902420725
-NO most overpriced outcome,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team1_win,NO DR Congo,True,132.94079690272628,-264.099312121481
+NO most overpriced outcome,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team1_win,NO DR Congo,True,-100.0,-497.04010902420725
+NO most overpriced outcome,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,,,False,0.0,-497.04010902420725
+NO most overpriced outcome,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,draw,NO Draw,True,-100.0,-597.0401090242073
 NO draw every match,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,draw,NO Draw,True,25.843325060299914,25.843325060299914
 NO draw every match,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,71.82872652015388
 NO draw every match,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,draw,NO Draw,True,-100.0,-28.17127347984612
@@ -768,7 +788,9 @@ NO draw every match,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,dr
 NO draw every match,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,draw,NO Draw,True,11.73184357541901,-494.94400576167624
 NO draw every match,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,draw,NO Draw,True,43.51205899940203,-451.4319467622742
 NO draw every match,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,draw,NO Draw,True,-100.0,-551.4319467622743
-NO draw every match,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,draw,NO Draw,True,32.460051002623544,-518.9718957596507
+NO draw every match,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,draw,NO Draw,True,32.460051002623544,-518.9718957596507
+NO draw every match,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,draw,NO Draw,True,10.507413205635885,-508.4644825540148
+NO draw every match,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,draw,NO Draw,True,-100.0,-608.4644825540148
 NO Elo underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
 NO Elo underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,NO Czechia,True,46.228522685730496,57.9603662611495
 NO Elo underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,82.09829729563226
@@ -838,7 +860,9 @@ NO Elo underdog,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,team1_
 NO Elo underdog,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team1_win,NO Panama,True,4.712041884816753,105.6171931077678
 NO Elo underdog,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team2_win,NO Ghana,True,20.30075187969924,125.91794498746705
 NO Elo underdog,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team2_win,NO Portugal,True,94.57245263696873,220.4903976244358
-NO Elo underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team1_win,NO DR Congo,True,132.94079690272628,353.43119452716206
+NO Elo underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team1_win,NO DR Congo,True,-100.0,120.49039762443579
+NO Elo underdog,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team1_win,NO Jordan,True,4.48653574890725,124.97693337334303
+NO Elo underdog,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team1_win,NO Algeria,True,37.12196236763923,162.09889574098227
 NO lowest Elo probability,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
 NO lowest Elo probability,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,57.71724503527298
 NO lowest Elo probability,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,81.85517606975574
@@ -908,7 +932,9 @@ NO lowest Elo probability,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_
 NO lowest Elo probability,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team1_win,NO Panama,True,4.712041884816753,-44.89420731465965
 NO lowest Elo probability,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team2_win,NO Ghana,True,20.30075187969924,-24.59345543496041
 NO lowest Elo probability,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,draw,NO Draw,True,-100.0,-124.59345543496042
-NO lowest Elo probability,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,draw,NO Draw,True,32.460051002623544,-92.13340443233687
+NO lowest Elo probability,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,draw,NO Draw,True,32.460051002623544,-92.13340443233687
+NO lowest Elo probability,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team1_win,NO Jordan,True,4.48653574890725,-87.64686868342963
+NO lowest Elo probability,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,draw,NO Draw,True,-100.0,-187.64686868342963
 NO low-prob overpriced,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 NO low-prob overpriced,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 NO low-prob overpriced,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -978,7 +1004,9 @@ NO low-prob overpriced,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win
 NO low-prob overpriced,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,,,False,0.0,-98.64326870125777
 NO low-prob overpriced,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,draw,NO Draw,True,43.51205899940203,-55.131209701855745
 NO low-prob overpriced,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,,,False,0.0,-55.131209701855745
-NO low-prob overpriced,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,,,False,0.0,-55.131209701855745
+NO low-prob overpriced,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,,,False,0.0,-55.131209701855745
+NO low-prob overpriced,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,,,False,0.0,-55.131209701855745
+NO low-prob overpriced,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,,,False,0.0,-55.131209701855745
 NO overpriced draw,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 NO overpriced draw,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,45.98540145985397
 NO overpriced draw,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,draw,NO Draw,True,-100.0,-54.01459854014603
@@ -1048,7 +1076,9 @@ NO overpriced draw,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,,,F
 NO overpriced draw,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,,,False,0.0,-163.37705144973816
 NO overpriced draw,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,draw,NO Draw,True,43.51205899940203,-119.86499245033613
 NO overpriced draw,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,,,False,0.0,-119.86499245033613
-NO overpriced draw,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,,,False,0.0,-119.86499245033613
+NO overpriced draw,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,,,False,0.0,-119.86499245033613
+NO overpriced draw,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,,,False,0.0,-119.86499245033613
+NO overpriced draw,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,draw,NO Draw,True,-100.0,-219.86499245033613
 NO Polymarket favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,NO Mexico,True,-100.0,-100.0
 NO Polymarket favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,NO Korea Republic,True,-100.0,-200.0
 NO Polymarket favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,NO Canada,True,115.0280731095449,-84.9719268904551
@@ -1118,7 +1148,9 @@ NO Polymarket favorite,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win
 NO Polymarket favorite,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team2_win,NO England,True,-100.0,814.9569816916951
 NO Polymarket favorite,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,NO Croatia,True,-100.0,714.9569816916951
 NO Polymarket favorite,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team2_win,NO Portugal,True,94.57245263696873,809.5294343286639
-NO Polymarket favorite,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team1_win,NO DR Congo,True,132.94079690272628,942.4702312313901
+NO Polymarket favorite,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team1_win,NO DR Congo,True,-100.0,709.5294343286639
+NO Polymarket favorite,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team2_win,NO Argentina,True,-100.0,609.5294343286639
+NO Polymarket favorite,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,draw,NO Draw,True,-100.0,509.52943432866385
 NO Polymarket underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
 NO Polymarket underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,57.71724503527298
 NO Polymarket underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,81.85517606975574
@@ -1188,4 +1220,6 @@ NO Polymarket underdog,66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win
 NO Polymarket underdog,67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,team1_win,NO Panama,True,4.712041884816753,444.3170211547694
 NO Polymarket underdog,68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team2_win,NO Ghana,True,20.30075187969924,464.61777303446866
 NO Polymarket underdog,69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,draw,NO Draw,True,-100.0,364.61777303446866
-NO Polymarket underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,team2_win,NO Uzbekistan,True,-100.0,264.61777303446866
+NO Polymarket underdog,70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,NO Uzbekistan,True,22.192698901619657,386.8104719360883
+NO Polymarket underdog,71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,team1_win,NO Jordan,True,4.48653574890725,391.29700768499555
+NO Polymarket underdog,72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,NO Austria,True,34.760799580744184,426.0578072657397
