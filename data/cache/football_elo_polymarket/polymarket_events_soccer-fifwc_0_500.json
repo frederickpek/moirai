@@ -354,11 +354,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -366,9 +366,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -457,7 +457,7 @@
     ],
     "ticker": "fifwc-mex-rsa-2026-06-11",
     "title": "Mexico vs. South Africa",
-    "updatedAt": "2026-06-28T23:58:18.951142Z",
+    "updatedAt": "2026-06-29T09:16:54.640252Z",
     "volume": 15053443.620278258
   },
   {
@@ -823,11 +823,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -835,9 +835,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -907,7 +907,7 @@
         "name": "Korea Republic",
         "ordering": "home",
         "providerId": 1209,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.589877Z"
       },
       {
@@ -920,13 +920,13 @@
         "name": "Czechia",
         "ordering": "away",
         "providerId": 945,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.791183Z"
       }
     ],
     "ticker": "fifwc-kr-cze-2026-06-11",
     "title": "Korea Republic vs. Czechia",
-    "updatedAt": "2026-06-28T23:44:02.855986Z",
+    "updatedAt": "2026-06-29T09:18:35.062733Z",
     "volume": 15558013.589003459,
     "volume1mo": 6.08,
     "volume1yr": 6.08
@@ -1278,11 +1278,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -1290,9 +1290,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -1362,7 +1362,7 @@
         "name": "Canada",
         "ordering": "home",
         "providerId": 966,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.052231Z"
       },
       {
@@ -1376,13 +1376,13 @@
         "name": "Bosnia and Herzegovina",
         "ordering": "away",
         "providerId": 1089,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-11T21:28:57.605233Z"
       }
     ],
     "ticker": "fifwc-can-bih-2026-06-12",
     "title": "Canada vs. Bosnia-Herzegovina",
-    "updatedAt": "2026-06-29T00:03:00.351156Z",
+    "updatedAt": "2026-06-29T08:38:41.359805Z",
     "volume": 18697246.415513434
   },
   {
@@ -1740,11 +1740,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -1752,9 +1752,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -1824,7 +1824,7 @@
         "name": "United States",
         "ordering": "home",
         "providerId": 872,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.076471Z"
       },
       {
@@ -1837,13 +1837,13 @@
         "name": "Paraguay",
         "ordering": "away",
         "providerId": 870,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.566812Z"
       }
     ],
     "ticker": "fifwc-usa-par-2026-06-12",
     "title": "United States vs. Paraguay",
-    "updatedAt": "2026-06-28T23:50:46.395124Z",
+    "updatedAt": "2026-06-29T09:24:51.312331Z",
     "volume": 39314225.7708813
   },
   {
@@ -2201,11 +2201,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -2213,9 +2213,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -2285,7 +2285,7 @@
         "name": "Qatar",
         "ordering": "home",
         "providerId": 1365,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.737999Z"
       },
       {
@@ -2298,13 +2298,13 @@
         "name": "Switzerland",
         "ordering": "away",
         "providerId": 960,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.000151Z"
       }
     ],
     "ticker": "fifwc-qat-che-2026-06-13",
     "title": "Qatar vs. Switzerland",
-    "updatedAt": "2026-06-28T23:54:52.93716Z",
+    "updatedAt": "2026-06-29T09:22:45.248553Z",
     "volume": 15599199.601551002
   },
   {
@@ -2662,11 +2662,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -2674,9 +2674,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -2765,7 +2765,7 @@
     ],
     "ticker": "fifwc-bra-mar-2026-06-13",
     "title": "Brazil vs. Morocco",
-    "updatedAt": "2026-06-28T23:49:14.445268Z",
+    "updatedAt": "2026-06-29T09:16:58.680783Z",
     "volume": 26089929.591100655
   },
   {
@@ -3123,11 +3123,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -3135,9 +3135,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -3207,7 +3207,7 @@
         "name": "Haiti",
         "ordering": "home",
         "providerId": 866,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.596746Z"
       },
       {
@@ -3220,13 +3220,13 @@
         "name": "Scotland",
         "ordering": "away",
         "providerId": 1112,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.96478Z"
       }
     ],
     "ticker": "fifwc-hai-sco-2026-06-13",
     "title": "Haiti vs. Scotland",
-    "updatedAt": "2026-06-28T23:54:06.095528Z",
+    "updatedAt": "2026-06-29T05:44:14.940533Z",
     "volume": 24714463.224676106
   },
   {
@@ -3584,11 +3584,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -3596,9 +3596,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -3687,7 +3687,7 @@
     ],
     "ticker": "fifwc-aus-tur-2026-06-14",
     "title": "Australia vs. T\u00fcrkiye",
-    "updatedAt": "2026-06-28T21:31:56.155252Z",
+    "updatedAt": "2026-06-29T09:04:22.275672Z",
     "volume": 22064408.397174224
   },
   {
@@ -4045,11 +4045,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -4057,9 +4057,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -4148,7 +4148,7 @@
     ],
     "ticker": "fifwc-ger-kor-2026-06-14",
     "title": "Germany vs. Cura\u00e7ao",
-    "updatedAt": "2026-06-28T23:52:07.477717Z",
+    "updatedAt": "2026-06-29T09:21:59.887366Z",
     "volume": 25533392.546123333
   },
   {
@@ -4514,11 +4514,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -4526,9 +4526,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -4598,7 +4598,7 @@
         "name": "Netherlands",
         "ordering": "home",
         "providerId": 1109,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.834907Z"
       },
       {
@@ -4611,13 +4611,13 @@
         "name": "Japan",
         "ordering": "away",
         "providerId": 1208,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.788252Z"
       }
     ],
     "ticker": "fifwc-nld-jpn-2026-06-14",
     "title": "Netherlands vs. Japan",
-    "updatedAt": "2026-06-28T23:53:35.973389Z",
+    "updatedAt": "2026-06-29T09:24:04.594796Z",
     "volume": 28412937.439626627,
     "volume1mo": 35.143075,
     "volume1yr": 35.143075
@@ -4981,11 +4981,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -4993,9 +4993,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -5084,7 +5084,7 @@
     ],
     "ticker": "fifwc-civ-ecu-2026-06-14",
     "title": "C\u00f4te d'Ivoire vs. Ecuador",
-    "updatedAt": "2026-06-28T23:52:06.077793Z",
+    "updatedAt": "2026-06-29T09:00:19.641586Z",
     "volume": 16083533.820008995,
     "volume1mo": 2.94,
     "volume1yr": 2.94
@@ -5444,11 +5444,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -5456,9 +5456,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -5528,7 +5528,7 @@
         "name": "Sweden",
         "ordering": "home",
         "providerId": 959,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.092631Z"
       },
       {
@@ -5541,13 +5541,13 @@
         "name": "Tunisia",
         "ordering": "away",
         "providerId": 1067,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.098991Z"
       }
     ],
     "ticker": "fifwc-swe-tun-2026-06-14",
     "title": "Sweden vs. Tunisia",
-    "updatedAt": "2026-06-28T23:53:34.974268Z",
+    "updatedAt": "2026-06-29T08:41:28.748319Z",
     "volume": 21842942.19842572
   },
   {
@@ -5905,11 +5905,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -5917,9 +5917,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -6008,7 +6008,7 @@
     ],
     "ticker": "fifwc-esp-cvi-2026-06-15",
     "title": "Spain vs. Cabo Verde",
-    "updatedAt": "2026-06-28T23:57:08.153557Z",
+    "updatedAt": "2026-06-29T09:24:02.331249Z",
     "volume": 32517721.745509636
   },
   {
@@ -6366,11 +6366,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -6378,9 +6378,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -6469,7 +6469,7 @@
     ],
     "ticker": "fifwc-bel-egy-2026-06-15",
     "title": "Belgium vs. Egypt",
-    "updatedAt": "2026-06-28T22:26:59.330356Z",
+    "updatedAt": "2026-06-29T09:08:00.606002Z",
     "volume": 35997260.15133781
   },
   {
@@ -6835,11 +6835,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -6847,9 +6847,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -6938,7 +6938,7 @@
     ],
     "ticker": "fifwc-ksa-ury-2026-06-15",
     "title": "Saudi Arabia vs. Uruguay",
-    "updatedAt": "2026-06-28T23:45:16.846774Z",
+    "updatedAt": "2026-06-29T09:10:50.61237Z",
     "volume": 25779673.353752725,
     "volume1mo": 60.24,
     "volume1yr": 60.24
@@ -7335,11 +7335,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -7347,9 +7347,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -7438,7 +7438,7 @@
     ],
     "ticker": "fifwc-irn-nzl-2026-06-15",
     "title": "IR Iran vs. New Zealand",
-    "updatedAt": "2026-06-29T00:04:20.175783Z",
+    "updatedAt": "2026-06-29T09:24:48.086533Z",
     "volume": 32750104.13143872
   },
   {
@@ -7799,11 +7799,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -7811,9 +7811,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -7883,7 +7883,7 @@
         "name": "France",
         "ordering": "home",
         "providerId": 946,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.102561Z"
       },
       {
@@ -7896,13 +7896,13 @@
         "name": "Senegal",
         "ordering": "away",
         "providerId": 1065,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.69325Z"
       }
     ],
     "ticker": "fifwc-fra-sen-2026-06-16",
     "title": "France vs. Senegal",
-    "updatedAt": "2026-06-28T23:55:48.048831Z",
+    "updatedAt": "2026-06-29T09:18:43.041679Z",
     "volume": 28930750.003222667
   },
   {
@@ -8267,11 +8267,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -8279,9 +8279,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -8370,7 +8370,7 @@
     ],
     "ticker": "fifwc-irq-nor-2026-06-16",
     "title": "Iraq vs. Norway",
-    "updatedAt": "2026-06-29T00:02:02.431836Z",
+    "updatedAt": "2026-06-29T08:26:54.955756Z",
     "volume": 14558232.270338057,
     "volume1mo": 53.19,
     "volume1yr": 53.19
@@ -8748,11 +8748,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -8760,9 +8760,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -8851,7 +8851,7 @@
     ],
     "ticker": "fifwc-arg-alg-2026-06-16",
     "title": "Argentina vs. Algeria",
-    "updatedAt": "2026-06-29T00:03:20.399077Z",
+    "updatedAt": "2026-06-29T09:13:31.686612Z",
     "volume": 24508769.302011337,
     "volume1mo": 3.22,
     "volume1yr": 3.22
@@ -9214,11 +9214,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -9226,9 +9226,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -9317,7 +9317,7 @@
     ],
     "ticker": "fifwc-aut-jor-2026-06-17",
     "title": "Austria vs. Jordan",
-    "updatedAt": "2026-06-28T23:36:45.805559Z",
+    "updatedAt": "2026-06-29T08:37:55.402795Z",
     "volume": 12143095.787920954
   },
   {
@@ -9700,11 +9700,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -9712,9 +9712,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -9803,7 +9803,7 @@
     ],
     "ticker": "fifwc-prt-cdr-2026-06-17",
     "title": "Portugal vs. DR Congo",
-    "updatedAt": "2026-06-29T00:03:43.508096Z",
+    "updatedAt": "2026-06-29T09:12:21.480465Z",
     "volume": 23657186.03579322
   },
   {
@@ -10164,11 +10164,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -10176,9 +10176,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -10267,7 +10267,7 @@
     ],
     "ticker": "fifwc-eng-hrv-2026-06-17",
     "title": "England vs. Croatia",
-    "updatedAt": "2026-06-28T23:24:33.065828Z",
+    "updatedAt": "2026-06-29T09:01:47.372023Z",
     "volume": 26438578.07181638
   },
   {
@@ -10628,11 +10628,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -10640,9 +10640,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -10731,7 +10731,7 @@
     ],
     "ticker": "fifwc-gha-pan-2026-06-17",
     "title": "Ghana vs. Panama",
-    "updatedAt": "2026-06-29T00:01:25.70573Z",
+    "updatedAt": "2026-06-29T06:15:42.71514Z",
     "volume": 20404007.38979727
   },
   {
@@ -11103,11 +11103,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -11115,9 +11115,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -11206,7 +11206,7 @@
     ],
     "ticker": "fifwc-uzb-col-2026-06-17",
     "title": "Uzbekistan vs. Colombia",
-    "updatedAt": "2026-06-29T00:03:40.583834Z",
+    "updatedAt": "2026-06-29T08:57:39.065276Z",
     "volume": 23171176.316426028
   },
   {
@@ -11567,11 +11567,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -11579,9 +11579,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -11651,7 +11651,7 @@
         "name": "Czechia",
         "ordering": "home",
         "providerId": 945,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.791183Z"
       },
       {
@@ -11664,13 +11664,13 @@
         "name": "South Africa",
         "ordering": "away",
         "providerId": 1083,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:15:22.188385Z"
       }
     ],
     "ticker": "fifwc-cze-rsa-2026-06-18",
     "title": "Czechia vs. South Africa",
-    "updatedAt": "2026-06-28T23:55:34.25035Z",
+    "updatedAt": "2026-06-29T09:24:26.038775Z",
     "volume": 33327516.79998552
   },
   {
@@ -12023,11 +12023,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -12035,9 +12035,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -12107,7 +12107,7 @@
         "name": "Switzerland",
         "ordering": "home",
         "providerId": 960,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.000151Z"
       },
       {
@@ -12121,13 +12121,13 @@
         "name": "Bosnia and Herzegovina",
         "ordering": "away",
         "providerId": 1089,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-11T21:28:57.605233Z"
       }
     ],
     "ticker": "fifwc-che-bih-2026-06-18",
     "title": "Switzerland vs. Bosnia-Herzegovina",
-    "updatedAt": "2026-06-28T21:15:01.553209Z",
+    "updatedAt": "2026-06-29T09:18:25.847713Z",
     "volume": 11807799.460735071
   },
   {
@@ -12486,11 +12486,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -12498,9 +12498,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -12570,7 +12570,7 @@
         "name": "Canada",
         "ordering": "home",
         "providerId": 966,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.052231Z"
       },
       {
@@ -12583,13 +12583,13 @@
         "name": "Qatar",
         "ordering": "away",
         "providerId": 1365,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.737999Z"
       }
     ],
     "ticker": "fifwc-can-qat-2026-06-18",
     "title": "Canada vs. Qatar",
-    "updatedAt": "2026-06-28T23:59:31.182448Z",
+    "updatedAt": "2026-06-29T08:34:21.63357Z",
     "volume": 20462735.36266301
   },
   {
@@ -12950,11 +12950,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -12962,9 +12962,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -13034,7 +13034,7 @@
         "name": "Mexico",
         "ordering": "home",
         "providerId": 868,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.717982Z"
       },
       {
@@ -13047,13 +13047,13 @@
         "name": "Korea Republic",
         "ordering": "away",
         "providerId": 1209,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.589877Z"
       }
     ],
     "ticker": "fifwc-mex-kr-2026-06-18",
     "title": "Mexico vs. Korea Republic",
-    "updatedAt": "2026-06-28T23:50:01.20907Z",
+    "updatedAt": "2026-06-29T09:16:58.816736Z",
     "volume": 27812230.6357736
   },
   {
@@ -13414,11 +13414,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -13426,9 +13426,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -13498,7 +13498,7 @@
         "name": "United States",
         "ordering": "home",
         "providerId": 872,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.076471Z"
       },
       {
@@ -13511,13 +13511,13 @@
         "name": "Australia",
         "ordering": "away",
         "providerId": 1244,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.520613Z"
       }
     ],
     "ticker": "fifwc-usa-aus-2026-06-19",
     "title": "United States vs. Australia",
-    "updatedAt": "2026-06-28T23:58:55.754774Z",
+    "updatedAt": "2026-06-29T08:29:24.859302Z",
     "volume": 21916436.52003016
   },
   {
@@ -13900,11 +13900,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -13912,9 +13912,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -13984,7 +13984,7 @@
         "name": "Scotland",
         "ordering": "home",
         "providerId": 1112,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.96478Z"
       },
       {
@@ -13997,13 +13997,13 @@
         "name": "Morocco",
         "ordering": "away",
         "providerId": 1064,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.650331Z"
       }
     ],
     "ticker": "fifwc-sco-mar-2026-06-19",
     "title": "Scotland vs. Morocco",
-    "updatedAt": "2026-06-28T23:13:17.86531Z",
+    "updatedAt": "2026-06-29T09:02:11.811611Z",
     "volume": 21588116.501496118
   },
   {
@@ -14394,11 +14394,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -14406,9 +14406,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -14478,7 +14478,7 @@
         "name": "Brazil",
         "ordering": "home",
         "providerId": 861,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.04282Z"
       },
       {
@@ -14491,13 +14491,13 @@
         "name": "Haiti",
         "ordering": "away",
         "providerId": 866,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.596746Z"
       }
     ],
     "ticker": "fifwc-bra-hai-2026-06-19",
     "title": "Brazil vs. Haiti",
-    "updatedAt": "2026-06-28T22:26:36.236054Z",
+    "updatedAt": "2026-06-29T09:10:18.346452Z",
     "volume": 15224102.348375944
   },
   {
@@ -14548,6 +14548,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xb1a0254ee2dfe4fc6bb05e521cd068d463245f3763cac6ed3c464d6499a8cc07",
+            "endDate": "2500-12-31",
+            "id": "545536",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 5083,
+            "startDate": "2026-06-20"
+          }
+        ],
         "clobTokenIds": "[\"32119774861601767809867283650069946484685075980505835201995035137150231372345\", \"84365988166827185963698089974055256370708466372999662274996540491995082013185\"]",
         "closed": true,
         "closedTime": "2026-06-20 05:19:40+00",
@@ -14649,6 +14660,17 @@
         "bestAsk": 1,
         "bestBid": 0.999,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x4a2085d9d7302a081b64016124cf1981a5bcb1118392c9d645f1abb57ea14d65",
+            "endDate": "2500-12-31",
+            "id": "545537",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 5083,
+            "startDate": "2026-06-20"
+          }
+        ],
         "clobTokenIds": "[\"71048226321294851841817266819205234468444418485834628185639241813564580583954\", \"46061488257667179588380423838476857216280537669997410414554938046897673939824\"]",
         "closed": true,
         "closedTime": "2026-06-20 05:21:49+00",
@@ -14858,11 +14880,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -14870,9 +14892,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -14942,7 +14964,7 @@
         "name": "T\u00fcrkiye",
         "ordering": "home",
         "providerId": 961,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.518686Z"
       },
       {
@@ -14955,13 +14977,13 @@
         "name": "Paraguay",
         "ordering": "away",
         "providerId": 870,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.566812Z"
       }
     ],
     "ticker": "fifwc-tur-par-2026-06-19",
     "title": "T\u00fcrkiye vs. Paraguay",
-    "updatedAt": "2026-06-28T23:48:57.425635Z",
+    "updatedAt": "2026-06-29T09:23:40.395841Z",
     "volume": 32637786.584689453
   },
   {
@@ -15322,11 +15344,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -15334,9 +15356,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -15406,7 +15428,7 @@
         "name": "Netherlands",
         "ordering": "home",
         "providerId": 1109,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.834907Z"
       },
       {
@@ -15419,13 +15441,13 @@
         "name": "Sweden",
         "ordering": "away",
         "providerId": 959,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.092631Z"
       }
     ],
     "ticker": "fifwc-nld-swe-2026-06-20",
     "title": "Netherlands vs. Sweden",
-    "updatedAt": "2026-06-28T23:30:44.275604Z",
+    "updatedAt": "2026-06-29T08:47:51.627416Z",
     "volume": 22367686.54266512
   },
   {
@@ -15786,11 +15808,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -15798,9 +15820,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -15870,7 +15892,7 @@
         "name": "Germany",
         "ordering": "home",
         "providerId": 947,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.208369Z"
       },
       {
@@ -15883,13 +15905,13 @@
         "name": "C\u00f4te d'Ivoire",
         "ordering": "away",
         "providerId": 1058,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.924393Z"
       }
     ],
     "ticker": "fifwc-ger-civ-2026-06-20",
     "title": "Germany vs. C\u00f4te d'Ivoire",
-    "updatedAt": "2026-06-28T23:53:10.974374Z",
+    "updatedAt": "2026-06-29T09:10:46.743984Z",
     "volume": 42519372.43554526
   },
   {
@@ -16250,11 +16272,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -16262,9 +16284,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -16334,7 +16356,7 @@
         "name": "Ecuador",
         "ordering": "home",
         "providerId": 865,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.820586Z"
       },
       {
@@ -16347,13 +16369,13 @@
         "name": "Cura\u00e7ao",
         "ordering": "away",
         "providerId": 1072,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.906622Z"
       }
     ],
     "ticker": "fifwc-ecu-kor-2026-06-20",
     "title": "Ecuador vs. Cura\u00e7ao",
-    "updatedAt": "2026-06-28T23:57:22.568846Z",
+    "updatedAt": "2026-06-29T09:24:33.297531Z",
     "volume": 18216287.616692066
   },
   {
@@ -16725,11 +16747,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -16737,9 +16759,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -16809,7 +16831,7 @@
         "name": "Tunisia",
         "ordering": "home",
         "providerId": 1067,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.098991Z"
       },
       {
@@ -16822,13 +16844,13 @@
         "name": "Japan",
         "ordering": "away",
         "providerId": 1208,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.788252Z"
       }
     ],
     "ticker": "fifwc-tun-jpn-2026-06-21",
     "title": "Tunisia vs. Japan",
-    "updatedAt": "2026-06-29T00:02:43.347692Z",
+    "updatedAt": "2026-06-29T09:01:04.393884Z",
     "volume": 22166891.279387165
   },
   {
@@ -17186,11 +17208,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -17198,9 +17220,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -17270,7 +17292,7 @@
         "name": "Spain",
         "ordering": "home",
         "providerId": 958,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.100681Z"
       },
       {
@@ -17283,13 +17305,13 @@
         "name": "Saudi Arabia",
         "ordering": "away",
         "providerId": 1210,
-        "record": "0-2-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.747144Z"
       }
     ],
     "ticker": "fifwc-esp-ksa-2026-06-21",
     "title": "Spain vs. Saudi Arabia",
-    "updatedAt": "2026-06-28T23:46:13.739946Z",
+    "updatedAt": "2026-06-29T09:23:10.575535Z",
     "volume": 14380119.569741039
   },
   {
@@ -17672,11 +17694,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -17684,9 +17706,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -17756,7 +17778,7 @@
         "name": "Belgium",
         "ordering": "home",
         "providerId": 943,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.449249Z"
       },
       {
@@ -17769,13 +17791,13 @@
         "name": "IR Iran",
         "ordering": "away",
         "providerId": 1207,
-        "record": "0-3-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.5999Z"
       }
     ],
     "ticker": "fifwc-bel-irn-2026-06-21",
     "title": "Belgium vs. IR Iran",
-    "updatedAt": "2026-06-28T23:47:02.737861Z",
+    "updatedAt": "2026-06-29T09:19:33.275019Z",
     "volume": 27016664.389641043
   },
   {
@@ -18158,11 +18180,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -18170,9 +18192,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -18242,7 +18264,7 @@
         "name": "Uruguay",
         "ordering": "home",
         "providerId": 873,
-        "record": "0-2-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.102364Z"
       },
       {
@@ -18255,13 +18277,13 @@
         "name": "Cabo Verde",
         "ordering": "away",
         "providerId": 1079,
-        "record": "0-3-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.298881Z"
       }
     ],
     "ticker": "fifwc-ury-cvi-2026-06-21",
     "title": "Uruguay vs. Cabo Verde",
-    "updatedAt": "2026-06-28T23:59:18.234465Z",
+    "updatedAt": "2026-06-29T08:44:12.164056Z",
     "volume": 23415028.615583166
   },
   {
@@ -18622,11 +18644,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -18634,9 +18656,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -18706,7 +18728,7 @@
         "name": "New Zealand",
         "ordering": "home",
         "providerId": 1357,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.910404Z"
       },
       {
@@ -18719,13 +18741,13 @@
         "name": "Egypt",
         "ordering": "away",
         "providerId": 1059,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.904675Z"
       }
     ],
     "ticker": "fifwc-nzl-egy-2026-06-21",
     "title": "New Zealand vs. Egypt",
-    "updatedAt": "2026-06-28T23:20:02.386878Z",
+    "updatedAt": "2026-06-29T07:55:45.303206Z",
     "volume": 25520309.2234752
   },
   {
@@ -19086,11 +19108,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -19098,9 +19120,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -19170,7 +19192,7 @@
         "name": "Argentina",
         "ordering": "home",
         "providerId": 859,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.459372Z"
       },
       {
@@ -19183,13 +19205,13 @@
         "name": "Austria",
         "ordering": "away",
         "providerId": 942,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.447394Z"
       }
     ],
     "ticker": "fifwc-arg-aut-2026-06-22",
     "title": "Argentina vs. Austria",
-    "updatedAt": "2026-06-28T23:55:08.405528Z",
+    "updatedAt": "2026-06-29T09:24:02.993834Z",
     "volume": 32121251.186320134
   },
   {
@@ -19550,11 +19572,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -19562,9 +19584,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -19634,7 +19656,7 @@
         "name": "France",
         "ordering": "home",
         "providerId": 946,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.102561Z"
       },
       {
@@ -19647,13 +19669,13 @@
         "name": "Iraq",
         "ordering": "away",
         "providerId": 1330,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.52732Z"
       }
     ],
     "ticker": "fifwc-fra-irq-2026-06-22",
     "title": "France vs. Iraq",
-    "updatedAt": "2026-06-28T23:39:39.652225Z",
+    "updatedAt": "2026-06-29T09:03:13.542482Z",
     "volume": 16405015.459799027
   },
   {
@@ -20036,11 +20058,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -20048,9 +20070,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -20120,7 +20142,7 @@
         "name": "Norway",
         "ordering": "home",
         "providerId": 1110,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.577469Z"
       },
       {
@@ -20133,13 +20155,13 @@
         "name": "Senegal",
         "ordering": "away",
         "providerId": 1065,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.69325Z"
       }
     ],
     "ticker": "fifwc-nor-sen-2026-06-22",
     "title": "Norway vs. Senegal",
-    "updatedAt": "2026-06-28T23:42:14.945632Z",
+    "updatedAt": "2026-06-29T09:24:05.65626Z",
     "volume": 37720243.81072193
   },
   {
@@ -20500,11 +20522,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -20512,9 +20534,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -20584,7 +20606,7 @@
         "name": "Jordan",
         "ordering": "home",
         "providerId": 1331,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.622991Z"
       },
       {
@@ -20597,13 +20619,13 @@
         "name": "Algeria",
         "ordering": "away",
         "providerId": 1054,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.529644Z"
       }
     ],
     "ticker": "fifwc-jor-alg-2026-06-22",
     "title": "Jordan vs. Algeria",
-    "updatedAt": "2026-06-28T23:58:56.183763Z",
+    "updatedAt": "2026-06-29T09:16:27.781701Z",
     "volume": 22484702.661259145
   },
   {
@@ -20963,11 +20985,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -20975,9 +20997,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -21047,7 +21069,7 @@
         "name": "Portugal",
         "ordering": "home",
         "providerId": 953,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.681794Z"
       },
       {
@@ -21060,13 +21082,13 @@
         "name": "Uzbekistan",
         "ordering": "away",
         "providerId": 1393,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.986351Z"
       }
     ],
     "ticker": "fifwc-prt-uzb-2026-06-23",
     "title": "Portugal vs. Uzbekistan",
-    "updatedAt": "2026-06-28T23:56:38.800435Z",
+    "updatedAt": "2026-06-29T09:08:11.31275Z",
     "volume": 17781389.39756215
   },
   {
@@ -21330,17 +21352,6 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0xff1ec56e0e47033727e33deab740896fbf1c6bb8a2b0068efdba3d900c7ba7a2",
-            "endDate": "2500-12-31",
-            "id": "604207",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 8923,
-            "startDate": "2026-06-23"
-          }
-        ],
         "clobTokenIds": "[\"63611572432092712507452794046269856873324193737948513078896856667745770559698\", \"81750077792759682980090397689070964226412046195389028523769479713426985687572\"]",
         "closed": true,
         "closedTime": "2026-06-23 22:13:35+00",
@@ -21449,11 +21460,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -21461,9 +21472,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -21533,7 +21544,7 @@
         "name": "England",
         "ordering": "home",
         "providerId": 858,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.079214Z"
       },
       {
@@ -21546,13 +21557,13 @@
         "name": "Ghana",
         "ordering": "away",
         "providerId": 1061,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.166808Z"
       }
     ],
     "ticker": "fifwc-eng-gha-2026-06-23",
     "title": "England vs. Ghana",
-    "updatedAt": "2026-06-29T00:02:44.197806Z",
+    "updatedAt": "2026-06-29T09:21:50.231975Z",
     "volume": 24886124.028849557
   },
   {
@@ -21913,11 +21924,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -21925,9 +21936,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -21997,7 +22008,7 @@
         "name": "Panama",
         "ordering": "home",
         "providerId": 869,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.549972Z"
       },
       {
@@ -22010,13 +22021,13 @@
         "name": "Croatia",
         "ordering": "away",
         "providerId": 944,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.129327Z"
       }
     ],
     "ticker": "fifwc-pan-hrv-2026-06-23",
     "title": "Panama vs. Croatia",
-    "updatedAt": "2026-06-29T00:02:40.362851Z",
+    "updatedAt": "2026-06-29T09:25:05.359082Z",
     "volume": 17741112.112140987
   },
   {
@@ -22377,11 +22388,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -22389,9 +22400,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -22461,7 +22472,7 @@
         "name": "Colombia",
         "ordering": "home",
         "providerId": 863,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.043885Z"
       },
       {
@@ -22474,13 +22485,13 @@
         "name": "DR Congo",
         "ordering": "away",
         "providerId": 1057,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-15T02:18:11.117435Z"
       }
     ],
     "ticker": "fifwc-col-cdr-2026-06-23",
     "title": "Colombia vs. DR Congo",
-    "updatedAt": "2026-06-28T23:18:50.689263Z",
+    "updatedAt": "2026-06-29T09:16:39.970806Z",
     "volume": 15737474.529933147
   },
   {
@@ -22841,11 +22852,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -22853,9 +22864,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -22925,7 +22936,7 @@
         "name": "Switzerland",
         "ordering": "home",
         "providerId": 960,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.000151Z"
       },
       {
@@ -22938,13 +22949,13 @@
         "name": "Canada",
         "ordering": "away",
         "providerId": 966,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.052231Z"
       }
     ],
     "ticker": "fifwc-che-can-2026-06-24",
     "title": "Switzerland vs. Canada",
-    "updatedAt": "2026-06-29T00:03:24.740667Z",
+    "updatedAt": "2026-06-29T08:26:04.9164Z",
     "volume": 15421582.762806082
   },
   {
@@ -23297,11 +23308,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -23309,9 +23320,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -23382,7 +23393,7 @@
         "name": "Bosnia and Herzegovina",
         "ordering": "home",
         "providerId": 1089,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-11T21:28:57.605233Z"
       },
       {
@@ -23395,13 +23406,13 @@
         "name": "Qatar",
         "ordering": "away",
         "providerId": 1365,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.737999Z"
       }
     ],
     "ticker": "fifwc-bih-qat-2026-06-24",
     "title": "Bosnia-Herzegovina vs. Qatar",
-    "updatedAt": "2026-06-29T00:02:36.441885Z",
+    "updatedAt": "2026-06-29T09:02:32.322678Z",
     "volume": 10301516.458658952
   },
   {
@@ -23762,11 +23773,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -23774,9 +23785,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -23846,7 +23857,7 @@
         "name": "Morocco",
         "ordering": "home",
         "providerId": 1064,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.650331Z"
       },
       {
@@ -23859,13 +23870,13 @@
         "name": "Haiti",
         "ordering": "away",
         "providerId": 866,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.596746Z"
       }
     ],
     "ticker": "fifwc-mar-hai-2026-06-24",
     "title": "Morocco vs. Haiti",
-    "updatedAt": "2026-06-29T00:02:55.371181Z",
+    "updatedAt": "2026-06-29T09:24:50.952467Z",
     "volume": 27421053.197423164
   },
   {
@@ -24226,11 +24237,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -24238,9 +24249,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -24310,7 +24321,7 @@
         "name": "Scotland",
         "ordering": "home",
         "providerId": 1112,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.96478Z"
       },
       {
@@ -24323,13 +24334,13 @@
         "name": "Brazil",
         "ordering": "away",
         "providerId": 861,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.04282Z"
       }
     ],
     "ticker": "fifwc-sco-bra-2026-06-24",
     "title": "Scotland vs. Brazil",
-    "updatedAt": "2026-06-29T00:00:34.35797Z",
+    "updatedAt": "2026-06-29T09:09:58.865598Z",
     "volume": 11869748.775417952
   },
   {
@@ -24701,11 +24712,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -24713,9 +24724,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -24785,7 +24796,7 @@
         "name": "Czechia",
         "ordering": "home",
         "providerId": 945,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.791183Z"
       },
       {
@@ -24798,13 +24809,13 @@
         "name": "Mexico",
         "ordering": "away",
         "providerId": 868,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.717982Z"
       }
     ],
     "ticker": "fifwc-cze-mex-2026-06-24",
     "title": "Czechia vs. Mexico",
-    "updatedAt": "2026-06-28T23:54:36.464132Z",
+    "updatedAt": "2026-06-29T08:46:11.323721Z",
     "volume": 17601136.074549463
   },
   {
@@ -25165,11 +25176,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -25177,9 +25188,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -25249,7 +25260,7 @@
         "name": "South Africa",
         "ordering": "home",
         "providerId": 1083,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:15:22.188385Z"
       },
       {
@@ -25262,13 +25273,13 @@
         "name": "Korea Republic",
         "ordering": "away",
         "providerId": 1209,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.589877Z"
       }
     ],
     "ticker": "fifwc-rsa-kr-2026-06-24",
     "title": "South Africa vs. Korea Republic",
-    "updatedAt": "2026-06-29T00:03:03.702994Z",
+    "updatedAt": "2026-06-29T09:12:58.38948Z",
     "volume": 24555832.42418729
   },
   {
@@ -25629,11 +25640,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -25641,9 +25652,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -25713,7 +25724,7 @@
         "name": "Ecuador",
         "ordering": "home",
         "providerId": 865,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.820586Z"
       },
       {
@@ -25726,13 +25737,13 @@
         "name": "Germany",
         "ordering": "away",
         "providerId": 947,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.208369Z"
       }
     ],
     "ticker": "fifwc-ecu-ger-2026-06-25",
     "title": "Ecuador vs. Germany",
-    "updatedAt": "2026-06-29T00:02:41.176981Z",
+    "updatedAt": "2026-06-29T09:20:25.086243Z",
     "volume": 40096760.31645156
   },
   {
@@ -26093,11 +26104,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -26105,9 +26116,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -26177,7 +26188,7 @@
         "name": "Cura\u00e7ao",
         "ordering": "home",
         "providerId": 1072,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.906622Z"
       },
       {
@@ -26190,13 +26201,13 @@
         "name": "C\u00f4te d'Ivoire",
         "ordering": "away",
         "providerId": 1058,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.924393Z"
       }
     ],
     "ticker": "fifwc-kor-civ-2026-06-25",
     "title": "Cura\u00e7ao vs. C\u00f4te d'Ivoire",
-    "updatedAt": "2026-06-28T23:41:36.283073Z",
+    "updatedAt": "2026-06-29T09:22:35.330069Z",
     "volume": 6493163.984934988
   },
   {
@@ -26557,11 +26568,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -26569,9 +26580,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -26641,7 +26652,7 @@
         "name": "Japan",
         "ordering": "home",
         "providerId": 1208,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.788252Z"
       },
       {
@@ -26654,13 +26665,13 @@
         "name": "Sweden",
         "ordering": "away",
         "providerId": 959,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.092631Z"
       }
     ],
     "ticker": "fifwc-jpn-swe-2026-06-25",
     "title": "Japan vs. Sweden",
-    "updatedAt": "2026-06-28T23:55:03.046995Z",
+    "updatedAt": "2026-06-29T09:20:35.886134Z",
     "volume": 39731188.12109486
   },
   {
@@ -27021,11 +27032,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -27033,9 +27044,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -27105,7 +27116,7 @@
         "name": "Tunisia",
         "ordering": "home",
         "providerId": 1067,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.098991Z"
       },
       {
@@ -27118,13 +27129,13 @@
         "name": "Netherlands",
         "ordering": "away",
         "providerId": 1109,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.834907Z"
       }
     ],
     "ticker": "fifwc-tun-nld-2026-06-25",
     "title": "Tunisia vs. Netherlands",
-    "updatedAt": "2026-06-28T23:53:05.335775Z",
+    "updatedAt": "2026-06-29T09:23:55.083459Z",
     "volume": 10163712.475447007
   },
   {
@@ -27496,11 +27507,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -27508,9 +27519,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -27580,7 +27591,7 @@
         "name": "Paraguay",
         "ordering": "home",
         "providerId": 870,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.566812Z"
       },
       {
@@ -27593,13 +27604,13 @@
         "name": "Australia",
         "ordering": "away",
         "providerId": 1244,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.520613Z"
       }
     ],
     "ticker": "fifwc-par-aus-2026-06-25",
     "title": "Paraguay vs. Australia",
-    "updatedAt": "2026-06-28T23:48:45.059036Z",
+    "updatedAt": "2026-06-29T08:53:48.195478Z",
     "volume": 12439829.054830981
   },
   {
@@ -27982,11 +27993,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -27994,9 +28005,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -28066,7 +28077,7 @@
         "name": "T\u00fcrkiye",
         "ordering": "home",
         "providerId": 961,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.518686Z"
       },
       {
@@ -28079,13 +28090,13 @@
         "name": "United States",
         "ordering": "away",
         "providerId": 872,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.076471Z"
       }
     ],
     "ticker": "fifwc-tur-usa-2026-06-25",
     "title": "T\u00fcrkiye vs. United States",
-    "updatedAt": "2026-06-29T00:04:02.623318Z",
+    "updatedAt": "2026-06-29T09:08:20.347634Z",
     "volume": 47095247.46766452
   },
   {
@@ -28446,11 +28457,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -28458,9 +28469,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -28530,7 +28541,7 @@
         "name": "Norway",
         "ordering": "home",
         "providerId": 1110,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.577469Z"
       },
       {
@@ -28543,13 +28554,13 @@
         "name": "France",
         "ordering": "away",
         "providerId": 946,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.102561Z"
       }
     ],
     "ticker": "fifwc-nor-fra-2026-06-26",
     "title": "Norway vs. France",
-    "updatedAt": "2026-06-29T00:03:35.70685Z",
+    "updatedAt": "2026-06-29T09:23:22.883711Z",
     "volume": 28766023.8897393
   },
   {
@@ -28908,11 +28919,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -28920,9 +28931,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -28992,7 +29003,7 @@
         "name": "Senegal",
         "ordering": "home",
         "providerId": 1065,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.69325Z"
       },
       {
@@ -29005,13 +29016,13 @@
         "name": "Iraq",
         "ordering": "away",
         "providerId": 1330,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.52732Z"
       }
     ],
     "ticker": "fifwc-sen-irq-2026-06-26",
     "title": "Senegal vs. Iraq",
-    "updatedAt": "2026-06-28T23:31:12.864753Z",
+    "updatedAt": "2026-06-29T09:14:58.820982Z",
     "volume": 5879645.189385996
   },
   {
@@ -29383,11 +29394,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -29395,9 +29406,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -29467,7 +29478,7 @@
         "name": "Cabo Verde",
         "ordering": "home",
         "providerId": 1079,
-        "record": "0-3-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.298881Z"
       },
       {
@@ -29480,13 +29491,13 @@
         "name": "Saudi Arabia",
         "ordering": "away",
         "providerId": 1210,
-        "record": "0-2-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.747144Z"
       }
     ],
     "ticker": "fifwc-cvi-ksa-2026-06-26",
     "title": "Cabo Verde vs. Saudi Arabia",
-    "updatedAt": "2026-06-28T23:23:22.35442Z",
+    "updatedAt": "2026-06-29T09:08:37.585855Z",
     "volume": 14414519.027428085
   },
   {
@@ -29847,11 +29858,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -29859,9 +29870,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -29931,7 +29942,7 @@
         "name": "Uruguay",
         "ordering": "home",
         "providerId": 873,
-        "record": "0-2-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.102364Z"
       },
       {
@@ -29944,13 +29955,13 @@
         "name": "Spain",
         "ordering": "away",
         "providerId": 958,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.100681Z"
       }
     ],
     "ticker": "fifwc-ury-esp-2026-06-26",
     "title": "Uruguay vs. Spain",
-    "updatedAt": "2026-06-28T23:57:28.455605Z",
+    "updatedAt": "2026-06-29T09:24:37.412188Z",
     "volume": 28519284.64036702
   },
   {
@@ -30102,17 +30113,6 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0xc011a7e12a19f7b1f670d46f03b03f3342e82dfb",
-            "conditionId": "0x9623b379f3e25ffa6206f8bc7aedeecd67580944645151350e06cb3efd95c090",
-            "endDate": "2500-12-31",
-            "id": "693256",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 0.001,
-            "startDate": "2026-06-27"
-          }
-        ],
         "clobTokenIds": "[\"75595072506593093609125758283657089382220899252356081539276899905086401333602\", \"56768837194981285965222813073611625645493849723072187189036860746451609713977\"]",
         "closed": true,
         "closedTime": "2026-06-27 05:21:25+00",
@@ -30333,11 +30333,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -30345,9 +30345,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -30417,7 +30417,7 @@
         "name": "Egypt",
         "ordering": "home",
         "providerId": 1059,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.904675Z"
       },
       {
@@ -30430,13 +30430,13 @@
         "name": "IR Iran",
         "ordering": "away",
         "providerId": 1207,
-        "record": "0-3-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.5999Z"
       }
     ],
     "ticker": "fifwc-egy-irn-2026-06-26",
     "title": "Egypt vs. IR Iran",
-    "updatedAt": "2026-06-28T23:59:38.612403Z",
+    "updatedAt": "2026-06-29T09:21:38.05289Z",
     "volume": 17615955.707566
   },
   {
@@ -30797,11 +30797,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -30809,9 +30809,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -30881,7 +30881,7 @@
         "name": "New Zealand",
         "ordering": "home",
         "providerId": 1357,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.910404Z"
       },
       {
@@ -30894,13 +30894,13 @@
         "name": "Belgium",
         "ordering": "away",
         "providerId": 943,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.449249Z"
       }
     ],
     "ticker": "fifwc-nzl-bel-2026-06-26",
     "title": "New Zealand vs. Belgium",
-    "updatedAt": "2026-06-28T23:26:42.436234Z",
+    "updatedAt": "2026-06-29T09:24:41.840187Z",
     "volume": 7246308.950205011
   },
   {
@@ -31261,11 +31261,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -31273,9 +31273,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -31345,7 +31345,7 @@
         "name": "Panama",
         "ordering": "home",
         "providerId": 869,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.549972Z"
       },
       {
@@ -31358,13 +31358,13 @@
         "name": "England",
         "ordering": "away",
         "providerId": 858,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.079214Z"
       }
     ],
     "ticker": "fifwc-pan-eng-2026-06-27",
     "title": "Panama vs. England",
-    "updatedAt": "2026-06-28T23:55:22.459808Z",
+    "updatedAt": "2026-06-29T09:12:44.927494Z",
     "volume": 11750330.906710075
   },
   {
@@ -31725,11 +31725,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -31737,9 +31737,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -31809,7 +31809,7 @@
         "name": "Croatia",
         "ordering": "home",
         "providerId": 944,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.129327Z"
       },
       {
@@ -31822,13 +31822,13 @@
         "name": "Ghana",
         "ordering": "away",
         "providerId": 1061,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.166808Z"
       }
     ],
     "ticker": "fifwc-hrv-gha-2026-06-27",
     "title": "Croatia vs. Ghana",
-    "updatedAt": "2026-06-29T00:04:22.153086Z",
+    "updatedAt": "2026-06-29T09:22:01.951248Z",
     "volume": 25254213.642525237
   },
   {
@@ -31976,16 +31976,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T01:51:56.304585Z",
         "volume": "3535738.6063089645",
-        "volume1mo": 3535381.008450993,
-        "volume1moClob": 3535381.008450993,
-        "volume1wk": 3523607.3574269945,
-        "volume1wkClob": 3523607.3574269945,
-        "volume1yr": 3535738.606308993,
-        "volume1yrClob": 3535738.606308993,
-        "volume24hr": 2083922.8864089907,
-        "volume24hrClob": 2083922.8864089907,
         "volumeClob": 3535738.6063089645,
         "volumeNum": 3535738.6063089645
       },
@@ -32096,16 +32088,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T01:44:18.138088Z",
         "volume": "5853373.7481709635",
-        "volume1mo": 5853161.007812954,
-        "volume1moClob": 5853161.007812954,
-        "volume1wk": 5805061.109969952,
-        "volume1wkClob": 5805061.109969952,
-        "volume1yr": 5853373.748170953,
-        "volume1yrClob": 5853373.748170953,
-        "volume24hr": 2061650.6393579997,
-        "volume24hrClob": 2061650.6393579997,
         "volumeClob": 5853373.7481709635,
         "volumeNum": 5853373.7481709635
       },
@@ -32216,16 +32200,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T01:42:00.44967Z",
         "volume": "19361160.17850011",
-        "volume1mo": 19360702.26169532,
-        "volume1moClob": 19360702.26169532,
-        "volume1wk": 19252423.6849313,
-        "volume1wkClob": 19252423.6849313,
-        "volume1yr": 19361160.17850032,
-        "volume1yrClob": 19361160.17850032,
-        "volume24hr": 2912865.6551740025,
-        "volume24hrClob": 2912865.6551740025,
         "volumeClob": 19361160.17850011,
         "volumeNum": 19361160.17850011
       }
@@ -32246,11 +32222,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -32258,9 +32234,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -32330,7 +32306,7 @@
         "name": "Colombia",
         "ordering": "home",
         "providerId": 863,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.043885Z"
       },
       {
@@ -32343,18 +32319,14 @@
         "name": "Portugal",
         "ordering": "away",
         "providerId": 953,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.681794Z"
       }
     ],
     "ticker": "fifwc-col-prt-2026-06-27",
     "title": "Colombia vs. Portugal",
-    "updatedAt": "2026-06-29T00:04:06.096455Z",
-    "volume": 28750272.53298004,
-    "volume1mo": 28749244.277959265,
-    "volume1wk": 28581092.152328245,
-    "volume1yr": 28750272.532980267,
-    "volume24hr": 7209677.996220997
+    "updatedAt": "2026-06-29T09:23:17.918637Z",
+    "volume": 28750272.53298004
   },
   {
     "active": true,
@@ -32489,16 +32461,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T01:46:16.992545Z",
         "volume": "1355263.7187650003",
-        "volume1mo": 1355260.4929600006,
-        "volume1moClob": 1355260.4929600006,
-        "volume1wk": 1351125.2854900009,
-        "volume1wkClob": 1351125.2854900009,
-        "volume1yr": 1355263.7187650003,
-        "volume1yrClob": 1355263.7187650003,
-        "volume24hr": 880464.808249,
-        "volume24hrClob": 880464.808249,
         "volumeClob": 1355263.7187650003,
         "volumeNum": 1355263.7187650003
       },
@@ -32599,16 +32563,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T02:04:04.28135Z",
         "volume": "9889793.045153989",
-        "volume1mo": 9889683.418875009,
-        "volume1moClob": 9889683.418875009,
-        "volume1wk": 9862079.659629008,
-        "volume1wkClob": 9862079.659629008,
-        "volume1yr": 9889793.04515401,
-        "volume1yrClob": 9889793.04515401,
-        "volume24hr": 3258577.46769701,
-        "volume24hrClob": 3258577.46769701,
         "volumeClob": 9889793.045153989,
         "volumeNum": 9889793.045153989
       },
@@ -32708,16 +32664,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T01:49:57.607671Z",
         "volume": "3289604.5155949844",
-        "volume1mo": 3289366.667116004,
-        "volume1moClob": 3289366.667116004,
-        "volume1wk": 3276285.7121140044,
-        "volume1wkClob": 3276285.7121140044,
-        "volume1yr": 3289604.5155950044,
-        "volume1yrClob": 3289604.5155950044,
-        "volume24hr": 2157646.9664959987,
-        "volume24hrClob": 2157646.9664959987,
         "volumeClob": 3289604.5155949844,
         "volumeNum": 3289604.5155949844
       }
@@ -32738,11 +32686,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -32750,9 +32698,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -32822,7 +32770,7 @@
         "name": "DR Congo",
         "ordering": "home",
         "providerId": 1057,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-15T02:18:11.117435Z"
       },
       {
@@ -32835,18 +32783,14 @@
         "name": "Uzbekistan",
         "ordering": "away",
         "providerId": 1393,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.986351Z"
       }
     ],
     "ticker": "fifwc-cdr-uzb-2026-06-27",
     "title": "DR Congo vs. Uzbekistan",
-    "updatedAt": "2026-06-29T00:04:06.096455Z",
-    "volume": 14534661.279513974,
-    "volume1mo": 14534310.578951014,
-    "volume1wk": 14489490.657233013,
-    "volume1yr": 14534661.279514015,
-    "volume24hr": 6374130.71872601
+    "updatedAt": "2026-06-29T08:59:16.803938Z",
+    "volume": 14534661.279513974
   },
   {
     "active": true,
@@ -32981,16 +32925,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T04:01:57.023052Z",
         "volume": "1439166.6853729987",
-        "volume1mo": 1438578.444987002,
-        "volume1moClob": 1438578.444987002,
-        "volume1wk": 1431093.0487690023,
-        "volume1wkClob": 1431093.0487690023,
-        "volume1yr": 1439166.6853730022,
-        "volume1yrClob": 1439166.6853730022,
-        "volume24hr": 986053.367031003,
-        "volume24hrClob": 986053.367031003,
         "volumeClob": 1439166.6853729987,
         "volumeNum": 1439166.6853729987
       },
@@ -33091,16 +33027,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T04:15:55.337956Z",
         "volume": "7598609.843235994",
-        "volume1mo": 7597267.267665012,
-        "volume1moClob": 7597267.267665012,
-        "volume1wk": 7570473.827943013,
-        "volume1wkClob": 7570473.827943013,
-        "volume1yr": 7598609.843236012,
-        "volume1yrClob": 7598609.843236012,
-        "volume24hr": 5560731.682388005,
-        "volume24hrClob": 5560731.682388005,
         "volumeClob": 7598609.843235994,
         "volumeNum": 7598609.843235994
       },
@@ -33200,16 +33128,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T04:11:55.110229Z",
         "volume": "2597449.3944140025",
-        "volume1mo": 2595569.896862999,
-        "volume1moClob": 2595569.896862999,
-        "volume1wk": 2567272.6595589994,
-        "volume1wkClob": 2567272.6595589994,
-        "volume1yr": 2597449.3944139997,
-        "volume1yrClob": 2597449.3944139997,
-        "volume24hr": 1859522.342431999,
-        "volume24hrClob": 1859522.342431999,
         "volumeClob": 2597449.3944140025,
         "volumeNum": 2597449.3944140025
       }
@@ -33230,11 +33150,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -33242,9 +33162,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -33314,7 +33234,7 @@
         "name": "Jordan",
         "ordering": "home",
         "providerId": 1331,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.622991Z"
       },
       {
@@ -33327,18 +33247,14 @@
         "name": "Argentina",
         "ordering": "away",
         "providerId": 859,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.459372Z"
       }
     ],
     "ticker": "fifwc-jor-arg-2026-06-27",
     "title": "Jordan vs. Argentina",
-    "updatedAt": "2026-06-29T00:04:07.089956Z",
-    "volume": 11635225.923022995,
-    "volume1mo": 11631415.609515013,
-    "volume1wk": 11568839.536271015,
-    "volume1yr": 11635225.923023013,
-    "volume24hr": 8407616.355966005
+    "updatedAt": "2026-06-29T09:23:45.934843Z",
+    "volume": 11635225.923022995
   },
   {
     "active": true,
@@ -33485,16 +33401,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T04:15:55.337956Z",
         "volume": "3996018.6144399806",
-        "volume1mo": 3995809.877590993,
-        "volume1moClob": 3995809.877590993,
-        "volume1wk": 3973346.1877199947,
-        "volume1wkClob": 3973346.1877199947,
-        "volume1yr": 3996018.614439993,
-        "volume1yrClob": 3996018.614439993,
-        "volume24hr": 3475352.383353,
-        "volume24hrClob": 3475352.383353,
         "volumeClob": 3996018.6144399806,
         "volumeNum": 3996018.6144399806
       },
@@ -33605,16 +33513,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T04:21:56.344263Z",
         "volume": "9245319.949545983",
-        "volume1mo": 9245146.297920007,
-        "volume1moClob": 9245146.297920007,
-        "volume1wk": 9217182.88612701,
-        "volume1wkClob": 9217182.88612701,
-        "volume1yr": 9245319.94954601,
-        "volume1yrClob": 9245319.94954601,
-        "volume24hr": 7392053.968712016,
-        "volume24hrClob": 7392053.968712016,
         "volumeClob": 9245319.949545983,
         "volumeNum": 9245319.949545983
       },
@@ -33714,16 +33614,8 @@
         "umaResolutionStatus": "resolved",
         "umaResolutionStatuses": "[\"proposed\"]",
         "umaReward": "2",
-        "updatedAt": "2026-06-29T00:04:01.557126Z",
+        "updatedAt": "2026-06-29T04:18:03.977855Z",
         "volume": "8733405.134571051",
-        "volume1mo": 8733374.616486955,
-        "volume1moClob": 8733374.616486955,
-        "volume1wk": 8703829.860534955,
-        "volume1wkClob": 8703829.860534955,
-        "volume1yr": 8733405.134570956,
-        "volume1yrClob": 8733405.134570956,
-        "volume24hr": 7837637.451449,
-        "volume24hrClob": 7837637.451449,
         "volumeClob": 8733405.134571051,
         "volumeNum": 8733405.134571051
       }
@@ -33744,11 +33636,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -33756,9 +33648,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -33828,7 +33720,7 @@
         "name": "Algeria",
         "ordering": "home",
         "providerId": 1054,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.529644Z"
       },
       {
@@ -33841,18 +33733,14 @@
         "name": "Austria",
         "ordering": "away",
         "providerId": 942,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.447394Z"
       }
     ],
     "ticker": "fifwc-alg-aut-2026-06-27",
     "title": "Algeria vs. Austria",
-    "updatedAt": "2026-06-29T00:04:06.096455Z",
-    "volume": 21974743.698557016,
-    "volume1mo": 21974330.791997958,
-    "volume1wk": 21894358.934381958,
-    "volume1yr": 21974743.698556956,
-    "volume24hr": 18709564.723303016
+    "updatedAt": "2026-06-29T09:17:03.596231Z",
+    "volume": 21974743.698557016
   },
   {
     "active": true,
@@ -34182,11 +34070,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -34194,9 +34082,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -34266,7 +34154,7 @@
         "name": "Mexico",
         "ordering": "home",
         "providerId": 868,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.717982Z"
       },
       {
@@ -34279,7 +34167,7 @@
         "name": "South Africa",
         "ordering": "away",
         "providerId": 1083,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:15:22.188385Z"
       }
     ],
@@ -34700,6 +34588,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xd08f7dba1b56e93041a94c3b7d7b578daebf17536839251155faa4f3cceb4a15",
+            "endDate": "2500-12-31",
+            "id": "433404",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 31,
+            "startDate": "2026-06-11"
+          }
+        ],
         "clobTokenIds": "[\"100537877597715985141614093787978642497782029486453053648524067057244385359585\", \"28057409187759548963276530233966030501615198913221726147884248353463236031928\"]",
         "closed": true,
         "closedTime": "2026-06-11 21:39:01+00",
@@ -35068,6 +34967,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x640603d598e8f820b0a1f09de39f7c26411b7589a3e2efc40b0bd764178947c4",
+            "endDate": "2500-12-31",
+            "id": "431577",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-11"
+          }
+        ],
         "clobTokenIds": "[\"48083952545088070351611116617110294696162217403749964127217839865983489022613\", \"102990157712803800539174580373854169440647766315070330865579178555742151752470\"]",
         "closed": true,
         "closedTime": "2026-06-11 21:39:55+00",
@@ -35336,6 +35246,17 @@
         "bestAsk": 1,
         "bestBid": 0.999,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x23c7521ea17f65dd609638e664bf57446c235802171fb1f7bef4df1fa3ca9605",
+            "endDate": "2500-12-31",
+            "id": "431575",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-11"
+          }
+        ],
         "clobTokenIds": "[\"30822790777635433043025621846215884197019359784737861651768868926561725502693\", \"85052392836732605451928535657477845268006246915089075200624208973639988211000\"]",
         "closed": true,
         "closedTime": "2026-06-11 21:54:57+00",
@@ -35906,11 +35827,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -35918,9 +35839,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -35990,7 +35911,7 @@
         "name": "Mexico",
         "ordering": "home",
         "providerId": 868,
-        "record": "3-0-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.717982Z"
       },
       {
@@ -36003,7 +35924,7 @@
         "name": "South Africa",
         "ordering": "away",
         "providerId": 1083,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:15:22.188385Z"
       }
     ],
@@ -36339,11 +36260,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -36351,9 +36272,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -36423,7 +36344,7 @@
         "name": "Korea Republic",
         "ordering": "home",
         "providerId": 1209,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.589877Z"
       },
       {
@@ -36436,7 +36357,7 @@
         "name": "Czechia",
         "ordering": "away",
         "providerId": 945,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.791183Z"
       }
     ],
@@ -38056,11 +37977,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -38068,9 +37989,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -38140,7 +38061,7 @@
         "name": "Korea Republic",
         "ordering": "home",
         "providerId": 1209,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.589877Z"
       },
       {
@@ -38153,7 +38074,7 @@
         "name": "Czechia",
         "ordering": "away",
         "providerId": 945,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.791183Z"
       }
     ],
@@ -38481,11 +38402,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -38493,9 +38414,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -38565,7 +38486,7 @@
         "name": "Canada",
         "ordering": "home",
         "providerId": 966,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.052231Z"
       },
       {
@@ -38579,7 +38500,7 @@
         "name": "Bosnia and Herzegovina",
         "ordering": "away",
         "providerId": 1089,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-11T21:28:57.605233Z"
       }
     ],
@@ -38912,11 +38833,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -38924,9 +38845,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -38996,7 +38917,7 @@
         "name": "United States",
         "ordering": "home",
         "providerId": 872,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.076471Z"
       },
       {
@@ -39009,7 +38930,7 @@
         "name": "Paraguay",
         "ordering": "away",
         "providerId": 870,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.566812Z"
       }
     ],
@@ -40350,6 +40271,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x6757a275de15921da081e93c00c57bafc5d0aaeaa94451f889b12b4a70296fa7",
+            "endDate": "2500-12-31",
+            "id": "446486",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-12"
+          }
+        ],
         "clobTokenIds": "[\"55611743297321793734681887654444386109523609938946786584236101862757573813512\", \"25321796752028425938570219484867347826430494246630771204204672329455887540220\"]",
         "closed": true,
         "closedTime": "2026-06-13 03:35:28+00",
@@ -40535,17 +40467,6 @@
         "bestAsk": 1,
         "bestBid": 0.999,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0x46f0440bd4269028c7bc90c4b9653a0a0baad7a7d77cd4d403b61c5ac5ee12f7",
-            "endDate": "2500-12-31",
-            "id": "435733",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 62,
-            "startDate": "2026-06-12"
-          }
-        ],
         "clobTokenIds": "[\"74757596412068680434825090551745150604049197203714287710247222790890057349629\", \"13133875825897364953771189144361003617278015100431314569597689209730213336035\"]",
         "closed": true,
         "closedTime": "2026-06-13 03:52:15+00",
@@ -40639,11 +40560,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -40651,9 +40572,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -40723,7 +40644,7 @@
         "name": "United States",
         "ordering": "home",
         "providerId": 872,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.076471Z"
       },
       {
@@ -40736,7 +40657,7 @@
         "name": "Paraguay",
         "ordering": "away",
         "providerId": 870,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.566812Z"
       }
     ],
@@ -41072,11 +40993,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -41084,9 +41005,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -41156,7 +41077,7 @@
         "name": "Qatar",
         "ordering": "home",
         "providerId": 1365,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.737999Z"
       },
       {
@@ -41169,7 +41090,7 @@
         "name": "Switzerland",
         "ordering": "away",
         "providerId": 960,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.000151Z"
       }
     ],
@@ -41315,6 +41236,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x865bc0caee1682d1cc7b702c09cb4b50028cce06952e4c1eb168a4c31e90b35b",
+            "endDate": "2500-12-31",
+            "id": "441666",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-13"
+          }
+        ],
         "clobTokenIds": "[\"20976107435436942722228166593206309772577672877978473513597406584496310253154\", \"70649888052947139963625104750166790834977182508426160583618215138447861368226\"]",
         "closed": true,
         "closedTime": "2026-06-13 21:37:28+00",
@@ -42797,11 +42729,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -42809,9 +42741,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -42881,7 +42813,7 @@
         "name": "Qatar",
         "ordering": "home",
         "providerId": 1365,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.737999Z"
       },
       {
@@ -42894,7 +42826,7 @@
         "name": "Switzerland",
         "ordering": "away",
         "providerId": 960,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.000151Z"
       }
     ],
@@ -43230,11 +43162,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -43242,9 +43174,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -43314,7 +43246,7 @@
         "name": "Brazil",
         "ordering": "home",
         "providerId": 861,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.04282Z"
       },
       {
@@ -43327,7 +43259,7 @@
         "name": "Morocco",
         "ordering": "away",
         "providerId": 1064,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.650331Z"
       }
     ],
@@ -43747,6 +43679,17 @@
         "bestAsk": 1,
         "bestBid": 0.999,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xd7e68ef0dfabc386f97ffdc330ecff4908cda4d08c5fc5931503f1e60cac0dfe",
+            "endDate": "2500-12-31",
+            "id": "443265",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-13"
+          }
+        ],
         "clobTokenIds": "[\"78910181577284700494826508460716762421023373094764138924393374843954578022068\", \"108939229982570575711390715932266322916654541357425104982618150474737312669754\"]",
         "closed": true,
         "closedTime": "2026-06-14 00:51:57+00",
@@ -44021,6 +43964,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x7231fd71d844985e601fe5043d1be874f1549a220839d3d23ed71472a13d8534",
+            "endDate": "2500-12-31",
+            "id": "455211",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 31,
+            "startDate": "2026-06-13"
+          }
+        ],
         "clobTokenIds": "[\"97905886834788663682460474759934779973940247659161187767173976954942015590293\", \"22953523140844998617529884555651781115603056359044344750400454474953311044897\"]",
         "closed": true,
         "closedTime": "2026-06-14 00:37:45+00",
@@ -44952,11 +44906,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -44964,9 +44918,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -45036,7 +44990,7 @@
         "name": "Brazil",
         "ordering": "home",
         "providerId": 861,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.04282Z"
       },
       {
@@ -45049,7 +45003,7 @@
         "name": "Morocco",
         "ordering": "away",
         "providerId": 1064,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.650331Z"
       }
     ],
@@ -45385,11 +45339,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -45397,9 +45351,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -45469,7 +45423,7 @@
         "name": "Haiti",
         "ordering": "home",
         "providerId": 866,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.596746Z"
       },
       {
@@ -45482,7 +45436,7 @@
         "name": "Scotland",
         "ordering": "away",
         "providerId": 1112,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.96478Z"
       }
     ],
@@ -45629,17 +45583,6 @@
         "bestAsk": 1,
         "bestBid": 0.999,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0x8c0ca0960aa0fee35a819891f4052f2e189740c46f5b3ab90afb72b0455d4df7",
-            "endDate": "2500-12-31",
-            "id": "444840",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 62,
-            "startDate": "2026-06-13"
-          }
-        ],
         "clobTokenIds": "[\"113170843225122183986676324503103233648219856593724294114780303510146547117447\", \"72419187115813777019140303754272809597162053180993482345848768807402868732279\"]",
         "closed": true,
         "closedTime": "2026-06-14 03:52:27+00",
@@ -45823,6 +45766,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xf8f552a2d98b0db5cc14400518b71d51adf195aae0502c8f93f3a0ba5ff72c95",
+            "endDate": "2500-12-31",
+            "id": "444836",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-13"
+          }
+        ],
         "clobTokenIds": "[\"47847150348967211007306390347280247356164902365463736556407968898472364526231\", \"110310585283609798289487400542726829389414852676915034880508045521282055361948\"]",
         "closed": true,
         "closedTime": "2026-06-14 03:34:28+00",
@@ -45915,17 +45869,6 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0xb25da90861d5665296fabb9225fc4a198859dae51f3ede936577e713040f4a38",
-            "endDate": "2500-12-31",
-            "id": "444837",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 62,
-            "startDate": "2026-06-13"
-          }
-        ],
         "clobTokenIds": "[\"51734318580934976519658316780953700760730492438497847711872304171406768912950\", \"58647896714606599911716724506802019228628490514664545281361312620286894758209\"]",
         "closed": true,
         "closedTime": "2026-06-14 03:34:28+00",
@@ -47121,11 +47064,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -47133,9 +47076,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -47205,7 +47148,7 @@
         "name": "Haiti",
         "ordering": "home",
         "providerId": 866,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.596746Z"
       },
       {
@@ -47218,7 +47161,7 @@
         "name": "Scotland",
         "ordering": "away",
         "providerId": 1112,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.96478Z"
       }
     ],
@@ -47554,11 +47497,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -47566,9 +47509,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -47638,7 +47581,7 @@
         "name": "Australia",
         "ordering": "home",
         "providerId": 1244,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.520613Z"
       },
       {
@@ -47651,7 +47594,7 @@
         "name": "T\u00fcrkiye",
         "ordering": "away",
         "providerId": 961,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.518686Z"
       }
     ],
@@ -48164,17 +48107,6 @@
         "bestAsk": 1,
         "bestBid": 0.999,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0xb052599c32bb71ecdf791b53716deaa6feed3c10d4e54f8692455ccf458f33a8",
-            "endDate": "2500-12-31",
-            "id": "463276",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 62,
-            "startDate": "2026-06-14"
-          }
-        ],
         "clobTokenIds": "[\"79610380482810077636184136771575121664707588577631081296727204747285399598485\", \"88789106827894197820077381328761852654047108294436672446261430860156435279777\"]",
         "closed": true,
         "closedTime": "2026-06-14 06:44:27+00",
@@ -48450,6 +48382,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x2f198051a4e0d5ec8bf3ba3189953c4a34f8fa792c4b1d1a2b2b03a7a329469b",
+            "endDate": "2500-12-31",
+            "id": "463039",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-14"
+          }
+        ],
         "clobTokenIds": "[\"44033361308219601591861666286001753058159776592972626788740128182776229857279\", \"102226244089924437661851975560291895573734633730706747904148163276416682690484\"]",
         "closed": true,
         "closedTime": "2026-06-14 06:28:45+00",
@@ -48542,17 +48485,6 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0x6cc1eb0311e09261e9f6fc7a61ba0aca8fdd0a9ed59d573d4b02189cc5446bc2",
-            "endDate": "2500-12-31",
-            "id": "464401",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 31,
-            "startDate": "2026-06-14"
-          }
-        ],
         "clobTokenIds": "[\"3465342830580992274348247352695632953965307497157362944999742966176783084237\", \"80396099216759567957376431915736060720171826898161450158345792491713759857557\"]",
         "closed": true,
         "closedTime": "2026-06-14 06:28:31+00",
@@ -49290,11 +49222,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -49302,9 +49234,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -49374,7 +49306,7 @@
         "name": "Australia",
         "ordering": "home",
         "providerId": 1244,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.520613Z"
       },
       {
@@ -49387,7 +49319,7 @@
         "name": "T\u00fcrkiye",
         "ordering": "away",
         "providerId": 961,
-        "record": "1-0-2",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.518686Z"
       }
     ],
@@ -49723,11 +49655,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -49735,9 +49667,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -49807,7 +49739,7 @@
         "name": "Germany",
         "ordering": "home",
         "providerId": 947,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.208369Z"
       },
       {
@@ -49820,7 +49752,7 @@
         "name": "Cura\u00e7ao",
         "ordering": "away",
         "providerId": 1072,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.906622Z"
       }
     ],
@@ -51424,11 +51356,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -51436,9 +51368,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -51508,7 +51440,7 @@
         "name": "Germany",
         "ordering": "home",
         "providerId": 947,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:10.208369Z"
       },
       {
@@ -51521,7 +51453,7 @@
         "name": "Cura\u00e7ao",
         "ordering": "away",
         "providerId": 1072,
-        "record": "0-1-2",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.906622Z"
       }
     ],
@@ -51854,11 +51786,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -51866,9 +51798,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -51938,7 +51870,7 @@
         "name": "Netherlands",
         "ordering": "home",
         "providerId": 1109,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.834907Z"
       },
       {
@@ -51951,7 +51883,7 @@
         "name": "Japan",
         "ordering": "away",
         "providerId": 1208,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.788252Z"
       }
     ],
@@ -53210,6 +53142,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xbfa718ed7c6e8c6f5a56c99ca6d30ca90ca8fecc342eb578047b3d506fe96c12",
+            "endDate": "2500-12-31",
+            "id": "475967",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-14"
+          }
+        ],
         "clobTokenIds": "[\"29277971091460387267717283019847655735966031288994227404017426122675354603018\", \"101651071861740321928973813918473744854839140361173745755638831947373945971308\"]",
         "closed": true,
         "closedTime": "2026-06-14 22:30:30+00",
@@ -53578,11 +53521,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -53590,9 +53533,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -53662,7 +53605,7 @@
         "name": "Netherlands",
         "ordering": "home",
         "providerId": 1109,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:10.834907Z"
       },
       {
@@ -53675,7 +53618,7 @@
         "name": "Japan",
         "ordering": "away",
         "providerId": 1208,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.788252Z"
       }
     ],
@@ -54011,11 +53954,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -54023,9 +53966,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -54095,7 +54038,7 @@
         "name": "C\u00f4te d'Ivoire",
         "ordering": "home",
         "providerId": 1058,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.924393Z"
       },
       {
@@ -54108,7 +54051,7 @@
         "name": "Ecuador",
         "ordering": "away",
         "providerId": 865,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.820586Z"
       }
     ],
@@ -54992,6 +54935,17 @@
         "bestAsk": 1,
         "bestBid": 0.999,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0xb354cf12a9582fc083fbdcc4f20eb4f3f05a99e40a7bbbd5fce6cebb921374be",
+            "endDate": "2500-12-31",
+            "id": "455992",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-14"
+          }
+        ],
         "clobTokenIds": "[\"29380288309058797813398679225477780247939504509698535672869844435158536412723\", \"23417352356621206302943530849488631535945813427115294175223216979142574376099\"]",
         "closed": true,
         "closedTime": "2026-06-15 01:52:57+00",
@@ -55084,6 +55038,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x8ecfd7e555733c171007559d2c8708e59eb44c70bfb2f01e3060a8f5fedea117",
+            "endDate": "2500-12-31",
+            "id": "477701",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 31,
+            "startDate": "2026-06-14"
+          }
+        ],
         "clobTokenIds": "[\"19265467569714540906109545284351322022959511320204054312967584211963335101104\", \"98885987653447499360283662085563766727900078862268746510358557161726362841315\"]",
         "closed": true,
         "closedTime": "2026-06-15 01:36:13+00",
@@ -55729,11 +55694,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -55741,9 +55706,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -55813,7 +55778,7 @@
         "name": "C\u00f4te d'Ivoire",
         "ordering": "home",
         "providerId": 1058,
-        "record": "2-0-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.924393Z"
       },
       {
@@ -55826,7 +55791,7 @@
         "name": "Ecuador",
         "ordering": "away",
         "providerId": 865,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.820586Z"
       }
     ],
@@ -56162,11 +56127,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -56174,9 +56139,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -56246,7 +56211,7 @@
         "name": "Sweden",
         "ordering": "home",
         "providerId": 959,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.092631Z"
       },
       {
@@ -56259,7 +56224,7 @@
         "name": "Tunisia",
         "ordering": "away",
         "providerId": 1067,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.098991Z"
       }
     ],
@@ -57870,11 +57835,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -57882,9 +57847,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -57954,7 +57919,7 @@
         "name": "Sweden",
         "ordering": "home",
         "providerId": 959,
-        "record": "1-1-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:33.092631Z"
       },
       {
@@ -57967,7 +57932,7 @@
         "name": "Tunisia",
         "ordering": "away",
         "providerId": 1067,
-        "record": "0-0-3",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.098991Z"
       }
     ],
@@ -58303,11 +58268,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -58315,9 +58280,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -58387,7 +58352,7 @@
         "name": "Spain",
         "ordering": "home",
         "providerId": 958,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.100681Z"
       },
       {
@@ -58400,7 +58365,7 @@
         "name": "Cabo Verde",
         "ordering": "away",
         "providerId": 1079,
-        "record": "0-3-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.298881Z"
       }
     ],
@@ -58548,17 +58513,6 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0xc726c5ed28e99e88e417007b6c5fa9ffa3dcc90df00f39b9c45ea03832950d2c",
-            "endDate": "2500-12-31",
-            "id": "470493",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 62,
-            "startDate": "2026-06-15"
-          }
-        ],
         "clobTokenIds": "[\"50174074135128649956376048553315083962735874272614533724955444836135191188565\", \"102630522412174174403649150351765791837188530674282943110503184740249901481516\"]",
         "closed": true,
         "closedTime": "2026-06-15 18:30:15+00",
@@ -60042,11 +59996,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -60054,9 +60008,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -60126,7 +60080,7 @@
         "name": "Spain",
         "ordering": "home",
         "providerId": 958,
-        "record": "2-1-0",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.100681Z"
       },
       {
@@ -60139,7 +60093,7 @@
         "name": "Cabo Verde",
         "ordering": "away",
         "providerId": 1079,
-        "record": "0-3-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:43.298881Z"
       }
     ],
@@ -60475,11 +60429,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -60487,9 +60441,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -60559,7 +60513,7 @@
         "name": "Belgium",
         "ordering": "home",
         "providerId": 943,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.449249Z"
       },
       {
@@ -60572,7 +60526,7 @@
         "name": "Egypt",
         "ordering": "away",
         "providerId": 1059,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.904675Z"
       }
     ],
@@ -60984,17 +60938,6 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
-        "clobRewards": [
-          {
-            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-            "conditionId": "0xf4d5070a73cf9a28a06c61e4a351f20226ee5546f8880fb073df81cc87f35f7c",
-            "endDate": "2500-12-31",
-            "id": "486409",
-            "rewardsAmount": 0,
-            "rewardsDailyRate": 31,
-            "startDate": "2026-06-15"
-          }
-        ],
         "clobTokenIds": "[\"12227870823125952577931957559802534614046934843486791335125610347336672609794\", \"43895801735399502941134716884454305733118129196726938654144803358969786673983\"]",
         "closed": true,
         "closedTime": "2026-06-15 21:30:57+00",
@@ -61821,6 +61764,17 @@
         "automaticallyResolved": true,
         "bestAsk": 0.001,
         "clearBookOnStart": true,
+        "clobRewards": [
+          {
+            "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "conditionId": "0x82f56e3950cfce8a3e9486c702acb144e94a691344d0528721458bfe4865e127",
+            "endDate": "2500-12-31",
+            "id": "473408",
+            "rewardsAmount": 0,
+            "rewardsDailyRate": 62,
+            "startDate": "2026-06-15"
+          }
+        ],
         "clobTokenIds": "[\"465639650842320046537057517212834941347003617892795637861256400142119570712\", \"64415778969090517064272981029573463463163007464641351321605518376789895046319\"]",
         "closed": true,
         "closedTime": "2026-06-15 21:30:31+00",
@@ -62208,11 +62162,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -62220,9 +62174,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -62292,7 +62246,7 @@
         "name": "Belgium",
         "ordering": "home",
         "providerId": 943,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T15:57:42.449249Z"
       },
       {
@@ -62305,7 +62259,7 @@
         "name": "Egypt",
         "ordering": "away",
         "providerId": 1059,
-        "record": "1-2-0",
+        "record": "",
         "updatedAt": "2026-06-03T16:01:09.904675Z"
       }
     ],
@@ -62641,11 +62595,11 @@
         "active": true,
         "archived": false,
         "closed": false,
-        "commentCount": 11260,
+        "commentCount": 11344,
         "createdAt": "2026-03-26T22:29:37.657465Z",
         "featured": false,
         "id": "11433",
-        "liquidity": 74819777.25351,
+        "liquidity": 85143706.37963,
         "recurrence": "daily",
         "requiresTranslation": false,
         "restricted": true,
@@ -62653,9 +62607,9 @@
         "slug": "soccer-fifwc",
         "ticker": "soccer-fifwc",
         "title": "FIFA World Cup",
-        "updatedAt": "2026-06-29T00:04:13.081842Z",
-        "volume": 22174012.557314042,
-        "volume24hr": 141236998.48741886
+        "updatedAt": "2026-06-29T09:24:08.190556Z",
+        "volume": 31859359.27099385,
+        "volume24hr": 76714214.92089188
       }
     ],
     "seriesSlug": "soccer-fifwc",
@@ -62725,7 +62679,7 @@
         "name": "Saudi Arabia",
         "ordering": "home",
         "providerId": 1210,
-        "record": "0-2-1",
+        "record": "",
         "updatedAt": "2026-06-03T16:07:11.747144Z"
       },
       {
@@ -62738,7 +62692,7 @@
         "name": "Uruguay",
         "ordering": "away",
         "providerId": 873,
-        "record": "0-2-1",
+        "record": "",
         "updatedAt": "2026-06-03T18:08:32.102364Z"
       }
     ],
