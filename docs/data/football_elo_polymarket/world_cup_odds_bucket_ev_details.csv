@@ -167,12 +167,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team1_win,Curaçao,0.05847783933518004,False,-1.0,0-9c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,draw,Draw,0.11754570637119117,False,-1.0,10-19c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team2_win,Côte d'Ivoire,0.828264542936288,True,0.2073437267456737,80-89c
-2026-06-25T23:00:00Z,Japan vs. Sweden,team1_win,Japan,0.47524930555555556,False,-1.0,40-49c
-2026-06-25T23:00:00Z,Japan vs. Sweden,draw,Draw,0.2830194444444445,True,2.53332613581713,20-29c
-2026-06-25T23:00:00Z,Japan vs. Sweden,team2_win,Sweden,0.24712083333333335,False,-1.0,20-29c
 2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team1_win,Tunisia,0.03070277777777776,False,-1.0,0-9c
 2026-06-25T23:00:00Z,Tunisia vs. Netherlands,draw,Draw,0.08511111111111122,False,-1.0,0-9c
 2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team2_win,Netherlands,0.8920833333333332,True,0.12097150864082207,80-89c
+2026-06-25T23:00:00Z,Japan vs. Sweden,team1_win,Japan,0.47524930555555556,False,-1.0,40-49c
+2026-06-25T23:00:00Z,Japan vs. Sweden,draw,Draw,0.2830194444444445,True,2.53332613581713,20-29c
+2026-06-25T23:00:00Z,Japan vs. Sweden,team2_win,Sweden,0.24712083333333335,False,-1.0,20-29c
 2026-06-26T02:00:00Z,Paraguay vs. Australia,team1_win,Paraguay,0.36655555555555563,False,-1.0,30-39c
 2026-06-26T02:00:00Z,Paraguay vs. Australia,draw,Draw,0.42069444444444437,True,1.3770221195113903,40-49c
 2026-06-26T02:00:00Z,Paraguay vs. Australia,team2_win,Australia,0.21711111111111106,False,-1.0,20-29c
@@ -197,12 +197,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,team1_win,New Zealand,0.06530555555555535,False,-1.0,0-9c
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,draw,Draw,0.1146805555555556,False,-1.0,10-19c
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,Belgium,0.8219166666666666,True,0.21666835648382854,80-89c
-2026-06-27T21:00:00Z,Panama vs. England,team1_win,Panama,0.04500000000000007,False,-1.0,0-9c
-2026-06-27T21:00:00Z,Panama vs. England,draw,Draw,0.1050000000000001,False,-1.0,10-19c
-2026-06-27T21:00:00Z,Panama vs. England,team2_win,England,0.852888888888889,True,0.17248566961959333,80-89c
 2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,Croatia,0.5325833333333334,True,0.877640431857299,50-59c
 2026-06-27T21:00:00Z,Croatia vs. Ghana,draw,Draw,0.30319444444444443,False,-1.0,30-39c
 2026-06-27T21:00:00Z,Croatia vs. Ghana,team2_win,Ghana,0.16874999999999998,False,-1.0,10-19c
+2026-06-27T21:00:00Z,Panama vs. England,team1_win,Panama,0.04500000000000007,False,-1.0,0-9c
+2026-06-27T21:00:00Z,Panama vs. England,draw,Draw,0.1050000000000001,False,-1.0,10-19c
+2026-06-27T21:00:00Z,Panama vs. England,team2_win,England,0.852888888888889,True,0.17248566961959333,80-89c
 2026-06-27T23:30:00Z,Colombia vs. Portugal,team1_win,Colombia,0.2748614958448754,False,-1.0,20-29c
 2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,Draw,0.2426731301939059,True,3.120769362479309,20-29c
 2026-06-27T23:30:00Z,Colombia vs. Portugal,team2_win,Portugal,0.48605263157894735,False,-1.0,40-49c
@@ -215,3 +215,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-28T02:00:00Z,Algeria vs. Austria,team1_win,Algeria,0.2707222222222223,False,-1.0,20-29c
 2026-06-28T02:00:00Z,Algeria vs. Austria,draw,Draw,0.4656944444444444,True,1.1473307485833582,40-49c
 2026-06-28T02:00:00Z,Algeria vs. Austria,team2_win,Austria,0.2579444444444445,False,-1.0,20-29c
+2026-06-28T19:00:00Z,South Africa vs. Canada,team1_win,South Africa,0.16266666666666676,False,-1.0,10-19c
+2026-06-28T19:00:00Z,South Africa vs. Canada,draw,Draw,0.2652777777777777,False,-1.0,20-29c
+2026-06-28T19:00:00Z,South Africa vs. Canada,team2_win,Canada,0.5638333333333334,True,0.7735737511084833,50-59c
+2026-06-29T17:00:00Z,Brazil vs. Japan,team1_win,Brazil,0.5560803324099723,False,-1.0,50-59c
+2026-06-29T17:00:00Z,Brazil vs. Japan,draw,Draw,0.25970914127423816,True,2.850461308730202,20-29c
+2026-06-29T17:00:00Z,Brazil vs. Japan,team2_win,Japan,0.1819252077562328,False,-1.0,10-19c
