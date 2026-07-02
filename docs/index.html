@@ -396,11 +396,6 @@
       box-shadow: 0 1px 0 color-mix(in srgb, var(--shadow) 35%, transparent);
     }
 
-    .bracket-fixture-card.upcoming {
-      border-color: color-mix(in srgb, var(--amber) 55%, var(--line));
-      box-shadow: 0 0 0 1px color-mix(in srgb, var(--amber) 18%, transparent);
-    }
-
     .bracket-fixture-card.tbd {
       display: grid;
       place-items: center;
@@ -2064,7 +2059,7 @@
       return `
         <div class="bracket-fixture-wrap">
           <div class="bracket-fixture-meta">${escapeHtml(meta)}</div>
-          <div class="bracket-fixture-card ${upcoming ? "upcoming" : ""}">
+          <div class="bracket-fixture-card">
             ${bracketFixtureRow(row, "team1", winner === "team1_win", upcoming)}
             ${bracketFixtureRow(row, "team2", winner === "team2_win", upcoming)}
           </div>
