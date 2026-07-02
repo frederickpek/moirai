@@ -203,6 +203,506 @@
       margin: 0 auto;
     }
 
+    main.bracket-layout {
+      max-width: none;
+      width: 100%;
+      padding: 1rem clamp(0.75rem, 2vw, 1.5rem) 4rem;
+    }
+
+    .bracket-section {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--panel);
+      box-shadow: 0 18px 55px var(--shadow);
+      padding: 1.15rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .bracket-header h2 {
+      margin: 0;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+    }
+
+    .bracket-subtitle {
+      margin: 0.35rem 0 1rem;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .bracket-board-wrap {
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      background: color-mix(in srgb, var(--soft-bg) 70%, transparent);
+      border-radius: 14px;
+    }
+
+    .bracket-tree {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      gap: 0;
+      min-width: 1320px;
+      padding: 0.75rem 0.35rem 1rem;
+    }
+
+    .bracket-side-panel {
+      display: flex;
+      align-items: stretch;
+    }
+
+    .bracket-side-panel.left {
+      justify-content: flex-end;
+    }
+
+    .bracket-side-panel.right {
+      justify-content: flex-start;
+      flex-direction: row-reverse;
+    }
+
+    .bracket-round-col {
+      position: relative;
+      width: 158px;
+      flex: 0 0 158px;
+      padding: 0 0.35rem;
+    }
+
+    .bracket-round-col::after {
+      content: "";
+      position: absolute;
+      top: 2.4rem;
+      bottom: 0.35rem;
+      width: 1px;
+      background: var(--line);
+      opacity: 0.35;
+    }
+
+    .bracket-side-panel.left .bracket-round-col::after {
+      right: 0;
+    }
+
+    .bracket-side-panel.right .bracket-round-col::after {
+      left: 0;
+    }
+
+    .bracket-round-col:last-child::after {
+      display: none;
+    }
+
+    .bracket-pair-connector,
+    .bracket-round-connector {
+      position: absolute;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .bracket-pair-connector {
+      width: 0.9rem;
+      height: 2px;
+      background: var(--line);
+      transform: translateY(-50%);
+    }
+
+    .bracket-pair-connector.left {
+      right: -0.45rem;
+    }
+
+    .bracket-pair-connector.right {
+      left: -0.45rem;
+    }
+
+    .bracket-pair-connector::before {
+      content: "";
+      position: absolute;
+      top: calc(var(--pair-span, 0px) / -2);
+      height: var(--pair-span, 0px);
+      width: 2px;
+      background: var(--line);
+    }
+
+    .bracket-pair-connector.left::before {
+      right: 0;
+    }
+
+    .bracket-pair-connector.right::before {
+      left: 0;
+    }
+
+    .bracket-round-connector {
+      width: 0.75rem;
+      height: 2px;
+      background: var(--line);
+      transform: translateY(-50%);
+    }
+
+    .bracket-side-panel.left .bracket-round-connector {
+      right: -0.35rem;
+    }
+
+    .bracket-side-panel.right .bracket-round-connector {
+      left: -0.35rem;
+    }
+
+    .bracket-col-title {
+      text-align: center;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      min-height: 2rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .bracket-col-body {
+      position: relative;
+      height: var(--side-height, 520px);
+    }
+
+    .bracket-abs-node {
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    .bracket-fixture-wrap {
+      position: relative;
+      padding-bottom: 0.2rem;
+    }
+
+    .bracket-fixture-meta {
+      color: var(--muted);
+      font-size: 0.64rem;
+      font-weight: 650;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.35rem;
+      min-height: 1.1rem;
+      line-height: 1.1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .bracket-fixture-meta-spacer {
+      visibility: hidden;
+    }
+
+    .bracket-fixture-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      overflow: hidden;
+      box-shadow: 0 1px 0 color-mix(in srgb, var(--shadow) 35%, transparent);
+    }
+
+    .bracket-fixture-card.upcoming {
+      border-color: color-mix(in srgb, var(--amber) 55%, var(--line));
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--amber) 18%, transparent);
+    }
+
+    .bracket-fixture-card.tbd {
+      display: grid;
+      place-items: center;
+      min-height: 3.35rem;
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: var(--soft-bg);
+    }
+
+    .bracket-fixture-row {
+      display: grid;
+      grid-template-columns: 1.15rem 1fr auto;
+      gap: 0.28rem;
+      align-items: center;
+      padding: 0.3rem 0.35rem;
+      min-height: 1.55rem;
+    }
+
+    .bracket-fixture-row + .bracket-fixture-row {
+      border-top: 1px solid var(--line);
+    }
+
+    .bracket-fixture-row.winner {
+      background: color-mix(in srgb, var(--green) 10%, transparent);
+    }
+
+    .bracket-fixture-flag {
+      width: 1.2rem;
+      height: 1.2rem;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      display: grid;
+      place-items: center;
+      font-size: 0.55rem;
+      font-weight: 800;
+      color: var(--muted);
+      background: var(--panel-2);
+    }
+
+    .bracket-fixture-flag img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .bracket-fixture-name {
+      font-size: 0.68rem;
+      font-weight: 700;
+      line-height: 1.15;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .bracket-fixture-score {
+      font-size: 0.72rem;
+      font-weight: 800;
+      min-width: 1.65rem;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .bracket-fixture-score .bracket-pen-goals {
+      font-weight: 800;
+    }
+
+    .bracket-center-col {
+      position: relative;
+      flex: 0 0 158px;
+      padding: 0 0.65rem;
+    }
+
+    .bracket-center-body {
+      position: relative;
+      height: var(--side-height, 520px);
+    }
+
+    .bracket-center-block {
+      position: absolute;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    .bracket-center-block.third-block {
+      bottom: auto;
+    }
+
+    .bracket-center-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.35rem;
+    }
+
+    .bracket-center-col .bracket-fixture-card {
+      min-height: 3.8rem;
+    }
+
+    .bracket-center-col .bracket-fixture-card.tbd.final {
+      min-height: 4.6rem;
+    }
+
+    .bracket-summaries h2 {
+      margin: 0 0 0.85rem;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+    }
+
+    #bracket-summary-cards.bracket-summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.75rem;
+    }
+
+    @media (max-width: 1180px) {
+      #bracket-summary-cards.bracket-summary-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .compact-knockout-card {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+      box-shadow: 0 10px 28px var(--shadow);
+      overflow: hidden;
+      border-color: color-mix(in srgb, var(--amber) 45%, var(--line));
+    }
+
+    .compact-knockout-card .compact-header {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 0.45rem;
+      align-items: center;
+      padding: 0.65rem 0.75rem;
+      background: var(--soft-bg);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .compact-knockout-card .compact-team {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      min-width: 0;
+    }
+
+    .compact-knockout-card .compact-team.away {
+      justify-content: flex-end;
+      text-align: right;
+    }
+
+    .compact-knockout-card .compact-flag .flag {
+      width: 1.75rem;
+      height: 1.75rem;
+      font-size: 0.95rem;
+    }
+
+    .compact-knockout-card .compact-team-name {
+      font-size: 0.82rem;
+      font-weight: 750;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .compact-knockout-card .compact-team-elo {
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-top: 0.1rem;
+    }
+
+    .compact-knockout-card .compact-score-block {
+      text-align: center;
+      min-width: 4.5rem;
+    }
+
+    .compact-knockout-card .compact-score {
+      font-size: 0.95rem;
+      font-weight: 850;
+      line-height: 1.1;
+    }
+
+    .compact-knockout-card .compact-date {
+      font-size: 0.66rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+      line-height: 1.2;
+    }
+
+    .compact-knockout-card .compact-body {
+      display: block;
+      border-top: 1px solid var(--line);
+    }
+
+    .compact-knockout-card .compact-matrix {
+      padding: 0.35rem 0.55rem 0.45rem;
+      overflow-x: auto;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .compact-knockout-card .bracket-form-block {
+      padding: 0.55rem 0.65rem 0.65rem;
+      border-top: none;
+      background: transparent;
+    }
+
+    .compact-knockout-card .bracket-form-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.55rem 0.65rem;
+    }
+
+    .compact-knockout-card table {
+      min-width: 0;
+      font-size: 0.72rem;
+    }
+
+    .compact-knockout-card th,
+    .compact-knockout-card td {
+      padding: 0.32rem 0.35rem;
+    }
+
+    .compact-knockout-card .bracket-form-heading {
+      font-size: 0.78rem;
+    }
+
+    .compact-knockout-card .form-chip {
+      min-width: 1.35rem;
+      height: 1.35rem;
+      font-size: 0.66rem;
+    }
+
+    .compact-knockout-card .recent-results {
+      font-size: 0.72rem;
+      line-height: 1.35;
+    }
+
+    .bracket-form-block {
+      padding: 0.85rem 1.15rem 1.15rem;
+      border-top: 1px solid var(--line);
+      background: var(--soft-bg);
+    }
+
+    .bracket-form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem 1.25rem;
+    }
+
+    .bracket-form-heading {
+      margin: 0 0 0.35rem;
+      font-size: 0.88rem;
+      font-weight: 750;
+    }
+
+    .form-chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .form-chip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 1.55rem;
+      height: 1.55rem;
+      padding: 0 0.35rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      border: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    .form-chip.win { color: var(--green); border-color: color-mix(in srgb, var(--green) 35%, var(--line)); }
+    .form-chip.draw { color: var(--amber); border-color: color-mix(in srgb, var(--amber) 35%, var(--line)); }
+    .form-chip.loss { color: var(--red); border-color: color-mix(in srgb, var(--red) 35%, var(--line)); }
+
+    .recent-results {
+      margin: 0;
+      padding-left: 1rem;
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.45;
+    }
+
+    .recent-results li {
+      margin-bottom: 0.2rem;
+    }
+
     .methodology {
       display: flex;
       flex-direction: column;
@@ -615,6 +1115,69 @@
       .chart-wrap {
         height: 520px;
       }
+
+      .bracket-tree {
+        min-width: 0;
+        flex-direction: column;
+        padding: 0.75rem 0.25rem;
+      }
+
+      .bracket-side-panel,
+      .bracket-side-panel.right {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .bracket-round-col {
+        width: 100%;
+        flex-basis: auto;
+        padding: 0;
+        margin-bottom: 0.75rem;
+      }
+
+      .bracket-pair-connector,
+      .bracket-round-connector {
+        display: none;
+      }
+
+      .bracket-col-body,
+      .bracket-center-body {
+        height: auto !important;
+      }
+
+      .bracket-abs-node {
+        position: static;
+        margin-bottom: 0.65rem;
+      }
+
+      .bracket-center-col {
+        flex-basis: auto;
+        width: 100%;
+        min-height: 0;
+        padding: 0.5rem 0;
+      }
+
+      .bracket-center-block {
+        position: static;
+        margin-bottom: 0.75rem;
+      }
+
+      #bracket-summary-cards.bracket-summary-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .compact-knockout-card .compact-body {
+        grid-template-columns: 1fr;
+      }
+
+      .compact-knockout-card .compact-matrix {
+        border-right: none;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .compact-knockout-card .bracket-form-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -639,6 +1202,7 @@
       </div>
       <nav class="page-tabs" aria-label="Page sections">
         <button id="tab-matches" class="page-tab active" type="button">Matches</button>
+        <button id="tab-bracket" class="page-tab" type="button">Round of 32</button>
         <button id="tab-methodology" class="page-tab" type="button">Methodology</button>
       </nav>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">☾</button>
@@ -659,6 +1223,22 @@
       <div id="strategy-description" class="chart-description">Hover a strategy legend item for its description. Click a legend item to isolate it.</div>
     </section>
     <div id="cards" class="cards"></div>
+    </div>
+
+    <div id="bracket-view" hidden>
+      <section class="bracket-section">
+        <div class="bracket-header">
+          <h2>Round of 32 Knockout Bracket</h2>
+          <p class="bracket-subtitle">Fixtures from World Football Elo. Upcoming matches are highlighted.</p>
+        </div>
+        <div class="bracket-board-wrap">
+          <div id="bracket-board" class="bracket-board"></div>
+        </div>
+      </section>
+      <section class="bracket-summaries">
+        <h2>Upcoming Knockout Matches</h2>
+        <div id="bracket-summary-cards" class="bracket-summary-grid"></div>
+      </section>
     </div>
 
     <div id="methodology-view" class="methodology" hidden>
@@ -733,6 +1313,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script>
     const CSV_PATH = "./data/football_elo_polymarket/world_cup_polymarket_elo_raw_table.csv";
+    const KNOCKOUT_PATH = "./data/football_elo_polymarket/world_cup_knockout_bracket.csv";
     const PNL_PATH = "./data/football_elo_polymarket/world_cup_pnl_paths.csv";
     const STRATEGY_SUMMARY_PATH = "./data/football_elo_polymarket/world_cup_strategy_summary.csv";
     const STRATEGY_RESULTS_PATH = "./data/football_elo_polymarket/world_cup_strategy_results.csv";
@@ -756,13 +1337,19 @@
     const strategyDescriptionEl = document.getElementById("strategy-description");
     const themeToggleEl = document.getElementById("theme-toggle");
     const tabMatchesEl = document.getElementById("tab-matches");
+    const tabBracketEl = document.getElementById("tab-bracket");
     const tabMethodologyEl = document.getElementById("tab-methodology");
     const lastUpdatedEl = document.getElementById("last-updated");
     const matchesViewEl = document.getElementById("matches-view");
+    const bracketViewEl = document.getElementById("bracket-view");
+    const bracketBoardEl = document.getElementById("bracket-board");
+    const bracketSummaryCardsEl = document.getElementById("bracket-summary-cards");
     const methodologyViewEl = document.getElementById("methodology-view");
+    const mainEl = document.querySelector("main");
 
     let latestPnlRows = [];
     let latestMatchRows = [];
+    let latestKnockoutRows = [];
     let activeStrategy = null;
     let pnlChart = null;
     let strategySummaries = new Map();
@@ -802,6 +1389,7 @@
     updateThemeToggle();
 
     tabMatchesEl.addEventListener("click", () => setActivePageTab("matches"));
+    tabBracketEl.addEventListener("click", () => setActivePageTab("bracket"));
     tabMethodologyEl.addEventListener("click", () => setActivePageTab("methodology"));
 
     loadData();
@@ -812,8 +1400,9 @@
       statusEl.hidden = true;
       statusEl.textContent = "";
       try {
-        const [matchResponse, pnlResponse, summaryResponse, resultsResponse, updatedResponse] = await Promise.allSettled([
+        const [matchResponse, knockoutResponse, pnlResponse, summaryResponse, resultsResponse, updatedResponse] = await Promise.allSettled([
           fetch(`${CSV_PATH}?t=${Date.now()}`),
+          fetch(`${KNOCKOUT_PATH}?t=${Date.now()}`),
           fetch(`${PNL_PATH}?t=${Date.now()}`),
           fetch(`${STRATEGY_SUMMARY_PATH}?t=${Date.now()}`),
           fetch(`${STRATEGY_RESULTS_PATH}?t=${Date.now()}`),
@@ -829,6 +1418,15 @@
 
         const matchText = await matchResponse.value.text();
         renderMatches(matchText);
+
+        if (knockoutResponse.status === "fulfilled" && knockoutResponse.value.ok) {
+          latestKnockoutRows = parseCsv(await knockoutResponse.value.text());
+          renderBracket(latestKnockoutRows);
+        } else {
+          latestKnockoutRows = [];
+          bracketBoardEl.innerHTML = "";
+          bracketSummaryCardsEl.innerHTML = "";
+        }
 
         if (pnlResponse.status === "fulfilled" && pnlResponse.value.ok) {
           latestPnlRows = parseCsv(await pnlResponse.value.text());
@@ -1271,10 +1869,424 @@
 
     function setActivePageTab(tab) {
       const isMatches = tab === "matches";
+      const isBracket = tab === "bracket";
       tabMatchesEl.classList.toggle("active", isMatches);
-      tabMethodologyEl.classList.toggle("active", !isMatches);
+      tabBracketEl.classList.toggle("active", isBracket);
+      tabMethodologyEl.classList.toggle("active", tab === "methodology");
       matchesViewEl.hidden = !isMatches;
-      methodologyViewEl.hidden = isMatches;
+      bracketViewEl.hidden = !isBracket;
+      methodologyViewEl.hidden = tab !== "methodology";
+      mainEl.classList.toggle("bracket-layout", isBracket);
+    }
+
+    const BRACKET_META_H = 26;
+    const BRACKET_CARD_H = 58;
+    const BRACKET_NODE_H = BRACKET_META_H + BRACKET_CARD_H;
+    const BRACKET_SLOT_STEP = BRACKET_NODE_H + 12;
+
+    const BRACKET_ROUNDS = [
+      { key: "r32", label: "Round of 32", roundName: "Round of 32", slotsPerSide: 8 },
+      { key: "r16", label: "Round of 16", roundName: "Round of 16", slotsPerSide: 4 },
+      { key: "qf", label: "Quarter-finals", roundName: "Quarter-finals", slotsPerSide: 2 },
+      { key: "sf", label: "Semi-finals", roundName: "Semi-finals", slotsPerSide: 1 },
+    ];
+
+    function renderBracket(rows) {
+      const leftRows = sortBracketRows(rows.filter(row => row.bracket_side === "left"));
+      const rightRows = sortBracketRows(rows.filter(row => row.bracket_side === "right"));
+      const sideHeight = bracketSideHeight(BRACKET_ROUNDS[0].slotsPerSide);
+
+      bracketBoardEl.className = "bracket-tree";
+      bracketBoardEl.innerHTML = `
+        ${renderBracketSidePanel(leftRows, "left", sideHeight)}
+        ${renderBracketCenter(sideHeight)}
+        ${renderBracketSidePanel(rightRows, "right", sideHeight)}
+      `;
+
+      const upcoming = rows
+        .filter(row => isTruthy(row.is_upcoming))
+        .sort((a, b) => kickoffTimestamp(a) - kickoffTimestamp(b));
+
+      bracketSummaryCardsEl.innerHTML = upcoming.length
+        ? upcoming.map(row => knockoutSummaryCard(row)).join("")
+        : `<div class="status">No upcoming knockout matches in the bracket export.</div>`;
+    }
+
+    function bracketSlotTop(roundIndex, slotIndex) {
+      const span = Math.pow(2, roundIndex);
+      return slotIndex * span * BRACKET_SLOT_STEP + ((span - 1) * BRACKET_SLOT_STEP) / 2;
+    }
+
+    function bracketNodeCenter(roundIndex, slotIndex) {
+      return bracketSlotTop(roundIndex, slotIndex) + BRACKET_NODE_H / 2;
+    }
+
+    function bracketSideHeight(matchCount) {
+      if (matchCount <= 0) return BRACKET_NODE_H + 24;
+      return bracketSlotTop(0, matchCount - 1) + BRACKET_NODE_H + 24;
+    }
+
+    function renderBracketSidePanel(rows, side, sideHeight) {
+      return `
+        <section class="bracket-side-panel ${side}">
+          ${BRACKET_ROUNDS.map((round, roundIndex) => renderBracketRoundColumn(round, side, sideHeight, roundIndex, rows)).join("")}
+        </section>
+      `;
+    }
+
+    function bracketRowsForRound(rows, roundName, side) {
+      return sortBracketRows(
+        rows.filter(row => normalizeBracketRound(row.round) === roundName && row.bracket_side === side)
+      );
+    }
+
+    function normalizeBracketRound(value) {
+      const round = String(value || "").trim();
+      if (!round) return "Round of 32";
+      return round;
+    }
+
+    function renderBracketRoundColumn(round, side, sideHeight, roundIndex, sideRows) {
+      const matches = bracketRowsForRound(sideRows, round.roundName, side);
+      const matchBySlot = new Map(matches.map(row => [Number(row.bracket_slot), row]));
+      const nodes = [];
+
+      for (let slot = 1; slot <= round.slotsPerSide; slot += 1) {
+        const top = bracketSlotTop(roundIndex, slot - 1);
+        const match = matchBySlot.get(slot);
+        nodes.push(`
+          <div class="bracket-abs-node" style="top:${top}px">
+            ${match ? bracketFixtureNode(match) : renderTbdCard()}
+          </div>
+        `);
+      }
+
+      const connectors = roundIndex === 0
+        ? renderPairConnectors(round.slotsPerSide, side)
+        : renderRoundConnectors(roundIndex, round.slotsPerSide, side);
+
+      return `
+        <div class="bracket-round-col ${round.key}">
+          <div class="bracket-col-title">${round.label}</div>
+          <div class="bracket-col-body" style="--side-height:${sideHeight}px">
+            ${connectors}
+            ${nodes.join("")}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderPairConnectors(matchCount, side) {
+      const connectors = [];
+      for (let pairIndex = 0; pairIndex < Math.ceil(matchCount / 2); pairIndex += 1) {
+        const topIndex = pairIndex * 2;
+        const bottomIndex = topIndex + 1;
+        const topCenter = bracketNodeCenter(0, topIndex);
+        const bottomCenter = bottomIndex < matchCount
+          ? bracketNodeCenter(0, bottomIndex)
+          : topCenter;
+        const mid = (topCenter + bottomCenter) / 2;
+        const span = Math.max(bottomCenter - topCenter, 0);
+        connectors.push(`
+          <div
+            class="bracket-pair-connector ${side}"
+            style="top:${mid}px; --pair-span:${span}px"
+            aria-hidden="true"
+          ></div>
+        `);
+      }
+      return connectors.join("");
+    }
+
+    function renderRoundConnectors(roundIndex, slotCount, side) {
+      const connectors = [];
+      for (let slot = 0; slot < slotCount; slot += 1) {
+        const center = bracketNodeCenter(roundIndex, slot);
+        connectors.push(`
+          <div class="bracket-round-connector ${side}" style="top:${center}px" aria-hidden="true"></div>
+        `);
+      }
+      return connectors.join("");
+    }
+
+    function renderBracketCenter(sideHeight) {
+      const sfCenter = bracketNodeCenter(3, 0);
+      const finalTop = sfCenter - BRACKET_NODE_H * 2 - 10;
+      const thirdTop = finalTop + BRACKET_NODE_H * 3;
+
+      return `
+        <section class="bracket-center-col">
+          <div class="bracket-col-title" aria-hidden="true">&nbsp;</div>
+          <div class="bracket-center-body" style="--side-height:${sideHeight}px">
+            <div class="bracket-center-block final-block" style="top:${finalTop}px">
+              <div class="bracket-center-label">Final</div>
+              <div class="bracket-fixture-wrap">
+                <div class="bracket-fixture-meta bracket-fixture-meta-spacer" aria-hidden="true">&nbsp;</div>
+                <div class="bracket-fixture-card tbd final">TBD</div>
+              </div>
+            </div>
+            <div class="bracket-center-block third-block" style="top:${thirdTop}px">
+              <div class="bracket-center-label">3rd Place</div>
+              <div class="bracket-fixture-wrap">
+                <div class="bracket-fixture-meta bracket-fixture-meta-spacer" aria-hidden="true">&nbsp;</div>
+                <div class="bracket-fixture-card tbd">TBD</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      `;
+    }
+
+    function renderTbdCard() {
+      return `
+        <div class="bracket-fixture-wrap">
+          <div class="bracket-fixture-meta bracket-fixture-meta-spacer" aria-hidden="true">&nbsp;</div>
+          <div class="bracket-fixture-card tbd">TBD</div>
+        </div>
+      `;
+    }
+
+    function bracketFixtureMeta(row) {
+      if (isTruthy(row.is_upcoming)) {
+        return formatBracketKickoffShort(row.event_start_time, row.match_date);
+      }
+      if (hasScore(row)) {
+        return isTruthy(row.went_to_penalties) ? "Penalties" : "Full time";
+      }
+      return formatBracketKickoffShort(row.event_start_time, row.match_date);
+    }
+
+    function bracketFixtureNode(row) {
+      const upcoming = isTruthy(row.is_upcoming);
+      const winner = bracketMatchWinner(row);
+      const meta = bracketFixtureMeta(row);
+
+      return `
+        <div class="bracket-fixture-wrap">
+          <div class="bracket-fixture-meta">${escapeHtml(meta)}</div>
+          <div class="bracket-fixture-card ${upcoming ? "upcoming" : ""}">
+            ${bracketFixtureRow(row, "team1", winner === "team1_win", upcoming)}
+            ${bracketFixtureRow(row, "team2", winner === "team2_win", upcoming)}
+          </div>
+        </div>
+      `;
+    }
+
+    function sortBracketRows(rows) {
+      return [...rows].sort((a, b) => {
+        const slotDiff = Number(a.bracket_slot) - Number(b.bracket_slot);
+        if (slotDiff !== 0) return slotDiff;
+        return kickoffTimestamp(a) - kickoffTimestamp(b);
+      });
+    }
+
+    function kickoffTimestamp(row) {
+      if (row.event_start_time) {
+        const ts = Date.parse(row.event_start_time);
+        if (!Number.isNaN(ts)) return ts;
+      }
+      if (row.match_date) {
+        const ts = Date.parse(`${row.match_date}T12:00:00Z`);
+        if (!Number.isNaN(ts)) return ts;
+      }
+      return Number.MAX_SAFE_INTEGER;
+    }
+
+    function bracketFixtureRow(row, teamKey, isWinner, upcoming) {
+      const nameKey = teamKey === "team1" ? "poly_team1" : "poly_team2";
+      const codeKey = teamKey === "team1" ? "team1_code" : "team2_code";
+      const name = displayTeamName(row[nameKey]);
+      const code = row[codeKey];
+      const score = upcoming
+        ? `<span class="bracket-fixture-score">-</span>`
+        : `<span class="bracket-fixture-score">${formatBracketTeamScore(row, teamKey)}</span>`;
+
+      return `
+        <div class="bracket-fixture-row ${isWinner ? "winner" : ""}">
+          ${bracketFixtureFlag(code)}
+          <div class="bracket-fixture-name" title="${escapeHtml(name || "?")}">${escapeHtml(name || code || "?")}</div>
+          ${score}
+        </div>
+      `;
+    }
+
+    function displayTeamName(name) {
+      if (name === "Bosnia and Herzegovina") {
+        return "Bosnia";
+      }
+      return name;
+    }
+
+    function bracketMatchWinner(row) {
+      if (row.advance_winner === "team1") return "team1_win";
+      if (row.advance_winner === "team2") return "team2_win";
+      return winningOutcome(row);
+    }
+
+    function formatBracketTeamScore(row, teamKey) {
+      const goalsKey = teamKey === "team1" ? "team1_goals" : "team2_goals";
+      const penKey = teamKey === "team1" ? "team1_pen_goals" : "team2_pen_goals";
+      const goalsFor = row[goalsKey];
+      const penGoals = row[penKey];
+
+      if (!hasNumericScore(goalsFor)) {
+        return "-";
+      }
+
+      if (isTruthy(row.went_to_penalties) && hasNumericScore(penGoals)) {
+        return `<span class="bracket-pen-goals">(${toInt(penGoals)})</span> ${toInt(goalsFor)}`;
+      }
+
+      return toInt(goalsFor);
+    }
+
+    function bracketFixtureFlag(code) {
+      const flagCode = FLAG_COUNTRY_CODES[code];
+      const label = escapeHtml(code || "?");
+      if (!flagCode) {
+        return `<div class="bracket-fixture-flag">${label}</div>`;
+      }
+      return `<div class="bracket-fixture-flag"><img src="https://flagcdn.com/w40/${flagCode}.png" alt="${label} flag" loading="lazy" onerror="this.replaceWith(document.createTextNode('${label}'))"></div>`;
+    }
+
+    function hasNumericScore(value) {
+      return value !== "" && value !== null && value !== undefined && !Number.isNaN(Number(value));
+    }
+
+    function knockoutSummaryCard(row) {
+      const team1 = displayTeamName(row.poly_team1 || "Team 1");
+      const team2 = displayTeamName(row.poly_team2 || "Team 2");
+      const score = hasScore(row) ? formatKnockoutSummaryScore(row) : `<span class="upcoming">Upcoming</span>`;
+      const winner = bracketMatchWinner(row);
+      const matrix = [
+        ["team1_win", team1, row.polymarket_team1_win_price, row.elo_team1_win_prob],
+        ["draw", "Draw", row.polymarket_draw_price, row.elo_draw_prob],
+        ["team2_win", team2, row.polymarket_team2_win_price, row.elo_team2_win_prob]
+      ];
+
+      return `
+        <article class="compact-knockout-card">
+          <div class="compact-header">
+            ${compactTeamBlock(team1, row.team1_code, row.team1_elo_pre)}
+            <div class="compact-score-block">
+              <div class="compact-score">${score}</div>
+              <div class="compact-date">${formatMatchSchedule(row.event_start_time, row.match_date)}</div>
+            </div>
+            ${compactTeamBlock(team2, row.team2_code, row.team2_elo_pre, true)}
+          </div>
+          <div class="compact-body">
+            <div class="compact-matrix">
+              <table>
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Poly</th>
+                    <th>Elo</th>
+                    <th>Edge</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${matrix.map(rowValues => matrixRow(rowValues, winner)).join("")}
+                </tbody>
+              </table>
+            </div>
+            <div class="bracket-form-block">
+              <div class="bracket-form-grid">
+                ${teamFormBlock(row.team1_form, row.team1_recent_matches)}
+                ${teamFormBlock(row.team2_form, row.team2_recent_matches)}
+              </div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function teamFormBlock(form, recentMatches) {
+      return `
+        <div class="bracket-form-team">
+          <div class="form-chip-row">${formChipRow(form)}</div>
+          <ul class="recent-results">${recentMatchList(recentMatches)}</ul>
+        </div>
+      `;
+    }
+
+    function formChipRow(form) {
+      const tokens = String(form || "-").split("-").filter(Boolean);
+      if (!tokens.length || tokens[0] === "-") {
+        return `<span class="form-chip draw">-</span>`;
+      }
+      return tokens.map(token => {
+        const cls = token === "W" ? "win" : token === "L" ? "loss" : "draw";
+        return `<span class="form-chip ${cls}">${escapeHtml(token)}</span>`;
+      }).join("");
+    }
+
+    function recentMatchList(recentMatches) {
+      const items = String(recentMatches || "")
+        .split("|")
+        .map(item => item.trim())
+        .filter(Boolean);
+      if (!items.length) {
+        return `<li>No 2026 World Cup results yet.</li>`;
+      }
+      return items.map(item => `<li>${escapeHtml(item)}</li>`).join("");
+    }
+
+    function formatMatchSchedule(eventStartTime, matchDate) {
+      if (eventStartTime) return formatDate(eventStartTime);
+      if (matchDate) return formatBracketDateLabel(matchDate, "");
+      return "Date unavailable";
+    }
+
+    function formatBracketKickoff(eventStartTime, matchDate) {
+      return formatBracketKickoffShort(eventStartTime, matchDate);
+    }
+
+    function formatBracketKickoffShort(eventStartTime, matchDate) {
+      const date = eventStartTime ? new Date(eventStartTime) : new Date(`${matchDate}T12:00:00Z`);
+      if (Number.isNaN(date.getTime())) return matchDate || "Date unavailable";
+      const datePart = new Intl.DateTimeFormat(undefined, {
+        month: "short",
+        day: "numeric"
+      }).format(date);
+      if (!eventStartTime) {
+        return datePart;
+      }
+      const timePart = new Intl.DateTimeFormat(undefined, {
+        hour: "numeric",
+        minute: "2-digit"
+      }).format(date);
+      return `${datePart}, ${timePart}`;
+    }
+
+    function compactTeamBlock(name, code, elo, away = false) {
+      const label = displayTeamName(name || "?");
+      const text = `
+        <div class="compact-team-text">
+          <div class="compact-team-name">${escapeHtml(label)}</div>
+          <div class="compact-team-elo">Elo ${formatNumber(elo, 0)}</div>
+        </div>`;
+      return `
+        <div class="compact-team ${away ? "away" : ""}">
+          ${away ? text : ""}
+          <div class="compact-flag">${flagMarkup(code)}</div>
+          ${away ? "" : text}
+        </div>`;
+    }
+
+    function formatBracketDateLabel(matchDate, eventStartTime) {
+      const date = eventStartTime ? new Date(eventStartTime) : new Date(`${matchDate}T12:00:00Z`);
+      if (Number.isNaN(date.getTime())) return escapeHtml(matchDate || "Date unavailable");
+      return new Intl.DateTimeFormat(undefined, {
+        weekday: "long",
+        month: "long",
+        day: "numeric",
+        year: "numeric"
+      }).format(date);
+    }
+
+    function isTruthy(value) {
+      return value === true || value === "True" || value === "true" || value === "1";
     }
 
     function latestPnlFor(rows, strategy) {
@@ -1437,7 +2449,16 @@
       const team2Goals = Number(row.team2_goals);
       if (team1Goals > team2Goals) return "team1_win";
       if (team2Goals > team1Goals) return "team2_win";
+      if (row.advance_winner === "team1") return "team1_win";
+      if (row.advance_winner === "team2") return "team2_win";
       return "draw";
+    }
+
+    function formatKnockoutSummaryScore(row) {
+      if (isTruthy(row.went_to_penalties) && hasNumericScore(row.team1_pen_goals) && hasNumericScore(row.team2_pen_goals)) {
+        return `${displayTeamName(row.poly_team1)} (${toInt(row.team1_pen_goals)}) ${toInt(row.team1_goals)} – ${displayTeamName(row.poly_team2)} (${toInt(row.team2_pen_goals)}) ${toInt(row.team2_goals)}`;
+      }
+      return `${toInt(row.team1_goals)} - ${toInt(row.team2_goals)}`;
     }
 
     function toNumber(value) {

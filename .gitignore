@@ -226,3 +226,7 @@ data/exports/
 *.parquet
 
 _docs/
+
+# Legacy paginated Polymarket event dumps (use *_compact.json instead)
+data/cache/football_elo_polymarket/polymarket_events_*.json
+!data/cache/football_elo_polymarket/polymarket_events_*_compact.json
