@@ -155,24 +155,24 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-24T22:00:00Z,Scotland vs. Brazil,team1_win,Scotland,0.09499999999999999,False,-1.0,0-9c
 2026-06-24T22:00:00Z,Scotland vs. Brazil,draw,Draw,0.17500000000000002,False,-1.0,10-19c
 2026-06-24T22:00:00Z,Scotland vs. Brazil,team2_win,Brazil,0.735,True,0.3605442176870748,70-79c
-2026-06-25T01:00:00Z,Czechia vs. Mexico,team1_win,Czechia,0.24272222222222217,False,-1.0,20-29c
-2026-06-25T01:00:00Z,Czechia vs. Mexico,draw,Draw,0.2407777777777778,False,-1.0,20-29c
-2026-06-25T01:00:00Z,Czechia vs. Mexico,team2_win,Mexico,0.5191111111111111,True,0.9263698630136987,50-59c
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team1_win,South Africa,0.15755555555555562,True,5.34696755994358,10-19c
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,draw,Draw,0.23944444444444446,False,-1.0,20-29c
 2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team2_win,Korea Republic,0.6031666666666666,False,-1.0,60-69c
+2026-06-25T01:00:00Z,Czechia vs. Mexico,team1_win,Czechia,0.24272222222222217,False,-1.0,20-29c
+2026-06-25T01:00:00Z,Czechia vs. Mexico,draw,Draw,0.2407777777777778,False,-1.0,20-29c
+2026-06-25T01:00:00Z,Czechia vs. Mexico,team2_win,Mexico,0.5191111111111111,True,0.9263698630136987,50-59c
 2026-06-25T20:00:00Z,Ecuador vs. Germany,team1_win,Ecuador,0.19039058171745152,True,4.252360652398481,10-19c
 2026-06-25T20:00:00Z,Ecuador vs. Germany,draw,Draw,0.20071952908587257,False,-1.0,20-29c
 2026-06-25T20:00:00Z,Ecuador vs. Germany,team2_win,Germany,0.6127195290858725,False,-1.0,60-69c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team1_win,Curaçao,0.05847783933518004,False,-1.0,0-9c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,draw,Draw,0.11754570637119117,False,-1.0,10-19c
 2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team2_win,Côte d'Ivoire,0.828264542936288,True,0.2073437267456737,80-89c
-2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team1_win,Tunisia,0.03070277777777776,False,-1.0,0-9c
-2026-06-25T23:00:00Z,Tunisia vs. Netherlands,draw,Draw,0.08511111111111122,False,-1.0,0-9c
-2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team2_win,Netherlands,0.8920833333333332,True,0.12097150864082207,80-89c
 2026-06-25T23:00:00Z,Japan vs. Sweden,team1_win,Japan,0.47524930555555556,False,-1.0,40-49c
 2026-06-25T23:00:00Z,Japan vs. Sweden,draw,Draw,0.2830194444444445,True,2.53332613581713,20-29c
 2026-06-25T23:00:00Z,Japan vs. Sweden,team2_win,Sweden,0.24712083333333335,False,-1.0,20-29c
+2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team1_win,Tunisia,0.03070277777777776,False,-1.0,0-9c
+2026-06-25T23:00:00Z,Tunisia vs. Netherlands,draw,Draw,0.08511111111111122,False,-1.0,0-9c
+2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team2_win,Netherlands,0.8920833333333332,True,0.12097150864082207,80-89c
 2026-06-26T02:00:00Z,Paraguay vs. Australia,team1_win,Paraguay,0.36655555555555563,False,-1.0,30-39c
 2026-06-26T02:00:00Z,Paraguay vs. Australia,draw,Draw,0.42069444444444437,True,1.3770221195113903,40-49c
 2026-06-26T02:00:00Z,Paraguay vs. Australia,team2_win,Australia,0.21711111111111106,False,-1.0,20-29c
@@ -185,24 +185,24 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-26T19:00:00Z,Senegal vs. Iraq,team1_win,Senegal,0.795,True,0.25786163522012573,70-79c
 2026-06-26T19:00:00Z,Senegal vs. Iraq,draw,Draw,0.1341111111111111,False,-1.0,10-19c
 2026-06-26T19:00:00Z,Senegal vs. Iraq,team2_win,Iraq,0.07505555555555554,False,-1.0,0-9c
-2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team1_win,Cabo Verde,0.3575207756232687,False,-1.0,30-39c
-2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,Draw,0.2852216066481995,True,2.5060457436993144,20-29c
-2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team2_win,Saudi Arabia,0.3618975069252078,False,-1.0,30-39c
 2026-06-27T00:00:00Z,Uruguay vs. Spain,team1_win,Uruguay,0.15214681440443206,False,-1.0,10-19c
 2026-06-27T00:00:00Z,Uruguay vs. Spain,draw,Draw,0.2672991689750692,False,-1.0,20-29c
 2026-06-27T00:00:00Z,Uruguay vs. Spain,team2_win,Spain,0.5847229916897507,True,0.7102115261624462,50-59c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team1_win,Cabo Verde,0.3575207756232687,False,-1.0,30-39c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,Draw,0.2852216066481995,True,2.5060457436993144,20-29c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team2_win,Saudi Arabia,0.3618975069252078,False,-1.0,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,team1_win,Egypt,0.37263888888888896,False,-1.0,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,draw,Draw,0.36369444444444454,True,1.7495608340334523,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,team2_win,IR Iran,0.26841666666666675,False,-1.0,20-29c
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,team1_win,New Zealand,0.06530555555555535,False,-1.0,0-9c
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,draw,Draw,0.1146805555555556,False,-1.0,10-19c
 2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,Belgium,0.8219166666666666,True,0.21666835648382854,80-89c
-2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,Croatia,0.5325833333333334,True,0.877640431857299,50-59c
-2026-06-27T21:00:00Z,Croatia vs. Ghana,draw,Draw,0.30319444444444443,False,-1.0,30-39c
-2026-06-27T21:00:00Z,Croatia vs. Ghana,team2_win,Ghana,0.16874999999999998,False,-1.0,10-19c
 2026-06-27T21:00:00Z,Panama vs. England,team1_win,Panama,0.04500000000000007,False,-1.0,0-9c
 2026-06-27T21:00:00Z,Panama vs. England,draw,Draw,0.1050000000000001,False,-1.0,10-19c
 2026-06-27T21:00:00Z,Panama vs. England,team2_win,England,0.852888888888889,True,0.17248566961959333,80-89c
+2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,Croatia,0.5325833333333334,True,0.877640431857299,50-59c
+2026-06-27T21:00:00Z,Croatia vs. Ghana,draw,Draw,0.30319444444444443,False,-1.0,30-39c
+2026-06-27T21:00:00Z,Croatia vs. Ghana,team2_win,Ghana,0.16874999999999998,False,-1.0,10-19c
 2026-06-27T23:30:00Z,Colombia vs. Portugal,team1_win,Colombia,0.2748614958448754,False,-1.0,20-29c
 2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,Draw,0.2426731301939059,True,3.120769362479309,20-29c
 2026-06-27T23:30:00Z,Colombia vs. Portugal,team2_win,Portugal,0.48605263157894735,False,-1.0,40-49c
@@ -218,6 +218,30 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-28T19:00:00Z,South Africa vs. Canada,team1_win,South Africa,0.16266666666666676,False,-1.0,10-19c
 2026-06-28T19:00:00Z,South Africa vs. Canada,draw,Draw,0.2652777777777777,False,-1.0,20-29c
 2026-06-28T19:00:00Z,South Africa vs. Canada,team2_win,Canada,0.5638333333333334,True,0.7735737511084833,50-59c
-2026-06-29T17:00:00Z,Brazil vs. Japan,team1_win,Brazil,0.5560803324099723,False,-1.0,50-59c
-2026-06-29T17:00:00Z,Brazil vs. Japan,draw,Draw,0.25970914127423816,True,2.850461308730202,20-29c
+2026-06-29T17:00:00Z,Brazil vs. Japan,team1_win,Brazil,0.5560803324099723,True,0.798301327554858,50-59c
+2026-06-29T17:00:00Z,Brazil vs. Japan,draw,Draw,0.25970914127423816,False,-1.0,20-29c
 2026-06-29T17:00:00Z,Brazil vs. Japan,team2_win,Japan,0.1819252077562328,False,-1.0,10-19c
+2026-06-29T20:30:00Z,Germany vs. Paraguay,team1_win,Germany,0.7272777777777777,False,-1.0,70-79c
+2026-06-29T20:30:00Z,Germany vs. Paraguay,draw,Draw,0.18500000000000022,True,4.405405405405399,10-19c
+2026-06-29T20:30:00Z,Germany vs. Paraguay,team2_win,Paraguay,0.09072222222222223,False,-1.0,0-9c
+2026-06-30T01:00:00Z,Netherlands vs. Morocco,team1_win,Netherlands,0.4059166666666668,False,-1.0,40-49c
+2026-06-30T01:00:00Z,Netherlands vs. Morocco,draw,Draw,0.31499999999999984,True,2.174603174603176,30-39c
+2026-06-30T01:00:00Z,Netherlands vs. Morocco,team2_win,Morocco,0.28300000000000003,False,-1.0,20-29c
+2026-06-30T17:00:00Z,Côte d'Ivoire vs. Norway,team1_win,Côte d'Ivoire,0.26111111111111107,False,-1.0,20-29c
+2026-06-30T17:00:00Z,Côte d'Ivoire vs. Norway,draw,Draw,0.28627777777777774,False,-1.0,20-29c
+2026-06-30T17:00:00Z,Côte d'Ivoire vs. Norway,team2_win,Norway,0.45313888888888887,True,1.206828909458714,40-49c
+2026-06-30T21:00:00Z,France vs. Sweden,team1_win,France,0.7660277777777778,True,0.3054356891612575,70-79c
+2026-06-30T21:00:00Z,France vs. Sweden,draw,Draw,0.15499999999999997,False,-1.0,10-19c
+2026-06-30T21:00:00Z,France vs. Sweden,team2_win,Sweden,0.07499999999999997,False,-1.0,0-9c
+2026-07-01T01:00:00Z,Mexico vs. Ecuador,team1_win,Mexico,0.4330277777777778,True,1.3093206748348192,40-49c
+2026-07-01T01:00:00Z,Mexico vs. Ecuador,draw,Draw,0.33658333333333335,False,-1.0,30-39c
+2026-07-01T01:00:00Z,Mexico vs. Ecuador,team2_win,Ecuador,0.2273333333333333,False,-1.0,20-29c
+2026-07-01T16:00:00Z,England vs. DR Congo,team1_win,England,0.7647222222222222,True,0.30766436614602255,70-79c
+2026-07-01T16:00:00Z,England vs. DR Congo,draw,Draw,0.18500000000000022,False,-1.0,10-19c
+2026-07-01T16:00:00Z,England vs. DR Congo,team2_win,DR Congo,0.054999999999999924,False,-1.0,0-9c
+2026-07-01T20:00:00Z,Belgium vs. Senegal,team1_win,Belgium,0.46080555555555547,True,1.170112725299898,40-49c
+2026-07-01T20:00:00Z,Belgium vs. Senegal,draw,Draw,0.29327777777777775,False,-1.0,20-29c
+2026-07-01T20:00:00Z,Belgium vs. Senegal,team2_win,Senegal,0.24988888888888888,False,-1.0,20-29c
+2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,team1_win,United States,0.715,True,0.39860139860139876,70-79c
+2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,draw,Draw,0.18847222222222243,False,-1.0,10-19c
+2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,team2_win,Bosnia and Herzegovina,0.10283333333333344,False,-1.0,10-19c
