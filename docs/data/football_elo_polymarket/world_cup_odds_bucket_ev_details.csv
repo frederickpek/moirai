@@ -155,12 +155,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-24T22:00:00Z,Scotland vs. Brazil,team1_win,Scotland,0.09499999999999999,False,-1.0,0-9c
 2026-06-24T22:00:00Z,Scotland vs. Brazil,draw,Draw,0.17500000000000002,False,-1.0,10-19c
 2026-06-24T22:00:00Z,Scotland vs. Brazil,team2_win,Brazil,0.735,True,0.3605442176870748,70-79c
-2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team1_win,South Africa,0.15755555555555562,True,5.34696755994358,10-19c
-2026-06-25T01:00:00Z,South Africa vs. Korea Republic,draw,Draw,0.23944444444444446,False,-1.0,20-29c
-2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team2_win,Korea Republic,0.6031666666666666,False,-1.0,60-69c
 2026-06-25T01:00:00Z,Czechia vs. Mexico,team1_win,Czechia,0.24272222222222217,False,-1.0,20-29c
 2026-06-25T01:00:00Z,Czechia vs. Mexico,draw,Draw,0.2407777777777778,False,-1.0,20-29c
 2026-06-25T01:00:00Z,Czechia vs. Mexico,team2_win,Mexico,0.5191111111111111,True,0.9263698630136987,50-59c
+2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team1_win,South Africa,0.15755555555555562,True,5.34696755994358,10-19c
+2026-06-25T01:00:00Z,South Africa vs. Korea Republic,draw,Draw,0.23944444444444446,False,-1.0,20-29c
+2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team2_win,Korea Republic,0.6031666666666666,False,-1.0,60-69c
 2026-06-25T20:00:00Z,Ecuador vs. Germany,team1_win,Ecuador,0.19039058171745152,True,4.252360652398481,10-19c
 2026-06-25T20:00:00Z,Ecuador vs. Germany,draw,Draw,0.20071952908587257,False,-1.0,20-29c
 2026-06-25T20:00:00Z,Ecuador vs. Germany,team2_win,Germany,0.6127195290858725,False,-1.0,60-69c
@@ -185,12 +185,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-26T19:00:00Z,Senegal vs. Iraq,team1_win,Senegal,0.795,True,0.25786163522012573,70-79c
 2026-06-26T19:00:00Z,Senegal vs. Iraq,draw,Draw,0.1341111111111111,False,-1.0,10-19c
 2026-06-26T19:00:00Z,Senegal vs. Iraq,team2_win,Iraq,0.07505555555555554,False,-1.0,0-9c
-2026-06-27T00:00:00Z,Uruguay vs. Spain,team1_win,Uruguay,0.15214681440443206,False,-1.0,10-19c
-2026-06-27T00:00:00Z,Uruguay vs. Spain,draw,Draw,0.2672991689750692,False,-1.0,20-29c
-2026-06-27T00:00:00Z,Uruguay vs. Spain,team2_win,Spain,0.5847229916897507,True,0.7102115261624462,50-59c
 2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team1_win,Cabo Verde,0.3575207756232687,False,-1.0,30-39c
 2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,Draw,0.2852216066481995,True,2.5060457436993144,20-29c
 2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team2_win,Saudi Arabia,0.3618975069252078,False,-1.0,30-39c
+2026-06-27T00:00:00Z,Uruguay vs. Spain,team1_win,Uruguay,0.15214681440443206,False,-1.0,10-19c
+2026-06-27T00:00:00Z,Uruguay vs. Spain,draw,Draw,0.2672991689750692,False,-1.0,20-29c
+2026-06-27T00:00:00Z,Uruguay vs. Spain,team2_win,Spain,0.5847229916897507,True,0.7102115261624462,50-59c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,team1_win,Egypt,0.37263888888888896,False,-1.0,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,draw,Draw,0.36369444444444454,True,1.7495608340334523,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,team2_win,IR Iran,0.26841666666666675,False,-1.0,20-29c
