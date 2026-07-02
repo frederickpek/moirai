@@ -384,6 +384,15 @@
       text-overflow: ellipsis;
     }
 
+    .bracket-fixture-meta.next-up {
+      color: var(--text);
+      font-weight: 800;
+      background: #ffe69c;
+      border-radius: 4px;
+      padding-left: 0.18em;
+      padding-right: 0.18em;
+    }
+
     .bracket-fixture-meta-spacer {
       visibility: hidden;
     }
@@ -1345,6 +1354,7 @@
     let latestPnlRows = [];
     let latestMatchRows = [];
     let latestKnockoutRows = [];
+    let nextUpMatchIndex = { slugs: new Set(), pairs: new Set() };
     let activeStrategy = null;
     let pnlChart = null;
     let strategySummaries = new Map();
@@ -1467,9 +1477,32 @@
       const rows = parseCsv(text).filter(row => row.event_slug);
       rows.sort((a, b) => new Date(b.event_start_time) - new Date(a.event_start_time));
       latestMatchRows = rows;
+      nextUpMatchIndex = buildNextUpMatchIndex(rows);
       cardsEl.innerHTML = rows.map(matchCard).join("");
       if (!strategyBetsByMatch.size) strategyBetsByMatch = buildStrategyBets([], latestMatchRows);
       updateCardStrategyDisplays();
+    }
+
+    function teamPairKey(code1, code2) {
+      return [String(code1 || ""), String(code2 || "")].sort().join("|");
+    }
+
+    function buildNextUpMatchIndex(rows) {
+      const slugs = new Set();
+      const pairs = new Set();
+      for (const row of rows) {
+        if (hasScore(row)) continue;
+        if (row.event_slug) slugs.add(row.event_slug);
+        pairs.add(teamPairKey(row.team1_code, row.team2_code));
+      }
+      return { slugs, pairs };
+    }
+
+    function isNextUpBracketMatch(row) {
+      if (isTruthy(row.is_next_up)) return true;
+      if (!isTruthy(row.is_upcoming)) return false;
+      if (row.event_slug && nextUpMatchIndex.slugs.has(row.event_slug)) return true;
+      return nextUpMatchIndex.pairs.has(teamPairKey(row.team1_code, row.team2_code));
     }
 
     function renderPnlChart(rows) {
@@ -1874,6 +1907,8 @@
       mainEl.classList.toggle("bracket-layout", isBracket);
     }
 
+    const DISPLAY_TIMEZONE = "Asia/Singapore";
+
     const BRACKET_META_H = 26;
     const BRACKET_CARD_H = 58;
     const BRACKET_NODE_H = BRACKET_META_H + BRACKET_CARD_H;
@@ -2053,12 +2088,13 @@
 
     function bracketFixtureNode(row) {
       const upcoming = isTruthy(row.is_upcoming);
+      const nextUp = isNextUpBracketMatch(row);
       const winner = bracketMatchWinner(row);
       const meta = bracketFixtureMeta(row);
 
       return `
         <div class="bracket-fixture-wrap">
-          <div class="bracket-fixture-meta">${escapeHtml(meta)}</div>
+          <div class="bracket-fixture-meta${nextUp ? " next-up" : ""}">${escapeHtml(meta)}</div>
           <div class="bracket-fixture-card">
             ${bracketFixtureRow(row, "team1", winner === "team1_win", upcoming)}
             ${bracketFixtureRow(row, "team2", winner === "team2_win", upcoming)}
@@ -2076,14 +2112,9 @@
     }
 
     function kickoffTimestamp(row) {
-      if (row.event_start_time) {
-        const ts = Date.parse(row.event_start_time);
-        if (!Number.isNaN(ts)) return ts;
-      }
-      if (row.match_date) {
-        const ts = Date.parse(`${row.match_date}T12:00:00Z`);
-        if (!Number.isNaN(ts)) return ts;
-      }
+      const instant = resolveBracketKickoffInstant(row.event_start_time, row.match_date);
+      const ts = instant.getTime();
+      if (!Number.isNaN(ts)) return ts;
       return Number.MAX_SAFE_INTEGER;
     }
 
@@ -2228,30 +2259,40 @@
     }
 
     function formatMatchSchedule(eventStartTime, matchDate) {
-      if (eventStartTime) return formatDate(eventStartTime);
-      if (matchDate) return formatBracketDateLabel(matchDate, "");
-      return "Date unavailable";
+      const instant = resolveBracketKickoffInstant(eventStartTime, matchDate);
+      if (Number.isNaN(instant.getTime())) return "Date unavailable";
+      return formatDate(instant.toISOString());
     }
 
     function formatBracketKickoff(eventStartTime, matchDate) {
       return formatBracketKickoffShort(eventStartTime, matchDate);
     }
 
-    function formatBracketKickoffShort(eventStartTime, matchDate) {
-      const date = eventStartTime ? new Date(eventStartTime) : new Date(`${matchDate}T12:00:00Z`);
-      if (Number.isNaN(date.getTime())) return matchDate || "Date unavailable";
-      const datePart = new Intl.DateTimeFormat(undefined, {
-        month: "short",
-        day: "numeric"
-      }).format(date);
-      if (!eventStartTime) {
-        return datePart;
+    function resolveBracketKickoffInstant(eventStartTime, matchDate) {
+      if (eventStartTime && String(eventStartTime).trim()) {
+        return new Date(eventStartTime);
       }
-      const timePart = new Intl.DateTimeFormat(undefined, {
+
+      if (matchDate && String(matchDate).trim()) {
+        return new Date(`${matchDate}T12:00:00+08:00`);
+      }
+
+      return new Date(NaN);
+    }
+
+    function formatBracketKickoffShort(eventStartTime, matchDate) {
+      const instant = resolveBracketKickoffInstant(eventStartTime, matchDate);
+      if (Number.isNaN(instant.getTime())) {
+        return matchDate || "Date unavailable";
+      }
+
+      return new Intl.DateTimeFormat(undefined, {
+        month: "short",
+        day: "numeric",
         hour: "numeric",
-        minute: "2-digit"
-      }).format(date);
-      return `${datePart}, ${timePart}`;
+        minute: "2-digit",
+        timeZone: DISPLAY_TIMEZONE,
+      }).format(instant);
     }
 
     function compactTeamBlock(name, code, elo, away = false) {
@@ -2270,14 +2311,15 @@
     }
 
     function formatBracketDateLabel(matchDate, eventStartTime) {
-      const date = eventStartTime ? new Date(eventStartTime) : new Date(`${matchDate}T12:00:00Z`);
-      if (Number.isNaN(date.getTime())) return escapeHtml(matchDate || "Date unavailable");
+      const instant = resolveBracketKickoffInstant(eventStartTime, matchDate);
+      if (Number.isNaN(instant.getTime())) return escapeHtml(matchDate || "Date unavailable");
       return new Intl.DateTimeFormat(undefined, {
         weekday: "long",
         month: "long",
         day: "numeric",
-        year: "numeric"
-      }).format(date);
+        year: "numeric",
+        timeZone: DISPLAY_TIMEZONE,
+      }).format(instant);
     }
 
     function isTruthy(value) {
@@ -2496,7 +2538,8 @@
         month: "short",
         day: "numeric",
         hour: "2-digit",
-        minute: "2-digit"
+        minute: "2-digit",
+        timeZone: DISPLAY_TIMEZONE,
       }).format(date);
     }
 

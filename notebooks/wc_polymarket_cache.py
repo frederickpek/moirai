@@ -21,6 +21,15 @@ POLYMARKET_EVENT_FIELDS = (
     "finishedTimestamp",
     "score",
 )
+PRIMARY_MATCH_SLUG_SKIP = (
+    "more-markets",
+    "halftime",
+    "exact",
+    "second-half",
+    "first-to",
+    "total-corners",
+)
+
 POLYMARKET_MARKET_FIELDS = (
     "id",
     "slug",
@@ -178,6 +187,71 @@ def fetch_events_from_api(
             break
         time.sleep(sleep_seconds)
     return all_events
+
+
+def is_primary_moneyline_event(event: dict[str, Any]) -> bool:
+    slug = event.get("slug") or ""
+    if not slug.startswith("fifwc-"):
+        return False
+    if any(part in slug for part in PRIMARY_MATCH_SLUG_SKIP):
+        return False
+    markets = event.get("markets") or []
+    if markets:
+        return any(market.get("sportsMarketType") == "moneyline" for market in markets)
+    return True
+
+
+def event_start_time_iso(event: dict[str, Any]) -> str | None:
+    start = event.get("startTime") or event.get("endDate")
+    if not start:
+        return None
+    return str(start)
+
+
+def build_polymarket_team_pair_lookup(
+    events: list[dict[str, Any]],
+    *,
+    team_code_for_name: Callable[[str], str | None],
+    split_teams: Callable[[str], tuple[str | None, str | None]],
+) -> dict[frozenset[str], dict[str, Any]]:
+    """Map Elo team-code pairs to primary Polymarket moneyline event metadata."""
+    lookup: dict[frozenset[str], dict[str, Any]] = {}
+    for event in events:
+        if not is_primary_moneyline_event(event):
+            continue
+        title = (event.get("title") or "").strip()
+        if not title:
+            continue
+        team1, team2 = split_teams(title)
+        if not team1 or not team2:
+            continue
+        team1_code = team_code_for_name(team1)
+        team2_code = team_code_for_name(team2)
+        if not team1_code or not team2_code:
+            continue
+
+        entry = {
+            "event_slug": event.get("slug") or "",
+            "event_title": title,
+            "event_start_time": event_start_time_iso(event) or "",
+            "poly_team1": team1,
+            "poly_team2": team2,
+            "team1_code": team1_code,
+            "team2_code": team2_code,
+        }
+        key = frozenset({team1_code, team2_code})
+        existing = lookup.get(key)
+        if existing is None:
+            lookup[key] = entry
+            continue
+
+        existing_slug = existing.get("event_slug") or ""
+        new_slug = entry.get("event_slug") or ""
+        if len(new_slug) < len(existing_slug):
+            lookup[key] = entry
+        elif not existing.get("event_start_time") and entry.get("event_start_time"):
+            lookup[key] = entry
+    return lookup
 
 
 def fetch_knockout_more_markets(

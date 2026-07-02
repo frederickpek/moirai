@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from typing import Any
 
 FIFA_KNOCKOUT_LAYOUT: dict[int, tuple[str, str, int]] = {
@@ -73,6 +74,14 @@ FIFA_PAIR_TO_MATCH_NO: dict[frozenset[str], int] = {
     frozenset({"CO", "DZ"}): 96,
 }
 
+POLYMARKET_ENRICH_FIELDS = (
+    "event_slug",
+    "event_start_time",
+    "event_title",
+    "poly_team1",
+    "poly_team2",
+)
+
 
 def team_pair_key(team1_code: str, team2_code: str) -> frozenset[str]:
     return frozenset({str(team1_code).strip(), str(team2_code).strip()})
@@ -109,6 +118,77 @@ def assign_fifa_bracket_position(row: dict[str, Any]) -> dict[str, Any]:
     return {**row, **position}
 
 
-def finalize_bracket_positions(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    positioned = [assign_fifa_bracket_position(dict(row)) for row in rows]
+def _is_blank(value: Any) -> bool:
+    if value is None:
+        return True
+    if isinstance(value, str) and not value.strip():
+        return True
+    if isinstance(value, float) and math.isnan(value):
+        return True
+    return False
+
+
+def enrich_from_polymarket(
+    row: dict[str, Any],
+    lookup: dict[frozenset[str], dict[str, Any]] | None,
+) -> dict[str, Any]:
+    if not lookup:
+        return row
+
+    team1_code = row.get("team1_code") or ""
+    team2_code = row.get("team2_code") or ""
+    if not team1_code or not team2_code:
+        return row
+
+    polymarket_row = lookup.get(team_pair_key(team1_code, team2_code))
+    if not polymarket_row:
+        return row
+
+    merged = dict(row)
+    for field in POLYMARKET_ENRICH_FIELDS:
+        polymarket_value = polymarket_row.get(field)
+        if _is_blank(polymarket_value):
+            continue
+        merged[field] = polymarket_value
+    return merged
+
+
+def finalize_bracket_positions(
+    rows: list[dict[str, Any]],
+    *,
+    polymarket_lookup: dict[frozenset[str], dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    positioned = []
+    for row in rows:
+        row = enrich_from_polymarket(dict(row), polymarket_lookup)
+        row = assign_fifa_bracket_position(row)
+        positioned.append(row)
     return positioned
+
+
+def tag_next_up_flags(
+    rows: list[dict[str, Any]],
+    *,
+    next_up_slugs: set[str],
+    next_up_pairs: set[frozenset[str]],
+) -> list[dict[str, Any]]:
+    """Mark upcoming rows that also appear on the main matches page (next match day)."""
+    tagged: list[dict[str, Any]] = []
+    for row in rows:
+        if not _is_truthy(row.get("is_upcoming")):
+            tagged.append({**row, "is_next_up": False})
+            continue
+
+        slug = str(row.get("event_slug") or "").strip()
+        pair = team_pair_key(row.get("team1_code", ""), row.get("team2_code", ""))
+        is_next_up = (slug in next_up_slugs) or (pair in next_up_pairs)
+        tagged.append({**row, "is_next_up": is_next_up})
+    return tagged
+
+
+def _is_truthy(value: Any) -> bool:
+    if value is True or value == 1:
+        return True
+    if isinstance(value, str):
+        return value.strip().lower() in {"true", "1", "yes"}
+    return False
