@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import math
+from datetime import datetime, timezone
 from typing import Any
+from zoneinfo import ZoneInfo
 
 FIFA_KNOCKOUT_LAYOUT: dict[int, tuple[str, str, int]] = {
     # Round of 32 — visual top-to-bottom slot per side
@@ -285,6 +287,62 @@ def finalize_bracket_positions(
         working = assign_fifa_bracket_position(working)
         positioned.append(working)
     return positioned
+
+
+def _kickoff_instant(row: dict[str, Any]) -> datetime | None:
+    raw = row.get("event_start_time")
+    if _is_blank(raw):
+        return None
+    try:
+        instant = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if instant.tzinfo is None:
+        instant = instant.replace(tzinfo=timezone.utc)
+    return instant
+
+
+def _local_match_date(instant: datetime, tz_name: str):
+    return instant.astimezone(ZoneInfo(tz_name)).date()
+
+
+def _is_upcoming_row(row: dict[str, Any]) -> bool:
+    return _is_blank(row.get("team1_goals")) or _is_blank(row.get("team2_goals"))
+
+
+def build_next_up_slug_pair_sets(
+    records: list[dict[str, Any]],
+    *,
+    display_timezone: str = "Asia/Singapore",
+) -> tuple[set[str], set[frozenset[str]]]:
+    """Slugs and team pairs for upcoming fixtures on the next match day only."""
+    upcoming = [row for row in records if _is_upcoming_row(row)]
+    slugs: set[str] = set()
+    pairs: set[frozenset[str]] = set()
+    if not upcoming:
+        return slugs, pairs
+
+    kickoffs: list[tuple[datetime, dict[str, Any]]] = []
+    for row in upcoming:
+        instant = _kickoff_instant(row)
+        if instant is not None:
+            kickoffs.append((instant, row))
+    if not kickoffs:
+        return slugs, pairs
+
+    earliest = min(kickoffs, key=lambda item: item[0])[0]
+    next_match_day = _local_match_date(earliest, display_timezone)
+    for instant, row in kickoffs:
+        if _local_match_date(instant, display_timezone) != next_match_day:
+            continue
+        slug = str(row.get("event_slug") or "").strip()
+        if slug:
+            slugs.add(slug)
+        team1_code = row.get("team1_code")
+        team2_code = row.get("team2_code")
+        if not _is_blank(team1_code) and not _is_blank(team2_code):
+            pairs.add(team_pair_key(str(team1_code), str(team2_code)))
+    return slugs, pairs
 
 
 def tag_next_up_flags(

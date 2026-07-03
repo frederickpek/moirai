@@ -1515,7 +1515,6 @@
     }
 
     function isNextUpBracketMatch(row) {
-      if (isTruthy(row.is_next_up)) return true;
       if (!isTruthy(row.is_upcoming)) return false;
       if (row.event_slug && nextUpMatchIndex.slugs.has(row.event_slug)) return true;
       return nextUpMatchIndex.pairs.has(teamPairKey(row.team1_code, row.team2_code));
