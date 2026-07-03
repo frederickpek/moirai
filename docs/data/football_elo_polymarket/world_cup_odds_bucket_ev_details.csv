@@ -245,3 +245,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,team1_win,United States,0.715,True,0.39860139860139876,70-79c
 2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,draw,Draw,0.18847222222222243,False,-1.0,10-19c
 2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,team2_win,Bosnia and Herzegovina,0.10283333333333344,False,-1.0,10-19c
+2026-07-02T19:00:00Z,Spain vs. Austria,team1_win,Spain,0.7584452908587258,True,0.3184866621925775,70-79c
+2026-07-02T19:00:00Z,Spain vs. Austria,draw,Draw,0.17084141274238235,False,-1.0,10-19c
+2026-07-02T19:00:00Z,Spain vs. Austria,team2_win,Austria,0.07590027700831031,False,-1.0,0-9c
+2026-07-02T23:00:00Z,Portugal vs. Croatia,team1_win,Portugal,0.5805,True,0.722652885443583,50-59c
+2026-07-02T23:00:00Z,Portugal vs. Croatia,draw,Draw,0.2556805555555556,False,-1.0,20-29c
+2026-07-02T23:00:00Z,Portugal vs. Croatia,team2_win,Croatia,0.16672916666666665,False,-1.0,10-19c
