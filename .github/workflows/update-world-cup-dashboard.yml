@@ -38,8 +38,8 @@ jobs:
 
       - name: Run notebook 06 exports
         env:
-          # GitHub Actions often gets empty/blocked Elo responses; use repo cache and refresh Polymarket.
-          ELO_FORCE_REFRESH: "0"
+          # Try fresh Elo each run; notebook falls back to repo cache on empty/blocked downloads.
+          ELO_FORCE_REFRESH: "1"
         run: |
           jupyter nbconvert \
             --to notebook \
