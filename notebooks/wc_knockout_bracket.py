@@ -80,6 +80,38 @@ POLYMARKET_ENRICH_FIELDS = (
     "event_title",
     "poly_team1",
     "poly_team2",
+    "team1_code",
+    "team2_code",
+    "polymarket_team1_win_price",
+    "polymarket_draw_price",
+    "polymarket_team2_win_price",
+)
+
+PRICE_ENRICH_FIELDS = (
+    "polymarket_team1_win_price",
+    "polymarket_draw_price",
+    "polymarket_team2_win_price",
+)
+
+TEAM_SIDE_PAIRS = (
+    ("poly_team1", "poly_team2"),
+    ("team1_code", "team2_code"),
+    ("team1_elo_pre", "team2_elo_pre"),
+    ("polymarket_team1_win_price", "polymarket_team2_win_price"),
+    ("elo_team1_win_prob", "elo_team2_win_prob"),
+    ("team1_form", "team2_form"),
+    ("team1_recent_matches", "team2_recent_matches"),
+    ("team1_goals", "team2_goals"),
+    ("team1_pen_goals", "team2_pen_goals"),
+)
+
+FIXTURE_SIDE_PAIRS = (
+    ("team1_elo_pre", "team2_elo_pre"),
+    ("elo_team1_win_prob", "elo_team2_win_prob"),
+    ("team1_form", "team2_form"),
+    ("team1_recent_matches", "team2_recent_matches"),
+    ("team1_goals", "team2_goals"),
+    ("team1_pen_goals", "team2_pen_goals"),
 )
 
 
@@ -153,16 +185,105 @@ def enrich_from_polymarket(
     return merged
 
 
+def build_polymarket_price_lookup(
+    records: list[dict[str, Any]],
+) -> dict[frozenset[str], dict[str, Any]]:
+    lookup: dict[frozenset[str], dict[str, Any]] = {}
+    for record in records:
+        team1_code = record.get("team1_code")
+        team2_code = record.get("team2_code")
+        if not team1_code or not team2_code:
+            continue
+        prices = {field: record.get(field) for field in PRICE_ENRICH_FIELDS}
+        if all(_is_blank(value) for value in prices.values()):
+            continue
+        lookup[team_pair_key(team1_code, team2_code)] = prices
+    return lookup
+
+
+def enrich_from_polymarket_prices(
+    row: dict[str, Any],
+    lookup: dict[frozenset[str], dict[str, Any]] | None,
+) -> dict[str, Any]:
+    if not lookup:
+        return row
+
+    team1_code = row.get("team1_code") or ""
+    team2_code = row.get("team2_code") or ""
+    if not team1_code or not team2_code:
+        return row
+
+    price_row = lookup.get(team_pair_key(team1_code, team2_code))
+    if not price_row:
+        return row
+
+    merged = dict(row)
+    for field in PRICE_ENRICH_FIELDS:
+        if _is_blank(merged.get(field)) and not _is_blank(price_row.get(field)):
+            merged[field] = price_row[field]
+    return merged
+
+
+def swap_fixture_sides(row: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(row)
+    for field1, field2 in FIXTURE_SIDE_PAIRS:
+        merged[field1], merged[field2] = row.get(field2), row.get(field1)
+    return merged
+
+
+def swap_team_sides(row: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(row)
+    for field1, field2 in TEAM_SIDE_PAIRS:
+        merged[field1], merged[field2] = row.get(field2), row.get(field1)
+    return merged
+
+
+def _fixture_team1_code_from_row(row: dict[str, Any]) -> str | None:
+    code = row.get("_fixture_team1_code")
+    if _is_blank(code):
+        return None
+    return str(code).strip()
+
+
+def reconcile_fixture_elo_sides(
+    row: dict[str, Any],
+    *,
+    fixture_team1_code: str | None = None,
+) -> dict[str, Any]:
+    merged = dict(row)
+    merged.pop("_fixture_team1_code", None)
+    if _is_blank(fixture_team1_code):
+        return merged
+
+    if str(fixture_team1_code) == str(merged.get("team1_code")):
+        return merged
+    if str(fixture_team1_code) == str(merged.get("team2_code")):
+        return swap_fixture_sides(merged)
+    return merged
+
+
 def finalize_bracket_positions(
     rows: list[dict[str, Any]],
     *,
     polymarket_lookup: dict[frozenset[str], dict[str, Any]] | None = None,
+    price_lookup: dict[frozenset[str], dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     positioned = []
     for row in rows:
-        row = enrich_from_polymarket(dict(row), polymarket_lookup)
-        row = assign_fifa_bracket_position(row)
-        positioned.append(row)
+        working = dict(row)
+        fixture_team1_code = _fixture_team1_code_from_row(working)
+        if fixture_team1_code is None:
+            pre_enrich_team1 = working.get("team1_code")
+            fixture_team1_code = None if _is_blank(pre_enrich_team1) else str(pre_enrich_team1)
+        working.pop("_fixture_team1_code", None)
+        working = enrich_from_polymarket(working, polymarket_lookup)
+        working = enrich_from_polymarket_prices(working, price_lookup)
+        working = reconcile_fixture_elo_sides(
+            working,
+            fixture_team1_code=fixture_team1_code,
+        )
+        working = assign_fifa_bracket_position(working)
+        positioned.append(working)
     return positioned
 
 

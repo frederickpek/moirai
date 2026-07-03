@@ -173,12 +173,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team1_win,Tunisia,0.03070277777777776,False,-1.0,0-9c
 2026-06-25T23:00:00Z,Tunisia vs. Netherlands,draw,Draw,0.08511111111111122,False,-1.0,0-9c
 2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team2_win,Netherlands,0.8920833333333332,True,0.12097150864082207,80-89c
-2026-06-26T02:00:00Z,Paraguay vs. Australia,team1_win,Paraguay,0.36655555555555563,False,-1.0,30-39c
-2026-06-26T02:00:00Z,Paraguay vs. Australia,draw,Draw,0.42069444444444437,True,1.3770221195113903,40-49c
-2026-06-26T02:00:00Z,Paraguay vs. Australia,team2_win,Australia,0.21711111111111106,False,-1.0,20-29c
 2026-06-26T02:00:00Z,Türkiye vs. United States,team1_win,Türkiye,0.2521111111111111,True,2.9665050683120318,20-29c
 2026-06-26T02:00:00Z,Türkiye vs. United States,draw,Draw,0.22402777777777777,False,-1.0,20-29c
 2026-06-26T02:00:00Z,Türkiye vs. United States,team2_win,United States,0.5284722222222222,False,-1.0,50-59c
+2026-06-26T02:00:00Z,Paraguay vs. Australia,team1_win,Paraguay,0.36655555555555563,False,-1.0,30-39c
+2026-06-26T02:00:00Z,Paraguay vs. Australia,draw,Draw,0.42069444444444437,True,1.3770221195113903,40-49c
+2026-06-26T02:00:00Z,Paraguay vs. Australia,team2_win,Australia,0.21711111111111106,False,-1.0,20-29c
 2026-06-26T19:00:00Z,Norway vs. France,team1_win,Norway,0.17080555555555554,False,-1.0,10-19c
 2026-06-26T19:00:00Z,Norway vs. France,draw,Draw,0.19083333333333335,False,-1.0,10-19c
 2026-06-26T19:00:00Z,Norway vs. France,team2_win,France,0.6408611111111111,True,0.5604005027957175,60-69c
@@ -209,12 +209,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,DR Congo,0.5707063711911358,True,0.7522145370707438,50-59c
 2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,draw,Draw,0.24505540166204998,False,-1.0,20-29c
 2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team2_win,Uzbekistan,0.1816204986149585,False,-1.0,10-19c
-2026-06-28T02:00:00Z,Jordan vs. Argentina,team1_win,Jordan,0.042938888888888874,False,-1.0,0-9c
-2026-06-28T02:00:00Z,Jordan vs. Argentina,draw,Draw,0.09508333333333337,False,-1.0,0-9c
-2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,Argentina,0.8640833333333333,True,0.1572957855145145,80-89c
 2026-06-28T02:00:00Z,Algeria vs. Austria,team1_win,Algeria,0.2707222222222223,False,-1.0,20-29c
 2026-06-28T02:00:00Z,Algeria vs. Austria,draw,Draw,0.4656944444444444,True,1.1473307485833582,40-49c
 2026-06-28T02:00:00Z,Algeria vs. Austria,team2_win,Austria,0.2579444444444445,False,-1.0,20-29c
+2026-06-28T02:00:00Z,Jordan vs. Argentina,team1_win,Jordan,0.042938888888888874,False,-1.0,0-9c
+2026-06-28T02:00:00Z,Jordan vs. Argentina,draw,Draw,0.09508333333333337,False,-1.0,0-9c
+2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,Argentina,0.8640833333333333,True,0.1572957855145145,80-89c
 2026-06-28T19:00:00Z,South Africa vs. Canada,team1_win,South Africa,0.16266666666666676,False,-1.0,10-19c
 2026-06-28T19:00:00Z,South Africa vs. Canada,draw,Draw,0.2652777777777777,False,-1.0,20-29c
 2026-06-28T19:00:00Z,South Africa vs. Canada,team2_win,Canada,0.5638333333333334,True,0.7735737511084833,50-59c

@@ -28,6 +28,7 @@ PRIMARY_MATCH_SLUG_SKIP = (
     "second-half",
     "first-to",
     "total-corners",
+    "player-props",
 )
 
 POLYMARKET_MARKET_FIELDS = (
@@ -208,6 +209,147 @@ def event_start_time_iso(event: dict[str, Any]) -> str | None:
     return str(start)
 
 
+def _parse_event_start(event: dict[str, Any]) -> datetime | None:
+    raw = event.get("startTime") or event.get("endDate")
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def _event_match_date(event: dict[str, Any]):
+    raw = event.get("eventDate")
+    if raw:
+        try:
+            return datetime.fromisoformat(str(raw).replace("Z", "+00:00")).date()
+        except ValueError:
+            pass
+    start = _parse_event_start(event)
+    return start.date() if start else None
+
+
+def event_has_moneyline_markets(event: dict[str, Any]) -> bool:
+    return any(
+        market.get("sportsMarketType") == "moneyline"
+        for market in (event.get("markets") or [])
+    )
+
+
+def event_is_final_for_pricing(
+    event: dict[str, Any],
+    *,
+    now: datetime | None = None,
+) -> bool:
+    if event.get("closed") or event.get("ended") or event.get("finishedTimestamp"):
+        return True
+    start = _parse_event_start(event)
+    if start is None:
+        return False
+    now = now or datetime.now(timezone.utc)
+    if start.tzinfo is None:
+        start = start.replace(tzinfo=timezone.utc)
+    return start <= now
+
+
+def filter_completed_plus_all_upcoming(
+    events: list[dict[str, Any]],
+    *,
+    log: Callable[[str], None] | None = print,
+) -> list[dict[str, Any]]:
+    """Keep every completed match plus every still-upcoming moneyline event."""
+    now = datetime.now(timezone.utc)
+    kept: list[dict[str, Any]] = []
+    upcoming_slugs: list[str] = []
+    completed_count = 0
+    for event in events:
+        if not event_has_moneyline_markets(event):
+            continue
+        if _parse_event_start(event) is None or _event_match_date(event) is None:
+            continue
+        kept.append(event)
+        if event_is_final_for_pricing(event, now=now):
+            completed_count += 1
+        elif event.get("slug"):
+            upcoming_slugs.append(str(event["slug"]))
+    if log:
+        log(
+            f"[events] keeping {completed_count} completed + {len(upcoming_slugs)} upcoming "
+            f"({len(kept)} moneyline events total)"
+        )
+        if upcoming_slugs:
+            log(f"[events] upcoming slugs: {', '.join(sorted(upcoming_slugs))}")
+    return kept
+
+
+def _parse_jsonish_list(value: Any) -> list[Any]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return value
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except json.JSONDecodeError:
+            return []
+        return parsed if isinstance(parsed, list) else []
+    return []
+
+
+def moneyline_yes_price_from_market(market: dict[str, Any]) -> float | None:
+    outcomes = _parse_jsonish_list(market.get("outcomes"))
+    prices = _parse_jsonish_list(market.get("outcomePrices"))
+    for outcome, price in zip(outcomes, prices):
+        if str(outcome).strip().lower() == "yes":
+            try:
+                return float(price)
+            except (TypeError, ValueError):
+                return None
+    if prices:
+        try:
+            return float(prices[0])
+        except (TypeError, ValueError):
+            return None
+    last_trade = market.get("lastTradePrice")
+    if last_trade is None:
+        return None
+    try:
+        return float(last_trade)
+    except (TypeError, ValueError):
+        return None
+
+
+def extract_event_moneyline_prices(
+    event: dict[str, Any],
+    team1: str,
+    team2: str,
+) -> dict[str, float | None]:
+    team1_price: float | None = None
+    draw_price: float | None = None
+    team2_price: float | None = None
+
+    for market in event.get("markets") or []:
+        if market.get("sportsMarketType") != "moneyline":
+            continue
+        title = (market.get("groupItemTitle") or market.get("question") or "").strip()
+        yes_price = moneyline_yes_price_from_market(market)
+        if yes_price is None:
+            continue
+        if title == team1:
+            team1_price = yes_price
+        elif title == team2:
+            team2_price = yes_price
+        elif title.lower().startswith("draw"):
+            draw_price = yes_price
+
+    return {
+        "polymarket_team1_win_price": team1_price,
+        "polymarket_draw_price": draw_price,
+        "polymarket_team2_win_price": team2_price,
+    }
+
+
 def build_polymarket_team_pair_lookup(
     events: list[dict[str, Any]],
     *,
@@ -238,6 +380,7 @@ def build_polymarket_team_pair_lookup(
             "poly_team2": team2,
             "team1_code": team1_code,
             "team2_code": team2_code,
+            **extract_event_moneyline_prices(event, team1, team2),
         }
         key = frozenset({team1_code, team2_code})
         existing = lookup.get(key)
@@ -344,6 +487,50 @@ def fetch_penalty_score_from_skysports(
     return None, None
 
 
+def merge_polymarket_events(
+    existing: list[dict[str, Any]],
+    fetched: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    for event in existing:
+        event_id = event.get("id")
+        if event_id is not None:
+            merged[str(event_id)] = event
+    for event in fetched:
+        event_id = event.get("id")
+        if event_id is not None:
+            merged[str(event_id)] = event
+    return list(merged.values())
+
+
+def fetch_events_by_slugs(
+    *,
+    gamma_url: str,
+    slugs: list[str],
+    sleep_seconds: float = 0.15,
+    log: Callable[[str], None] | None = None,
+) -> list[dict[str, Any]]:
+    import requests
+
+    events: list[dict[str, Any]] = []
+    for slug in slugs:
+        if not slug:
+            continue
+        if log:
+            log(f"[download] {gamma_url}/events slug={slug}")
+        try:
+            response = requests.get(f"{gamma_url}/events", params={"slug": slug}, timeout=60)
+            response.raise_for_status()
+            batch = response.json()
+        except Exception:
+            continue
+        if batch:
+            events.append(batch[0])
+        if sleep_seconds:
+            time.sleep(sleep_seconds)
+    return events
+
+
 def load_world_cup_events(
     *,
     cache_dir: Path,
@@ -357,10 +544,7 @@ def load_world_cup_events(
 ) -> list[dict[str, Any]]:
     cleanup_legacy_paginated_event_caches(cache_dir, series_slug, compact_cache_name, log=log)
 
-    if not force_refresh:
-        cached = load_compact_events_cache(cache_dir, compact_cache_name, log=log)
-        if cached is not None:
-            return cached
+    cached = load_compact_events_cache(cache_dir, compact_cache_name, log=log)
 
     all_events = fetch_events_from_api(
         gamma_url=gamma_url,
@@ -369,6 +553,15 @@ def load_world_cup_events(
         sleep_seconds=sleep_seconds,
         log=log,
     )
+
+    if cached is not None:
+        merged = merge_polymarket_events(cached, all_events)
+        if len(merged) != len(cached) and log:
+            log(f"[cache] merged {len(merged) - len(cached)} new Polymarket event(s) into {compact_cache_name}")
+        all_events = merged
+    elif log:
+        log(f"[cache] no existing compact cache to merge; using {len(all_events)} API event(s)")
+
     save_compact_events_cache(cache_dir, compact_cache_name, all_events, log=log)
     cleanup_legacy_paginated_event_caches(cache_dir, series_slug, compact_cache_name, log=log)
     return load_compact_events_cache(cache_dir, compact_cache_name, log=log) or []
