@@ -251,3 +251,6 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-02T23:00:00Z,Portugal vs. Croatia,team1_win,Portugal,0.5805,True,0.722652885443583,50-59c
 2026-07-02T23:00:00Z,Portugal vs. Croatia,draw,Draw,0.2556805555555556,False,-1.0,20-29c
 2026-07-02T23:00:00Z,Portugal vs. Croatia,team2_win,Croatia,0.16672916666666665,False,-1.0,10-19c
+2026-07-03T03:00:00Z,Switzerland vs. Algeria,team1_win,Switzerland,0.4870902777777778,True,1.053007513437219,40-49c
+2026-07-03T03:00:00Z,Switzerland vs. Algeria,draw,Draw,0.30000347222222223,False,-1.0,30-39c
+2026-07-03T03:00:00Z,Switzerland vs. Algeria,team2_win,Algeria,0.21385416666666662,False,-1.0,20-29c
