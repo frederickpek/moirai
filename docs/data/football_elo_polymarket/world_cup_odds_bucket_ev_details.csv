@@ -257,6 +257,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-03T18:00:00Z,Australia vs. Egypt,team1_win,Australia,0.26393490304709144,False,-1.0,20-29c
 2026-07-03T18:00:00Z,Australia vs. Egypt,draw,Draw,0.3373393351800554,True,1.9643741352198032,30-39c
 2026-07-03T18:00:00Z,Australia vs. Egypt,team2_win,Egypt,0.40343628808864285,False,-1.0,40-49c
-2026-07-03T22:00:00Z,Argentina vs. Cabo Verde,team1_win,Argentina,0.8531315789473686,False,-1.0,80-89c
-2026-07-03T22:00:00Z,Argentina vs. Cabo Verde,draw,Draw,0.10747783933518017,True,8.304243611386735,10-19c
+2026-07-03T22:00:00Z,Argentina vs. Cabo Verde,team1_win,Argentina,0.8531315789473686,True,0.1721521330084208,80-89c
+2026-07-03T22:00:00Z,Argentina vs. Cabo Verde,draw,Draw,0.10747783933518017,False,-1.0,10-19c
 2026-07-03T22:00:00Z,Argentina vs. Cabo Verde,team2_win,Cabo Verde,0.0365394736842104,False,-1.0,0-9c
+2026-07-04T01:30:00Z,Colombia vs. Ghana,team1_win,Colombia,0.6848055555555557,True,0.460268527156938,60-69c
+2026-07-04T01:30:00Z,Colombia vs. Ghana,draw,Draw,0.2164444444444444,False,-1.0,20-29c
+2026-07-04T01:30:00Z,Colombia vs. Ghana,team2_win,Ghana,0.1050000000000001,False,-1.0,10-19c
