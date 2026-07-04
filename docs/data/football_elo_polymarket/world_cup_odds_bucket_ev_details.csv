@@ -266,3 +266,6 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-04T17:00:00Z,Canada vs. Morocco,team1_win,Canada,0.1659722222222222,False,-1.0,10-19c
 2026-07-04T17:00:00Z,Canada vs. Morocco,draw,Draw,0.2856944444444445,False,-1.0,20-29c
 2026-07-04T17:00:00Z,Canada vs. Morocco,team2_win,Morocco,0.5523055555555556,True,0.810591962983453,50-59c
+2026-07-04T21:00:00Z,Paraguay vs. France,team1_win,Paraguay,0.0451111111111111,False,-1.0,0-9c
+2026-07-04T21:00:00Z,Paraguay vs. France,draw,Draw,0.12808333333333333,False,-1.0,10-19c
+2026-07-04T21:00:00Z,Paraguay vs. France,team2_win,France,0.8315277777777776,True,0.20260564556539196,80-89c
