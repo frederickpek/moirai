@@ -286,12 +286,26 @@ def _align_parent_row_teams(
     if side_a is None or side_b is None:
         return row
 
+    old_team1 = row.get("team1_code")
     aligned = _apply_team_side_fields({}, "team1", _team_side_fields(feeder_a, side_a))
     aligned = _apply_team_side_fields(aligned, "team2", _team_side_fields(feeder_b, side_b))
     merged = dict(row)
     for key, value in aligned.items():
         if not _is_blank(value):
             merged[key] = value
+    new_team1 = merged.get("team1_code")
+    if (
+        not _is_blank(old_team1)
+        and not _is_blank(new_team1)
+        and str(old_team1) != str(new_team1)
+        and not _is_blank(row.get("team1_goals"))
+        and not _is_blank(row.get("team2_goals"))
+    ):
+        merged["team1_goals"], merged["team2_goals"] = row.get("team2_goals"), row.get("team1_goals")
+        merged["team1_pen_goals"], merged["team2_pen_goals"] = (
+            row.get("team2_pen_goals"),
+            row.get("team1_pen_goals"),
+        )
     name1 = merged.get("poly_team1") or winner_a
     name2 = merged.get("poly_team2") or winner_b
     merged["event_title"] = f"{name1} vs. {name2}"
@@ -335,6 +349,11 @@ def advance_bracket_winners(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 parent_no=parent_no,
             )
             positioned.append(parent_row)
+        elif match_winner_code(parent_row) is not None:
+            # Keep completed match scores and team order from the actual result.
+            position = bracket_position_for_match(parent_no)
+            if position:
+                parent_row.update(position)
         else:
             aligned = _align_parent_row_teams(
                 parent_row,
