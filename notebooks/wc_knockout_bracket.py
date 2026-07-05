@@ -130,8 +130,7 @@ FIXTURE_SIDE_PAIRS = (
     ("elo_team1_win_prob", "elo_team2_win_prob"),
     ("team1_form", "team2_form"),
     ("team1_recent_matches", "team2_recent_matches"),
-    ("team1_goals", "team2_goals"),
-    ("team1_pen_goals", "team2_pen_goals"),
+    # Scores stay with Polymarket/raw team1/team2 — never swap here.
 )
 
 
