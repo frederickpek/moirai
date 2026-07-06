@@ -272,3 +272,6 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-05T20:00:00Z,Brazil vs. Norway,team1_win,Brazil,0.5450554016620498,False,-1.0,50-59c
 2026-07-05T20:00:00Z,Brazil vs. Norway,draw,Draw,0.2648891966759003,False,-1.0,20-29c
 2026-07-05T20:00:00Z,Brazil vs. Norway,team2_win,Norway,0.19436288088642673,True,4.145015321029,10-19c
+2026-07-06T00:00:00Z,Mexico vs. England,team1_win,Mexico,0.3127839335180055,False,-1.0,30-39c
+2026-07-06T00:00:00Z,Mexico vs. England,draw,Draw,0.3095429362880886,False,-1.0,30-39c
+2026-07-06T00:00:00Z,Mexico vs. England,team2_win,England,0.37721606648199446,True,1.6510005507618875,30-39c
