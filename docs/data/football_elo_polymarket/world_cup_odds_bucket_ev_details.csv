@@ -270,5 +270,5 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-04T21:00:00Z,Paraguay vs. France,draw,Draw,0.12808333333333333,False,-1.0,10-19c
 2026-07-04T21:00:00Z,Paraguay vs. France,team2_win,France,0.8315277777777776,True,0.20260564556539196,80-89c
 2026-07-05T20:00:00Z,Brazil vs. Norway,team1_win,Brazil,0.5450554016620498,False,-1.0,50-59c
-2026-07-05T20:00:00Z,Brazil vs. Norway,draw,Draw,0.2648891966759003,True,2.7751633986928104,20-29c
-2026-07-05T20:00:00Z,Brazil vs. Norway,team2_win,Norway,0.19436288088642673,False,-1.0,10-19c
+2026-07-05T20:00:00Z,Brazil vs. Norway,draw,Draw,0.2648891966759003,False,-1.0,20-29c
+2026-07-05T20:00:00Z,Brazil vs. Norway,team2_win,Norway,0.19436288088642673,True,4.145015321029,10-19c
