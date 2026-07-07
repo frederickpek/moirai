@@ -281,3 +281,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-07T00:00:00Z,United States vs. Belgium,team1_win,United States,0.3775833333333334,False,-1.0,30-39c
 2026-07-07T00:00:00Z,United States vs. Belgium,draw,Draw,0.2808333333333334,False,-1.0,20-29c
 2026-07-07T00:00:00Z,United States vs. Belgium,team2_win,Belgium,0.34399999999999986,True,1.9069767441860477,30-39c
+2026-07-07T16:00:00Z,Argentina vs. Egypt,team1_win,Argentina,0.7301666666666666,True,0.3695503309746633,70-79c
+2026-07-07T16:00:00Z,Argentina vs. Egypt,draw,Draw,0.19500000000000012,False,-1.0,10-19c
+2026-07-07T16:00:00Z,Argentina vs. Egypt,team2_win,Egypt,0.07883333333333331,False,-1.0,0-9c
+2026-07-07T20:00:00Z,Switzerland vs. Colombia,team1_win,Switzerland,0.2646388888888889,False,-1.0,20-29c
+2026-07-07T20:00:00Z,Switzerland vs. Colombia,draw,Draw,0.3181666666666666,True,2.143006809848089,30-39c
+2026-07-07T20:00:00Z,Switzerland vs. Colombia,team2_win,Colombia,0.4213333333333332,False,-1.0,40-49c
