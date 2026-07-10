@@ -290,3 +290,6 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-09T20:00:00Z,France vs. Morocco,team1_win,France,0.6098303324099723,True,0.6398003622550661,60-69c
 2026-07-09T20:00:00Z,France vs. Morocco,draw,Draw,0.25041897506925204,False,-1.0,20-29c
 2026-07-09T20:00:00Z,France vs. Morocco,team2_win,Morocco,0.13972645429362882,False,-1.0,10-19c
+2026-07-10T19:00:00Z,Spain vs. Belgium,team1_win,Spain,0.6043940443213296,False,-1.0,60-69c
+2026-07-10T19:00:00Z,Spain vs. Belgium,draw,Draw,0.2425727146814404,True,3.1224751980586687,20-29c
+2026-07-10T19:00:00Z,Spain vs. Belgium,team2_win,Belgium,0.16147853185595565,False,-1.0,10-19c
