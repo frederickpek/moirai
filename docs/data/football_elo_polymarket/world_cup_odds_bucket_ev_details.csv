@@ -287,6 +287,6 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-07T20:00:00Z,Switzerland vs. Colombia,team1_win,Switzerland,0.2646388888888889,False,-1.0,20-29c
 2026-07-07T20:00:00Z,Switzerland vs. Colombia,draw,Draw,0.3181666666666666,True,2.143006809848089,30-39c
 2026-07-07T20:00:00Z,Switzerland vs. Colombia,team2_win,Colombia,0.4213333333333332,False,-1.0,40-49c
-2026-07-09T20:00:00Z,France vs. Morocco,team1_win,France,0.6098303324099723,False,-1.0,60-69c
-2026-07-09T20:00:00Z,France vs. Morocco,draw,Draw,0.25041897506925204,True,2.9933076146624087,20-29c
+2026-07-09T20:00:00Z,France vs. Morocco,team1_win,France,0.6098303324099723,True,0.6398003622550661,60-69c
+2026-07-09T20:00:00Z,France vs. Morocco,draw,Draw,0.25041897506925204,False,-1.0,20-29c
 2026-07-09T20:00:00Z,France vs. Morocco,team2_win,Morocco,0.13972645429362882,False,-1.0,10-19c
