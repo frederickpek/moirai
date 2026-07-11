@@ -42,6 +42,9 @@ FIFA_KNOCKOUT_LAYOUT: dict[int, tuple[str, str, int]] = {
     # Semi-finals
     101: ("Semi-finals", "left", 1),
     102: ("Semi-finals", "right", 1),
+    # Center column — not placed on left/right trees
+    103: ("3rd Place", "center", 1),
+    104: ("Final", "center", 1),
 }
 
 # Parent match -> (feeder match, feeder match); first feeder's winner is team1.
@@ -60,6 +63,12 @@ FIFA_MATCH_FEEDERS: dict[int, tuple[int, int]] = {
     100: (95, 96),
     101: (97, 98),
     102: (99, 100),
+    104: (101, 102),
+}
+
+# Parent match -> (feeder match, feeder match); first feeder's loser is team1.
+FIFA_LOSER_FEEDERS: dict[int, tuple[int, int]] = {
+    103: (101, 102),
 }
 
 FIFA_PAIR_TO_MATCH_NO: dict[frozenset[str], int] = {
@@ -201,6 +210,17 @@ def match_winner_code(row: dict[str, Any]) -> str | None:
     return None
 
 
+def match_loser_code(row: dict[str, Any]) -> str | None:
+    winner = match_winner_code(row)
+    if winner is None:
+        return None
+    if str(row.get("team1_code")) == winner:
+        code = row.get("team2_code")
+    else:
+        code = row.get("team1_code")
+    return None if _is_blank(code) else str(code)
+
+
 def _team_side_fields(row: dict[str, Any], side: str) -> dict[str, Any]:
     return {
         "code": row.get(f"{side}_code"),
@@ -219,6 +239,38 @@ def _apply_team_side_fields(row: dict[str, Any], side: str, fields: dict[str, An
     merged[f"{side}_form"] = fields.get("form")
     merged[f"{side}_recent_matches"] = fields.get("recent_matches")
     return merged
+
+
+def _blank_loser_parent_row(
+    *,
+    loser_a: str,
+    loser_b: str,
+    feeder_a: dict[str, Any],
+    feeder_b: dict[str, Any],
+    parent_no: int,
+) -> dict[str, Any]:
+    side_a = _team_side_prefix(feeder_a, loser_a)
+    side_b = _team_side_prefix(feeder_b, loser_b)
+    row: dict[str, Any] = {
+        "event_start_time": "",
+        "event_slug": "",
+        "event_title": "",
+        "team1_goals": None,
+        "team2_goals": None,
+        "score_source": "missing",
+        "is_upcoming": True,
+    }
+    if side_a:
+        row = _apply_team_side_fields(row, "team1", _team_side_fields(feeder_a, side_a))
+    if side_b:
+        row = _apply_team_side_fields(row, "team2", _team_side_fields(feeder_b, side_b))
+    name1 = row.get("poly_team1") or loser_a
+    name2 = row.get("poly_team2") or loser_b
+    row["event_title"] = f"{name1} vs. {name2}"
+    position = bracket_position_for_match(parent_no)
+    if position:
+        row.update(position)
+    return row
 
 
 def _blank_parent_row(
@@ -358,6 +410,53 @@ def advance_bracket_winners(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 parent_row,
                 winner_a=winner_a,
                 winner_b=winner_b,
+                feeder_a=feeder_a,
+                feeder_b=feeder_b,
+            )
+            position = bracket_position_for_match(parent_no)
+            if position:
+                aligned.update(position)
+            parent_row.clear()
+            parent_row.update(aligned)
+
+        by_match_no[parent_no] = parent_row
+
+    for parent_no in sorted(FIFA_LOSER_FEEDERS):
+        feeder_a_no, feeder_b_no = FIFA_LOSER_FEEDERS[parent_no]
+        feeder_a = by_match_no.get(feeder_a_no)
+        feeder_b = by_match_no.get(feeder_b_no)
+        if feeder_a is None or feeder_b is None:
+            continue
+
+        loser_a = match_loser_code(feeder_a)
+        loser_b = match_loser_code(feeder_b)
+        if loser_a is None or loser_b is None:
+            continue
+
+        parent_row = _find_parent_row(
+            positioned,
+            parent_no=parent_no,
+            winner_a=loser_a,
+            winner_b=loser_b,
+        )
+        if parent_row is None:
+            parent_row = _blank_loser_parent_row(
+                loser_a=loser_a,
+                loser_b=loser_b,
+                feeder_a=feeder_a,
+                feeder_b=feeder_b,
+                parent_no=parent_no,
+            )
+            positioned.append(parent_row)
+        elif match_winner_code(parent_row) is not None:
+            position = bracket_position_for_match(parent_no)
+            if position:
+                parent_row.update(position)
+        else:
+            aligned = _align_parent_row_teams(
+                parent_row,
+                winner_a=loser_a,
+                winner_b=loser_b,
                 feeder_a=feeder_a,
                 feeder_b=feeder_b,
             )

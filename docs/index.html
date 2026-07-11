@@ -517,6 +517,94 @@
       min-height: 4.6rem;
     }
 
+    .bracket-center-block.podium-block {
+      display: flex;
+      justify-content: center;
+    }
+
+    .bracket-center-block.podium-block .bracket-fixture-card {
+      width: 100%;
+    }
+
+    .bracket-center-block.final-block .bracket-fixture-card,
+    .bracket-center-block.third-block .bracket-fixture-card {
+      width: 100%;
+    }
+
+    .bracket-center-col .bracket-fixture-card.tbd.podium {
+      min-height: 2.35rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.1rem;
+      padding: 0.45rem 0.5rem;
+      line-height: 1.2;
+    }
+
+    .bracket-podium-team {
+      font-size: 0.82rem;
+      font-weight: 750;
+    }
+
+    .bracket-podium-medal {
+      font-size: 0.62rem;
+      font-weight: 650;
+      letter-spacing: 0.02em;
+      text-transform: lowercase;
+    }
+
+    .bracket-fixture-card.tbd.podium.gold {
+      border-color: color-mix(in srgb, #d4af37 55%, var(--line));
+      background: color-mix(in srgb, #d4af37 8%, var(--panel));
+    }
+
+    .bracket-fixture-card.tbd.podium.gold .bracket-podium-medal {
+      color: #b8860b;
+    }
+
+    .bracket-fixture-card.tbd.podium.silver {
+      border-color: color-mix(in srgb, #a8a9ad 55%, var(--line));
+      background: color-mix(in srgb, #c0c0c0 10%, var(--panel));
+    }
+
+    .bracket-fixture-card.tbd.podium.silver .bracket-podium-medal {
+      color: #7a7d85;
+    }
+
+    .bracket-fixture-card.tbd.podium.bronze {
+      border-color: color-mix(in srgb, #cd7f32 55%, var(--line));
+      background: color-mix(in srgb, #cd7f32 8%, var(--panel));
+    }
+
+    .bracket-fixture-card.tbd.podium.bronze .bracket-podium-medal {
+      color: #9a5f1f;
+    }
+
+    .bracket-fixture-card.podium.filled {
+      border-style: solid;
+    }
+
+    .bracket-podium-filled {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      min-width: 0;
+      width: 100%;
+    }
+
+    .bracket-podium-filled .bracket-fixture-flag {
+      width: 1.35rem;
+      height: 1.35rem;
+      flex: 0 0 auto;
+    }
+
+    .bracket-podium-filled .bracket-fixture-flag img {
+      width: 1.35rem;
+      height: 1.35rem;
+    }
+
     .bracket-summaries h2 {
       margin: 0 0 0.85rem;
       font-size: 1.05rem;
@@ -1944,7 +2032,7 @@
       bracketBoardEl.className = "bracket-tree";
       bracketBoardEl.innerHTML = `
         ${renderBracketSidePanel(leftRows, "left", sideHeight)}
-        ${renderBracketCenter(sideHeight)}
+        ${renderBracketCenter(rows, sideHeight)}
         ${renderBracketSidePanel(rightRows, "right", sideHeight)}
       `;
 
@@ -2054,28 +2142,184 @@
       return connectors.join("");
     }
 
-    function renderBracketCenter(sideHeight) {
+    const BRACKET_PODIUM_BLOCK_H = 45;
+    const BRACKET_PODIUM_GAP = 12;
+
+    const BRACKET_PODIUM_PLACES = [
+      { medal: "gold medal", medalClass: "gold" },
+      { medal: "silver medal", medalClass: "silver" },
+      { medal: "bronze medal", medalClass: "bronze" },
+    ];
+
+    function bracketSemiFinalRow(rows, side) {
+      const matchNo = side === "left" ? 101 : 102;
+      return rows.find(row =>
+        Number(row.fifa_match_no) === matchNo
+        || (normalizeBracketRound(row.round) === "Semi-finals" && row.bracket_side === side)
+      ) || null;
+    }
+
+    function bracketParticipantFromRow(row, teamKey) {
+      const nameKey = teamKey === "team1" ? "poly_team1" : "poly_team2";
+      const codeKey = teamKey === "team1" ? "team1_code" : "team2_code";
+      const code = row[codeKey] || "";
+      const name = displayTeamName(row[nameKey] || code || "");
+      if (!code && !name) return null;
+      return { code, name };
+    }
+
+    function bracketWinnerParticipant(row) {
+      const winner = bracketMatchWinner(row);
+      if (!winner || winner === "draw") return null;
+      return bracketParticipantFromRow(row, winner === "team1_win" ? "team1" : "team2");
+    }
+
+    function bracketLoserParticipant(row) {
+      const winner = bracketMatchWinner(row);
+      if (!winner || winner === "draw") return null;
+      return bracketParticipantFromRow(row, winner === "team1_win" ? "team2" : "team1");
+    }
+
+    function findBracketMatchByTeams(rows, codeA, codeB) {
+      if (!codeA || !codeB) return null;
+      return rows.find(row => {
+        const team1 = row.team1_code;
+        const team2 = row.team2_code;
+        return (team1 === codeA && team2 === codeB) || (team1 === codeB && team2 === codeA);
+      }) || null;
+    }
+
+    function buildSyntheticBracketMatch(team1, team2) {
+      return {
+        poly_team1: team1.name,
+        poly_team2: team2.name,
+        team1_code: team1.code,
+        team2_code: team2.code,
+        team1_goals: "",
+        team2_goals: "",
+        is_upcoming: "True",
+      };
+    }
+
+    function resolveBracketCenterMatches(rows) {
+      const sfLeft = bracketSemiFinalRow(rows, "left");
+      const sfRight = bracketSemiFinalRow(rows, "right");
+      const finalExplicit = rows.find(row => {
+        const round = normalizeBracketRound(row.round).toLowerCase();
+        return Number(row.fifa_match_no) === 104 || round === "final" || round === "finals";
+      });
+      const thirdExplicit = rows.find(row =>
+        Number(row.fifa_match_no) === 103 || /3rd/i.test(String(row.round || ""))
+      );
+
+      const finalWinnerLeft = sfLeft ? bracketWinnerParticipant(sfLeft) : null;
+      const finalWinnerRight = sfRight ? bracketWinnerParticipant(sfRight) : null;
+      const thirdLoserLeft = sfLeft ? bracketLoserParticipant(sfLeft) : null;
+      const thirdLoserRight = sfRight ? bracketLoserParticipant(sfRight) : null;
+
+      let finalMatch = finalExplicit || null;
+      if (!finalMatch && finalWinnerLeft && finalWinnerRight) {
+        finalMatch = findBracketMatchByTeams(rows, finalWinnerLeft.code, finalWinnerRight.code)
+          || buildSyntheticBracketMatch(finalWinnerLeft, finalWinnerRight);
+      }
+
+      let thirdMatch = thirdExplicit || null;
+      if (!thirdMatch && thirdLoserLeft && thirdLoserRight) {
+        thirdMatch = findBracketMatchByTeams(rows, thirdLoserLeft.code, thirdLoserRight.code)
+          || buildSyntheticBracketMatch(thirdLoserLeft, thirdLoserRight);
+      }
+
+      return {
+        finalMatch,
+        thirdMatch,
+        gold: finalMatch ? bracketWinnerParticipant(finalMatch) : null,
+        silver: finalMatch ? bracketLoserParticipant(finalMatch) : null,
+        bronze: thirdMatch ? bracketWinnerParticipant(thirdMatch) : null,
+      };
+    }
+
+    function renderCenterTbdCard() {
+      return `<div class="bracket-fixture-card tbd">TBD</div>`;
+    }
+
+    function renderCenterFixtureNode(row) {
+      const upcoming = isTruthy(row.is_upcoming);
+      const winner = bracketMatchWinner(row);
+
+      return `
+        <div class="bracket-fixture-card">
+          ${bracketFixtureRow(row, "team1", winner === "team1_win", upcoming)}
+          ${bracketFixtureRow(row, "team2", winner === "team2_win", upcoming)}
+        </div>
+      `;
+    }
+
+    function renderCenterMatchCard(match) {
+      if (!match || !match.team1_code || !match.team2_code) {
+        return renderCenterTbdCard();
+      }
+      return renderCenterFixtureNode(match);
+    }
+
+    function renderPodiumCard(place, top, participant) {
+      const filled = Boolean(participant && (participant.code || participant.name));
+      const cardClass = filled
+        ? `bracket-fixture-card podium filled ${place.medalClass}`
+        : `bracket-fixture-card tbd podium ${place.medalClass}`;
+      const body = filled
+        ? `
+          <div class="bracket-podium-filled">
+            ${bracketFixtureFlag(participant.code)}
+            <span class="bracket-podium-team">${escapeHtml(participant.name || participant.code || "TBD")}</span>
+          </div>
+          <span class="bracket-podium-medal">(${place.medal})</span>
+        `
+        : `
+          <span class="bracket-podium-team">TBD</span>
+          <span class="bracket-podium-medal">(${place.medal})</span>
+        `;
+
+      return `
+        <div class="bracket-center-block podium-block" style="top:${top}px">
+          <div class="${cardClass}">
+            ${body}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderPodiumCards(startTop, podium) {
+      const participants = [podium.gold, podium.silver, podium.bronze];
+      return BRACKET_PODIUM_PLACES.map((place, index) =>
+        renderPodiumCard(
+          place,
+          startTop + index * (BRACKET_PODIUM_BLOCK_H + BRACKET_PODIUM_GAP),
+          participants[index]
+        )
+      ).join("");
+    }
+
+    function renderBracketCenter(rows, sideHeight) {
+      const center = resolveBracketCenterMatches(rows);
       const sfCenter = bracketNodeCenter(3, 0);
-      const finalTop = sfCenter - BRACKET_NODE_H * 2 - 10;
-      const thirdTop = finalTop + BRACKET_NODE_H * 3;
+      const podiumStackH = BRACKET_PODIUM_PLACES.length * BRACKET_PODIUM_BLOCK_H
+        + (BRACKET_PODIUM_PLACES.length - 1) * BRACKET_PODIUM_GAP;
+      const podiumStart = sfCenter - BRACKET_NODE_H * 2 - podiumStackH + 10;
+      const finalTop = podiumStart + podiumStackH * 1.25;
+      const thirdTop = finalTop + BRACKET_NODE_H * 2.1;
 
       return `
         <section class="bracket-center-col">
           <div class="bracket-col-title" aria-hidden="true">&nbsp;</div>
           <div class="bracket-center-body" style="--side-height:${sideHeight}px">
+            ${renderPodiumCards(podiumStart, center)}
             <div class="bracket-center-block final-block" style="top:${finalTop}px">
               <div class="bracket-center-label">Finals</div>
-              <div class="bracket-fixture-wrap">
-                <div class="bracket-fixture-meta bracket-fixture-meta-spacer" aria-hidden="true">&nbsp;</div>
-                <div class="bracket-fixture-card tbd final">TBD</div>
-              </div>
+              ${renderCenterMatchCard(center.finalMatch)}
             </div>
             <div class="bracket-center-block third-block" style="top:${thirdTop}px">
               <div class="bracket-center-label">3rd Place</div>
-              <div class="bracket-fixture-wrap">
-                <div class="bracket-fixture-meta bracket-fixture-meta-spacer" aria-hidden="true">&nbsp;</div>
-                <div class="bracket-fixture-card tbd">TBD</div>
-              </div>
+              ${renderCenterMatchCard(center.thirdMatch)}
             </div>
           </div>
         </section>
