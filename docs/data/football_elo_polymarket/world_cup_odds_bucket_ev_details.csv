@@ -149,12 +149,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-24T19:00:00Z,Bosnia-Herzegovina vs. Qatar,team1_win,Bosnia-Herzegovina,0.7050000000000001,True,0.41843971631205656,70-79c
 2026-06-24T19:00:00Z,Bosnia-Herzegovina vs. Qatar,draw,Draw,0.17500000000000002,False,-1.0,10-19c
 2026-06-24T19:00:00Z,Bosnia-Herzegovina vs. Qatar,team2_win,Qatar,0.11499999999999999,False,-1.0,10-19c
-2026-06-24T22:00:00Z,Morocco vs. Haiti,team1_win,Morocco,0.825,True,0.21212121212121215,80-89c
-2026-06-24T22:00:00Z,Morocco vs. Haiti,draw,Draw,0.125,False,-1.0,10-19c
-2026-06-24T22:00:00Z,Morocco vs. Haiti,team2_win,Haiti,0.04500000000000002,False,-1.0,0-9c
 2026-06-24T22:00:00Z,Scotland vs. Brazil,team1_win,Scotland,0.09499999999999999,False,-1.0,0-9c
 2026-06-24T22:00:00Z,Scotland vs. Brazil,draw,Draw,0.17500000000000002,False,-1.0,10-19c
 2026-06-24T22:00:00Z,Scotland vs. Brazil,team2_win,Brazil,0.735,True,0.3605442176870748,70-79c
+2026-06-24T22:00:00Z,Morocco vs. Haiti,team1_win,Morocco,0.825,True,0.21212121212121215,80-89c
+2026-06-24T22:00:00Z,Morocco vs. Haiti,draw,Draw,0.125,False,-1.0,10-19c
+2026-06-24T22:00:00Z,Morocco vs. Haiti,team2_win,Haiti,0.04500000000000002,False,-1.0,0-9c
 2026-06-25T01:00:00Z,Czechia vs. Mexico,team1_win,Czechia,0.24272222222222217,False,-1.0,20-29c
 2026-06-25T01:00:00Z,Czechia vs. Mexico,draw,Draw,0.2407777777777778,False,-1.0,20-29c
 2026-06-25T01:00:00Z,Czechia vs. Mexico,team2_win,Mexico,0.5191111111111111,True,0.9263698630136987,50-59c
@@ -185,12 +185,12 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-06-26T19:00:00Z,Senegal vs. Iraq,team1_win,Senegal,0.795,True,0.25786163522012573,70-79c
 2026-06-26T19:00:00Z,Senegal vs. Iraq,draw,Draw,0.1341111111111111,False,-1.0,10-19c
 2026-06-26T19:00:00Z,Senegal vs. Iraq,team2_win,Iraq,0.07505555555555554,False,-1.0,0-9c
-2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team1_win,Cabo Verde,0.3575207756232687,False,-1.0,30-39c
-2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,Draw,0.2852216066481995,True,2.5060457436993144,20-29c
-2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team2_win,Saudi Arabia,0.3618975069252078,False,-1.0,30-39c
 2026-06-27T00:00:00Z,Uruguay vs. Spain,team1_win,Uruguay,0.15214681440443206,False,-1.0,10-19c
 2026-06-27T00:00:00Z,Uruguay vs. Spain,draw,Draw,0.2672991689750692,False,-1.0,20-29c
 2026-06-27T00:00:00Z,Uruguay vs. Spain,team2_win,Spain,0.5847229916897507,True,0.7102115261624462,50-59c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team1_win,Cabo Verde,0.3575207756232687,False,-1.0,30-39c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,Draw,0.2852216066481995,True,2.5060457436993144,20-29c
+2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,team2_win,Saudi Arabia,0.3618975069252078,False,-1.0,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,team1_win,Egypt,0.37263888888888896,False,-1.0,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,draw,Draw,0.36369444444444454,True,1.7495608340334523,30-39c
 2026-06-27T03:00:00Z,Egypt vs. IR Iran,team2_win,IR Iran,0.26841666666666675,False,-1.0,20-29c
@@ -293,3 +293,9 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-10T19:00:00Z,Spain vs. Belgium,team1_win,Spain,0.6043940443213296,True,0.6545497252920385,60-69c
 2026-07-10T19:00:00Z,Spain vs. Belgium,draw,Draw,0.2425727146814404,False,-1.0,20-29c
 2026-07-10T19:00:00Z,Spain vs. Belgium,team2_win,Belgium,0.16147853185595565,False,-1.0,10-19c
+2026-07-11T21:00:00Z,Norway vs. England,team1_win,Norway,0.24321527777777777,False,-1.0,20-29c
+2026-07-11T21:00:00Z,Norway vs. England,draw,Draw,0.2521805555555555,False,-1.0,20-29c
+2026-07-11T21:00:00Z,Norway vs. England,team2_win,England,0.5101666666666667,True,0.9601437438745508,50-59c
+2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,Argentina,0.5690208333333333,True,0.7574048987661555,50-59c
+2026-07-12T01:00:00Z,Argentina vs. Switzerland,draw,Draw,0.27154861111111106,False,-1.0,20-29c
+2026-07-12T01:00:00Z,Argentina vs. Switzerland,team2_win,Switzerland,0.15813194444444445,False,-1.0,10-19c
