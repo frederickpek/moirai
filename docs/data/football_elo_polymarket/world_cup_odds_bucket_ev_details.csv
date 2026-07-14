@@ -299,3 +299,6 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,Argentina,0.5690208333333333,True,0.7574048987661555,50-59c
 2026-07-12T01:00:00Z,Argentina vs. Switzerland,draw,Draw,0.27154861111111106,False,-1.0,20-29c
 2026-07-12T01:00:00Z,Argentina vs. Switzerland,team2_win,Switzerland,0.15813194444444445,False,-1.0,10-19c
+2026-07-14T19:00:00Z,France vs. Spain,team1_win,France,0.38981648199445984,False,-1.0,30-39c
+2026-07-14T19:00:00Z,France vs. Spain,draw,Draw,0.31418628808864274,False,-1.0,30-39c
+2026-07-14T19:00:00Z,France vs. Spain,team2_win,Spain,0.2955713296398892,True,2.3832780778107097,20-29c
