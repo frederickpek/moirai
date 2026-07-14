@@ -449,61 +449,61 @@ YES max positive edge,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_
 "YES max edge, prob floor",44,2026-06-23T03:00:00Z,Jordan vs. Algeria,team2_win,team1_win,YES Jordan,True,-100.0,-535.0893583311146
 "YES max edge, prob floor",45,2026-06-23T17:00:00Z,Portugal vs. Uzbekistan,team1_win,,,False,0.0,-535.0893583311146
 "YES max edge, prob floor",46,2026-06-23T20:00:00Z,England vs. Ghana,draw,,,False,0.0,-535.0893583311146
-"YES max edge, prob floor",47,2026-06-23T23:00:00Z,Panama vs. Croatia,team2_win,draw,YES Draw,True,-100.0,-635.0893583311146
-"YES max edge, prob floor",48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,YES Colombia,True,58.33919774806478,-576.7501605830498
-"YES max edge, prob floor",49,2026-06-24T19:00:00Z,Switzerland vs. Canada,team1_win,team1_win,YES Switzerland,True,140.96385542168673,-435.78630516136303
-"YES max edge, prob floor",50,2026-06-24T19:00:00Z,Bosnia-Herzegovina vs. Qatar,team1_win,draw,YES Draw,True,-100.0,-535.7863051613631
-"YES max edge, prob floor",51,2026-06-24T22:00:00Z,Morocco vs. Haiti,team1_win,,,False,0.0,-535.7863051613631
-"YES max edge, prob floor",52,2026-06-24T22:00:00Z,Scotland vs. Brazil,team2_win,,,False,0.0,-535.7863051613631
-"YES max edge, prob floor",53,2026-06-25T01:00:00Z,Czechia vs. Mexico,team2_win,team2_win,YES Mexico,True,92.63698630136987,-443.1493188599932
-"YES max edge, prob floor",54,2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team1_win,,,False,0.0,-443.1493188599932
-"YES max edge, prob floor",55,2026-06-25T20:00:00Z,Ecuador vs. Germany,team1_win,team1_win,YES Ecuador,True,425.23606523984813,-17.913253620145042
-"YES max edge, prob floor",56,2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team2_win,,,False,0.0,-17.913253620145042
-"YES max edge, prob floor",57,2026-06-25T23:00:00Z,Japan vs. Sweden,draw,team1_win,YES Japan,True,-100.0,-117.91325362014504
-"YES max edge, prob floor",58,2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team2_win,,,False,0.0,-117.91325362014504
-"YES max edge, prob floor",59,2026-06-26T02:00:00Z,Paraguay vs. Australia,draw,team2_win,YES Australia,True,-100.0,-217.91325362014504
-"YES max edge, prob floor",60,2026-06-26T02:00:00Z,Türkiye vs. United States,team1_win,team1_win,YES Türkiye,True,296.6505068312032,78.73725321105815
-"YES max edge, prob floor",61,2026-06-26T19:00:00Z,Norway vs. France,team2_win,draw,YES Draw,True,-100.0,-21.262746788941854
-"YES max edge, prob floor",62,2026-06-26T19:00:00Z,Senegal vs. Iraq,team1_win,,,False,0.0,-21.262746788941854
-"YES max edge, prob floor",63,2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,team1_win,YES Cabo Verde,True,-100.0,-121.26274678894185
-"YES max edge, prob floor",64,2026-06-27T00:00:00Z,Uruguay vs. Spain,team2_win,team2_win,YES Spain,True,71.02115261624462,-50.24159417269723
-"YES max edge, prob floor",65,2026-06-27T03:00:00Z,Egypt vs. IR Iran,draw,team2_win,YES IR Iran,True,-100.0,-150.24159417269723
-"YES max edge, prob floor",66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,,,False,0.0,-150.24159417269723
-"YES max edge, prob floor",67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,,,False,0.0,-150.24159417269723
-"YES max edge, prob floor",68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,YES Croatia,True,87.7640431857299,-62.47755098696733
-"YES max edge, prob floor",69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team1_win,YES Colombia,True,-100.0,-162.47755098696734
-"YES max edge, prob floor",70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,-262.47755098696734
-"YES max edge, prob floor",71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,,,False,0.0,-262.47755098696734
-"YES max edge, prob floor",72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,YES Austria,True,-100.0,-362.47755098696734
-"YES max edge, prob floor",73,2026-06-28T19:00:00Z,South Africa vs. Canada,team2_win,,,False,0.0,-362.47755098696734
-"YES max edge, prob floor",74,2026-06-29T17:00:00Z,Brazil vs. Japan,team1_win,team2_win,YES Japan,True,-100.0,-462.47755098696734
-"YES max edge, prob floor",75,2026-06-29T20:30:00Z,Germany vs. Paraguay,draw,team2_win,YES Paraguay,True,-100.0,-562.4775509869673
-"YES max edge, prob floor",76,2026-06-30T01:00:00Z,Netherlands vs. Morocco,draw,team1_win,YES Netherlands,True,-100.0,-662.4775509869673
-"YES max edge, prob floor",77,2026-06-30T17:00:00Z,Côte d'Ivoire vs. Norway,team2_win,team2_win,YES Norway,True,120.68289094587139,-541.794660041096
-"YES max edge, prob floor",78,2026-06-30T21:00:00Z,France vs. Sweden,team1_win,,,False,0.0,-541.794660041096
-"YES max edge, prob floor",79,2026-07-01T01:00:00Z,Mexico vs. Ecuador,team1_win,team2_win,YES Ecuador,True,-100.0,-641.794660041096
-"YES max edge, prob floor",80,2026-07-01T16:00:00Z,England vs. DR Congo,team1_win,,,False,0.0,-641.794660041096
-"YES max edge, prob floor",81,2026-07-01T20:00:00Z,Belgium vs. Senegal,team1_win,team2_win,YES Senegal,True,-100.0,-741.794660041096
-"YES max edge, prob floor",82,2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,team1_win,draw,YES Draw,True,-100.0,-841.794660041096
-"YES max edge, prob floor",83,2026-07-02T19:00:00Z,Spain vs. Austria,team1_win,,,False,0.0,-841.794660041096
-"YES max edge, prob floor",84,2026-07-02T23:00:00Z,Portugal vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,-941.794660041096
-"YES max edge, prob floor",85,2026-07-03T03:00:00Z,Switzerland vs. Algeria,team1_win,,,False,0.0,-941.794660041096
-"YES max edge, prob floor",86,2026-07-03T18:00:00Z,Australia vs. Egypt,draw,team1_win,YES Australia,True,-100.0,-1041.794660041096
-"YES max edge, prob floor",87,2026-07-03T22:00:00Z,Argentina vs. Cabo Verde,team1_win,,,False,0.0,-1041.794660041096
-"YES max edge, prob floor",88,2026-07-04T01:30:00Z,Colombia vs. Ghana,team1_win,team1_win,YES Colombia,True,46.0268527156938,-995.7678073254021
-"YES max edge, prob floor",89,2026-07-04T17:00:00Z,Canada vs. Morocco,team2_win,,,False,0.0,-995.7678073254021
-"YES max edge, prob floor",90,2026-07-04T21:00:00Z,Paraguay vs. France,team2_win,,,False,0.0,-995.7678073254021
-"YES max edge, prob floor",91,2026-07-05T20:00:00Z,Brazil vs. Norway,team2_win,team2_win,YES Norway,True,414.5015321029,-581.2662752225021
-"YES max edge, prob floor",92,2026-07-06T00:00:00Z,Mexico vs. England,team2_win,team2_win,YES England,True,165.10005507618874,-416.16622014631344
-"YES max edge, prob floor",93,2026-07-06T19:00:00Z,Portugal vs. Spain,team2_win,,,False,0.0,-416.16622014631344
-"YES max edge, prob floor",94,2026-07-07T00:00:00Z,United States vs. Belgium,team2_win,team2_win,YES Belgium,True,190.69767441860478,-225.46854572770863
-"YES max edge, prob floor",95,2026-07-07T16:00:00Z,Argentina vs. Egypt,team1_win,,,False,0.0,-225.46854572770863
-"YES max edge, prob floor",96,2026-07-07T20:00:00Z,Switzerland vs. Colombia,draw,,,False,0.0,-225.46854572770863
-"YES max edge, prob floor",97,2026-07-09T20:00:00Z,France vs. Morocco,team1_win,,,False,0.0,-225.46854572770863
-"YES max edge, prob floor",98,2026-07-10T19:00:00Z,Spain vs. Belgium,team1_win,,,False,0.0,-225.46854572770863
-"YES max edge, prob floor",99,2026-07-11T21:00:00Z,Norway vs. England,team2_win,,,False,0.0,-225.46854572770863
-"YES max edge, prob floor",100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,,,False,0.0,-225.46854572770863
-"YES max edge, prob floor",101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,YES Spain,True,238.32780778107096,12.859262053362329
+"YES max edge, prob floor",47,2026-06-23T23:00:00Z,Panama vs. Croatia,team2_win,,,False,0.0,-535.0893583311146
+"YES max edge, prob floor",48,2026-06-24T02:00:00Z,Colombia vs. DR Congo,team1_win,team1_win,YES Colombia,True,58.33919774806478,-476.75016058304976
+"YES max edge, prob floor",49,2026-06-24T19:00:00Z,Switzerland vs. Canada,team1_win,team1_win,YES Switzerland,True,140.96385542168673,-335.78630516136303
+"YES max edge, prob floor",50,2026-06-24T19:00:00Z,Bosnia-Herzegovina vs. Qatar,team1_win,draw,YES Draw,True,-100.0,-435.78630516136303
+"YES max edge, prob floor",51,2026-06-24T22:00:00Z,Morocco vs. Haiti,team1_win,,,False,0.0,-435.78630516136303
+"YES max edge, prob floor",52,2026-06-24T22:00:00Z,Scotland vs. Brazil,team2_win,,,False,0.0,-435.78630516136303
+"YES max edge, prob floor",53,2026-06-25T01:00:00Z,Czechia vs. Mexico,team2_win,team2_win,YES Mexico,True,92.63698630136987,-343.1493188599932
+"YES max edge, prob floor",54,2026-06-25T01:00:00Z,South Africa vs. Korea Republic,team1_win,,,False,0.0,-343.1493188599932
+"YES max edge, prob floor",55,2026-06-25T20:00:00Z,Ecuador vs. Germany,team1_win,team1_win,YES Ecuador,True,425.23606523984813,82.08674637985496
+"YES max edge, prob floor",56,2026-06-25T20:00:00Z,Curaçao vs. Côte d'Ivoire,team2_win,,,False,0.0,82.08674637985496
+"YES max edge, prob floor",57,2026-06-25T23:00:00Z,Japan vs. Sweden,draw,team1_win,YES Japan,True,-100.0,-17.913253620145042
+"YES max edge, prob floor",58,2026-06-25T23:00:00Z,Tunisia vs. Netherlands,team2_win,,,False,0.0,-17.913253620145042
+"YES max edge, prob floor",59,2026-06-26T02:00:00Z,Paraguay vs. Australia,draw,team2_win,YES Australia,True,-100.0,-117.91325362014504
+"YES max edge, prob floor",60,2026-06-26T02:00:00Z,Türkiye vs. United States,team1_win,team1_win,YES Türkiye,True,296.6505068312032,178.73725321105815
+"YES max edge, prob floor",61,2026-06-26T19:00:00Z,Norway vs. France,team2_win,draw,YES Draw,True,-100.0,78.73725321105815
+"YES max edge, prob floor",62,2026-06-26T19:00:00Z,Senegal vs. Iraq,team1_win,,,False,0.0,78.73725321105815
+"YES max edge, prob floor",63,2026-06-27T00:00:00Z,Cabo Verde vs. Saudi Arabia,draw,team1_win,YES Cabo Verde,True,-100.0,-21.262746788941854
+"YES max edge, prob floor",64,2026-06-27T00:00:00Z,Uruguay vs. Spain,team2_win,team2_win,YES Spain,True,71.02115261624462,49.75840582730277
+"YES max edge, prob floor",65,2026-06-27T03:00:00Z,Egypt vs. IR Iran,draw,team2_win,YES IR Iran,True,-100.0,-50.24159417269723
+"YES max edge, prob floor",66,2026-06-27T03:00:00Z,New Zealand vs. Belgium,team2_win,,,False,0.0,-50.24159417269723
+"YES max edge, prob floor",67,2026-06-27T21:00:00Z,Panama vs. England,team2_win,,,False,0.0,-50.24159417269723
+"YES max edge, prob floor",68,2026-06-27T21:00:00Z,Croatia vs. Ghana,team1_win,team1_win,YES Croatia,True,87.7640431857299,37.52244901303267
+"YES max edge, prob floor",69,2026-06-27T23:30:00Z,Colombia vs. Portugal,draw,team1_win,YES Colombia,True,-100.0,-62.47755098696733
+"YES max edge, prob floor",70,2026-06-27T23:30:00Z,DR Congo vs. Uzbekistan,team1_win,team2_win,YES Uzbekistan,True,-100.0,-162.47755098696734
+"YES max edge, prob floor",71,2026-06-28T02:00:00Z,Jordan vs. Argentina,team2_win,,,False,0.0,-162.47755098696734
+"YES max edge, prob floor",72,2026-06-28T02:00:00Z,Algeria vs. Austria,draw,team2_win,YES Austria,True,-100.0,-262.47755098696734
+"YES max edge, prob floor",73,2026-06-28T19:00:00Z,South Africa vs. Canada,team2_win,,,False,0.0,-262.47755098696734
+"YES max edge, prob floor",74,2026-06-29T17:00:00Z,Brazil vs. Japan,team1_win,team2_win,YES Japan,True,-100.0,-362.47755098696734
+"YES max edge, prob floor",75,2026-06-29T20:30:00Z,Germany vs. Paraguay,draw,team2_win,YES Paraguay,True,-100.0,-462.47755098696734
+"YES max edge, prob floor",76,2026-06-30T01:00:00Z,Netherlands vs. Morocco,draw,team1_win,YES Netherlands,True,-100.0,-562.4775509869673
+"YES max edge, prob floor",77,2026-06-30T17:00:00Z,Côte d'Ivoire vs. Norway,team2_win,team2_win,YES Norway,True,120.68289094587139,-441.79466004109594
+"YES max edge, prob floor",78,2026-06-30T21:00:00Z,France vs. Sweden,team1_win,,,False,0.0,-441.79466004109594
+"YES max edge, prob floor",79,2026-07-01T01:00:00Z,Mexico vs. Ecuador,team1_win,team2_win,YES Ecuador,True,-100.0,-541.794660041096
+"YES max edge, prob floor",80,2026-07-01T16:00:00Z,England vs. DR Congo,team1_win,,,False,0.0,-541.794660041096
+"YES max edge, prob floor",81,2026-07-01T20:00:00Z,Belgium vs. Senegal,team1_win,team2_win,YES Senegal,True,-100.0,-641.794660041096
+"YES max edge, prob floor",82,2026-07-02T00:00:00Z,United States vs. Bosnia and Herzegovina,team1_win,draw,YES Draw,True,-100.0,-741.794660041096
+"YES max edge, prob floor",83,2026-07-02T19:00:00Z,Spain vs. Austria,team1_win,,,False,0.0,-741.794660041096
+"YES max edge, prob floor",84,2026-07-02T23:00:00Z,Portugal vs. Croatia,team1_win,team2_win,YES Croatia,True,-100.0,-841.794660041096
+"YES max edge, prob floor",85,2026-07-03T03:00:00Z,Switzerland vs. Algeria,team1_win,,,False,0.0,-841.794660041096
+"YES max edge, prob floor",86,2026-07-03T18:00:00Z,Australia vs. Egypt,draw,team1_win,YES Australia,True,-100.0,-941.794660041096
+"YES max edge, prob floor",87,2026-07-03T22:00:00Z,Argentina vs. Cabo Verde,team1_win,,,False,0.0,-941.794660041096
+"YES max edge, prob floor",88,2026-07-04T01:30:00Z,Colombia vs. Ghana,team1_win,team1_win,YES Colombia,True,46.0268527156938,-895.7678073254021
+"YES max edge, prob floor",89,2026-07-04T17:00:00Z,Canada vs. Morocco,team2_win,,,False,0.0,-895.7678073254021
+"YES max edge, prob floor",90,2026-07-04T21:00:00Z,Paraguay vs. France,team2_win,,,False,0.0,-895.7678073254021
+"YES max edge, prob floor",91,2026-07-05T20:00:00Z,Brazil vs. Norway,team2_win,team2_win,YES Norway,True,414.5015321029,-481.26627522250214
+"YES max edge, prob floor",92,2026-07-06T00:00:00Z,Mexico vs. England,team2_win,team2_win,YES England,True,165.10005507618874,-316.16622014631344
+"YES max edge, prob floor",93,2026-07-06T19:00:00Z,Portugal vs. Spain,team2_win,,,False,0.0,-316.16622014631344
+"YES max edge, prob floor",94,2026-07-07T00:00:00Z,United States vs. Belgium,team2_win,team2_win,YES Belgium,True,190.69767441860478,-125.46854572770863
+"YES max edge, prob floor",95,2026-07-07T16:00:00Z,Argentina vs. Egypt,team1_win,,,False,0.0,-125.46854572770863
+"YES max edge, prob floor",96,2026-07-07T20:00:00Z,Switzerland vs. Colombia,draw,,,False,0.0,-125.46854572770863
+"YES max edge, prob floor",97,2026-07-09T20:00:00Z,France vs. Morocco,team1_win,,,False,0.0,-125.46854572770863
+"YES max edge, prob floor",98,2026-07-10T19:00:00Z,Spain vs. Belgium,team1_win,,,False,0.0,-125.46854572770863
+"YES max edge, prob floor",99,2026-07-11T21:00:00Z,Norway vs. England,team2_win,,,False,0.0,-125.46854572770863
+"YES max edge, prob floor",100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,,,False,0.0,-125.46854572770863
+"YES max edge, prob floor",101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,YES Spain,True,238.32780778107096,112.85926205336233
 YES favorite positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 YES favorite positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 YES favorite positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,-100.0
