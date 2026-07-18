@@ -305,3 +305,6 @@ event_start_time,event_title,outcome,selection,price,won,net_payout_per_dollar,p
 2026-07-15T19:00:00Z,England vs. Argentina,team1_win,England,0.3582236842105264,False,-1.0,30-39c
 2026-07-15T19:00:00Z,England vs. Argentina,draw,Draw,0.3345048476454294,False,-1.0,30-39c
 2026-07-15T19:00:00Z,England vs. Argentina,team2_win,Argentina,0.3137084487534626,True,2.1876731531253104,30-39c
+2026-07-18T21:00:00Z,France vs. England,team1_win,France,0.5296111111111113,False,-1.0,50-59c
+2026-07-18T21:00:00Z,France vs. England,draw,Draw,0.2329166666666667,False,-1.0,20-29c
+2026-07-18T21:00:00Z,France vs. England,team2_win,England,0.2386388888888889,True,3.1904318472820394,20-29c
