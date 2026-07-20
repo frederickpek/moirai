@@ -102,7 +102,7 @@ Draw every match,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,dr
 Draw every match,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,draw,YES Draw,True,-100.0,1768.8365686189204
 Draw every match,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,draw,YES Draw,True,-100.0,1668.8365686189204
 Draw every match,103,2026-07-18T21:00:00Z,France vs. England,team2_win,draw,YES Draw,True,-100.0,1568.8365686189204
-Draw every match,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,draw,YES Draw,True,215.0533998058188,1783.889968424739
+Draw every match,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,draw,YES Draw,True,-100.0,1468.8365686189204
 YES Elo underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,YES South Africa,True,-100.0,-100.0
 YES Elo underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,YES Czechia,True,-100.0,-200.0
 YES Elo underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,YES Bosnia-Herzegovina,True,-100.0,-300.0
@@ -206,7 +206,7 @@ YES Elo underdog,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,te
 YES Elo underdog,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team1_win,YES France,True,-100.0,-5898.15945898707
 YES Elo underdog,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team1_win,YES England,True,-100.0,-5998.15945898707
 YES Elo underdog,103,2026-07-18T21:00:00Z,France vs. England,team2_win,team2_win,YES England,True,319.0431847282039,-5679.116274258867
-YES Elo underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team2_win,YES Argentina,True,-100.0,-5779.116274258867
+YES Elo underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team2_win,YES Argentina,True,-100.0,-5779.116274258867
 YES Elo favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
 YES Elo favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,YES Korea Republic,True,168.1364516609563,212.2459748986169
 YES Elo favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,112.24597489861691
@@ -310,7 +310,7 @@ YES Elo favorite,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,te
 YES Elo favorite,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,YES Spain,True,238.32780778107096,760.1731987741219
 YES Elo favorite,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team2_win,YES Argentina,True,218.76731531253105,978.940514086653
 YES Elo favorite,103,2026-07-18T21:00:00Z,France vs. England,team2_win,team1_win,YES France,True,-100.0,878.940514086653
-YES Elo favorite,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team1_win,YES Spain,True,-100.0,778.940514086653
+YES Elo favorite,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team1_win,YES Spain,True,135.0203038662793,1013.9608179529323
 YES max positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
 YES max positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,YES Czechia,True,-100.0,-55.890476762339404
 YES max positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,-155.8904767623394
@@ -414,7 +414,7 @@ YES max positive edge,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_w
 YES max positive edge,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,YES Spain,True,238.32780778107096,389.3493652589407
 YES max positive edge,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team2_win,YES Argentina,True,218.76731531253105,608.1166805714718
 YES max positive edge,103,2026-07-18T21:00:00Z,France vs. England,team2_win,team2_win,YES England,True,319.0431847282039,927.1598652996756
-YES max positive edge,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team2_win,YES Argentina,True,-100.0,827.1598652996756
+YES max positive edge,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team2_win,YES Argentina,True,-100.0,827.1598652996756
 "YES max edge, prob floor",1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 "YES max edge, prob floor",2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 "YES max edge, prob floor",3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -518,7 +518,7 @@ YES max positive edge,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team2_wi
 "YES max edge, prob floor",101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,YES Spain,True,238.32780778107096,112.85926205336233
 "YES max edge, prob floor",102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team2_win,YES Argentina,True,218.76731531253105,331.62657736589335
 "YES max edge, prob floor",103,2026-07-18T21:00:00Z,France vs. England,team2_win,team2_win,YES England,True,319.0431847282039,650.6697620940973
-"YES max edge, prob floor",104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team2_win,YES Argentina,True,-100.0,550.6697620940973
+"YES max edge, prob floor",104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team2_win,YES Argentina,True,-100.0,550.6697620940973
 YES favorite positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 YES favorite positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 YES favorite positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,-100.0
@@ -622,7 +622,7 @@ YES favorite positive edge,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,te
 YES favorite positive edge,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,YES Spain,True,238.32780778107096,-97.7155711355555
 YES favorite positive edge,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team2_win,YES Argentina,True,218.76731531253105,121.05174417697555
 YES favorite positive edge,103,2026-07-18T21:00:00Z,France vs. England,team2_win,,,False,0.0,121.05174417697555
-YES favorite positive edge,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,,,False,0.0,121.05174417697555
+YES favorite positive edge,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,,,False,0.0,121.05174417697555
 YES draw positive edge,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 YES draw positive edge,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 YES draw positive edge,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -726,7 +726,7 @@ YES draw positive edge,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_
 YES draw positive edge,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,,,False,0.0,2005.5844944581995
 YES draw positive edge,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,,,False,0.0,2005.5844944581995
 YES draw positive edge,103,2026-07-18T21:00:00Z,France vs. England,team2_win,draw,YES Draw,True,-100.0,1905.5844944581995
-YES draw positive edge,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,,,False,0.0,1905.5844944581995
+YES draw positive edge,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,,,False,0.0,1905.5844944581995
 YES Polymarket favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,YES Mexico,True,44.109523237660596,44.109523237660596
 YES Polymarket favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,YES Korea Republic,True,168.1364516609563,212.2459748986169
 YES Polymarket favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,YES Canada,True,-100.0,112.24597489861691
@@ -830,7 +830,7 @@ YES Polymarket favorite,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1
 YES Polymarket favorite,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team1_win,YES France,True,-100.0,1387.9574857590144
 YES Polymarket favorite,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team1_win,YES England,True,-100.0,1287.9574857590144
 YES Polymarket favorite,103,2026-07-18T21:00:00Z,France vs. England,team2_win,team1_win,YES France,True,-100.0,1187.9574857590144
-YES Polymarket favorite,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team1_win,YES Spain,True,-100.0,1087.9574857590144
+YES Polymarket favorite,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team1_win,YES Spain,True,135.0203038662793,1322.9777896252938
 YES Polymarket underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,YES South Africa,True,-100.0,-100.0
 YES Polymarket underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,YES Draw,True,-100.0,-200.0
 YES Polymarket underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,YES Bosnia-Herzegovina,True,-100.0,-300.0
@@ -934,7 +934,7 @@ YES Polymarket underdog,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1
 YES Polymarket underdog,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,YES Spain,True,238.32780778107096,-5998.175129794434
 YES Polymarket underdog,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team2_win,YES Argentina,True,218.76731531253105,-5779.407814481902
 YES Polymarket underdog,103,2026-07-18T21:00:00Z,France vs. England,team2_win,draw,YES Draw,True,-100.0,-5879.407814481902
-YES Polymarket underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team2_win,YES Argentina,True,-100.0,-5979.407814481902
+YES Polymarket underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team2_win,YES Argentina,True,-100.0,-5979.407814481902
 NO most overpriced outcome,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 NO most overpriced outcome,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 NO most overpriced outcome,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -1038,7 +1038,7 @@ NO most overpriced outcome,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,te
 NO most overpriced outcome,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team1_win,NO France,True,63.885121523541464,-272.96130879684625
 NO most overpriced outcome,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team1_win,NO England,True,55.817529472065644,-217.14377932478058
 NO most overpriced outcome,103,2026-07-18T21:00:00Z,France vs. England,team2_win,,,False,0.0,-217.14377932478058
-NO most overpriced outcome,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,,,False,0.0,-217.14377932478058
+NO most overpriced outcome,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,,,False,0.0,-217.14377932478058
 NO draw every match,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,draw,NO Draw,True,25.843325060299914,25.843325060299914
 NO draw every match,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,71.82872652015388
 NO draw every match,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,draw,NO Draw,True,-100.0,-28.17127347984612
@@ -1142,7 +1142,7 @@ NO draw every match,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win
 NO draw every match,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,draw,NO Draw,True,45.812191070518,-185.65639004142918
 NO draw every match,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,draw,NO Draw,True,50.26405473607536,-135.39233530535384
 NO draw every match,103,2026-07-18T21:00:00Z,France vs. England,team2_win,draw,NO Draw,True,30.36393264530146,-105.02840266005236
-NO draw every match,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,draw,NO Draw,True,-100.0,-205.02840266005236
+NO draw every match,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,draw,NO Draw,True,46.50007862711978,-58.528324032932595
 NO Elo underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
 NO Elo underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team2_win,NO Czechia,True,46.228522685730496,57.9603662611495
 NO Elo underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,82.09829729563226
@@ -1246,7 +1246,7 @@ NO Elo underdog,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,tea
 NO Elo underdog,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team1_win,NO France,True,63.885121523541464,770.5312914688506
 NO Elo underdog,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team1_win,NO England,True,55.817529472065644,826.3488209409162
 NO Elo underdog,103,2026-07-18T21:00:00Z,France vs. England,team2_win,team2_win,NO England,True,-100.0,726.3488209409161
-NO Elo underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team2_win,NO Argentina,True,35.71875014685635,762.0675710877725
+NO Elo underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team2_win,NO Argentina,True,35.71875014685635,762.0675710877725
 NO lowest Elo probability,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
 NO lowest Elo probability,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,57.71724503527298
 NO lowest Elo probability,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,81.85517606975574
@@ -1350,7 +1350,7 @@ NO lowest Elo probability,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,tea
 NO lowest Elo probability,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,draw,NO Draw,True,45.812191070518,142.62276641893442
 NO lowest Elo probability,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,draw,NO Draw,True,50.26405473607536,192.88682115500978
 NO lowest Elo probability,103,2026-07-18T21:00:00Z,France vs. England,team2_win,draw,NO Draw,True,30.36393264530146,223.25075380031126
-NO lowest Elo probability,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,draw,NO Draw,True,-100.0,123.25075380031126
+NO lowest Elo probability,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,draw,NO Draw,True,46.50007862711978,269.750832427431
 NO low-prob overpriced,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 NO low-prob overpriced,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,,,False,0.0,0.0
 NO low-prob overpriced,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,,,False,0.0,0.0
@@ -1454,7 +1454,7 @@ NO low-prob overpriced,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_
 NO low-prob overpriced,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,,,False,0.0,7.830505419754296
 NO low-prob overpriced,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,,,False,0.0,7.830505419754296
 NO low-prob overpriced,103,2026-07-18T21:00:00Z,France vs. England,team2_win,,,False,0.0,7.830505419754296
-NO low-prob overpriced,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,,,False,0.0,7.830505419754296
+NO low-prob overpriced,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,,,False,0.0,7.830505419754296
 NO overpriced draw,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,,,False,0.0,0.0
 NO overpriced draw,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,45.98540145985397
 NO overpriced draw,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,draw,NO Draw,True,-100.0,-54.01459854014603
@@ -1558,7 +1558,7 @@ NO overpriced draw,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_win,
 NO overpriced draw,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,draw,NO Draw,True,45.812191070518,-230.6170986809721
 NO overpriced draw,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,draw,NO Draw,True,50.26405473607536,-180.35304394489674
 NO overpriced draw,103,2026-07-18T21:00:00Z,France vs. England,team2_win,,,False,0.0,-180.35304394489674
-NO overpriced draw,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,draw,NO Draw,True,-100.0,-280.35304394489674
+NO overpriced draw,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,draw,NO Draw,True,46.50007862711978,-133.85296531777698
 NO Polymarket favorite,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team1_win,NO Mexico,True,-100.0,-100.0
 NO Polymarket favorite,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,team1_win,NO Korea Republic,True,-100.0,-200.0
 NO Polymarket favorite,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team1_win,NO Canada,True,115.0280731095449,-84.9719268904551
@@ -1662,7 +1662,7 @@ NO Polymarket favorite,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_
 NO Polymarket favorite,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team1_win,NO France,True,63.885121523541464,-970.3615315425253
 NO Polymarket favorite,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team1_win,NO England,True,55.817529472065644,-914.5440020704597
 NO Polymarket favorite,103,2026-07-18T21:00:00Z,France vs. England,team2_win,team1_win,NO France,True,112.59005550962567,-801.953946560834
-NO Polymarket favorite,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team1_win,NO Spain,True,74.06293508199883,-727.8910114788351
+NO Polymarket favorite,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team1_win,NO Spain,True,-100.0,-901.953946560834
 NO Polymarket underdog,1,2026-06-11T19:00:00Z,Mexico vs. South Africa,team1_win,team2_win,NO South Africa,True,11.73184357541901,11.73184357541901
 NO Polymarket underdog,2,2026-06-12T02:00:00Z,Korea Republic vs. Czechia,team1_win,draw,NO Draw,True,45.98540145985397,57.71724503527298
 NO Polymarket underdog,3,2026-06-12T19:00:00Z,Canada vs. Bosnia-Herzegovina,draw,team2_win,NO Bosnia-Herzegovina,True,24.13793103448276,81.85517606975574
@@ -1766,4 +1766,4 @@ NO Polymarket underdog,100,2026-07-12T01:00:00Z,Argentina vs. Switzerland,team1_
 NO Polymarket underdog,101,2026-07-14T19:00:00Z,France vs. Spain,team2_win,team2_win,NO Spain,True,-100.0,816.3587523421397
 NO Polymarket underdog,102,2026-07-15T19:00:00Z,England vs. Argentina,team2_win,team2_win,NO Argentina,True,-100.0,716.3587523421397
 NO Polymarket underdog,103,2026-07-18T21:00:00Z,France vs. England,team2_win,draw,NO Draw,True,30.36393264530146,746.7226849874412
-NO Polymarket underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,draw,team2_win,NO Argentina,True,35.71875014685635,782.4414351342975
+NO Polymarket underdog,104,2026-07-19T19:00:00Z,Spain vs. Argentina,team1_win,team2_win,NO Argentina,True,35.71875014685635,782.4414351342975
